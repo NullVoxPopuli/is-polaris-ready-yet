@@ -7,6 +7,14 @@
     "category": "authoring experience",
     "issues": [
       {
+        "href": "https://github.com/emberjs/ember.js/issues/20062",
+        "type": "issues",
+        "repo": "ember.js",
+        "owner": "emberjs",
+        "number": "20062",
+        "isPending": true
+      },
+      {
         "href": "https://github.com/embroider-build/content-tag/issues/39",
         "type": "issues",
         "repo": "content-tag",
@@ -16,19 +24,595 @@
       }
     ]
   },
+  "reactivity": {
+    "category": "authoring experience",
+    "issues": [
+      {
+        "href": "https://github.com/emberjs/rfcs/pull/957",
+        "type": "pull",
+        "repo": "rfcs",
+        "owner": "emberjs",
+        "number": "957",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/emberjs/ember.js/issues/20096",
+        "type": "issues",
+        "repo": "ember.js",
+        "owner": "emberjs",
+        "number": "20096",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/emberjs/ember.js/issues/20095",
+        "type": "issues",
+        "repo": "ember.js",
+        "owner": "emberjs",
+        "number": "20095",
+        "isPending": true
+      }
+    ]
+  },
+  "intellisense": {
+    "category": "authoring experience",
+    "issues": [
+      {
+        "href": "https://github.com/ijlee2/ember-codemod-args-to-signature/issues/1",
+        "type": "issues",
+        "repo": "ember-codemod-args-to-signature",
+        "owner": "ijlee2",
+        "number": "1",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/emberjs/ember-qunit/pull/1137",
+        "type": "pull",
+        "repo": "ember-qunit",
+        "owner": "emberjs",
+        "number": "1137",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/emberjs/ember-qunit/pull/1099",
+        "type": "pull",
+        "repo": "ember-qunit",
+        "owner": "emberjs",
+        "number": "1099",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/emberjs/data/issues/8852",
+        "type": "issues",
+        "repo": "data",
+        "owner": "emberjs",
+        "number": "8852",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-page-title/pull/275",
+        "type": "pull",
+        "repo": "ember-page-title",
+        "owner": "ember-cli",
+        "number": "275",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-page-title/pull/262",
+        "type": "pull",
+        "repo": "ember-page-title",
+        "owner": "ember-cli",
+        "number": "262",
+        "isPending": true
+      }
+    ]
+  },
+  "removingOldPatterns": {
+    "category": "authoring experience",
+    "issues": [
+      {
+        "href": "https://github.com/emberjs/ember.js/issues/20472",
+        "type": "issues",
+        "repo": "ember.js",
+        "owner": "emberjs",
+        "number": "20472",
+        "isPending": true
+      }
+    ]
+  },
   "shrinkingTheBuild": {
     "category": "tooling",
-    "issues": []
+    "issues": [
+      {
+        "href": "https://github.com/mainmatter/qunit-dom/issues/2023",
+        "type": "issues",
+        "repo": "qunit-dom",
+        "owner": "mainmatter",
+        "number": "2023",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/mainmatter/qunit-dom/pull/2027",
+        "type": "pull",
+        "repo": "qunit-dom",
+        "owner": "mainmatter",
+        "number": "2027",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/mainmatter/qunit-dom/pull/2066",
+        "type": "pull",
+        "repo": "qunit-dom",
+        "owner": "mainmatter",
+        "number": "2066",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/mainmatter/qunit-dom/pull/2054",
+        "type": "pull",
+        "repo": "qunit-dom",
+        "owner": "mainmatter",
+        "number": "2054",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/mainmatter/qunit-dom/pull/2028",
+        "type": "pull",
+        "repo": "qunit-dom",
+        "owner": "mainmatter",
+        "number": "2028",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/emberjs/ember-qunit/pull/1064",
+        "type": "pull",
+        "repo": "ember-qunit",
+        "owner": "emberjs",
+        "number": "1064",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/emberjs/ember-test-waiters/issues/458",
+        "type": "issues",
+        "repo": "ember-test-waiters",
+        "owner": "emberjs",
+        "number": "458",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/emberjs/ember-test-waiters/pull/454",
+        "type": "pull",
+        "repo": "ember-test-waiters",
+        "owner": "emberjs",
+        "number": "454",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/emberjs/ember-test-waiters/pull/453",
+        "type": "pull",
+        "repo": "ember-test-waiters",
+        "owner": "emberjs",
+        "number": "453",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/emberjs/ember-test-waiters/pull/452",
+        "type": "pull",
+        "repo": "ember-test-waiters",
+        "owner": "emberjs",
+        "number": "452",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/emberjs/ember-test-waiters/pull/460",
+        "type": "pull",
+        "repo": "ember-test-waiters",
+        "owner": "emberjs",
+        "number": "460",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/emberjs/ember-test-waiters/pull/463",
+        "type": "pull",
+        "repo": "ember-test-waiters",
+        "owner": "emberjs",
+        "number": "463",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/emberjs/ember-test-waiters/pull/464",
+        "type": "pull",
+        "repo": "ember-test-waiters",
+        "owner": "emberjs",
+        "number": "464",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-fetch/issues/738",
+        "type": "issues",
+        "repo": "ember-fetch",
+        "owner": "ember-cli",
+        "number": "738",
+        "isPending": true
+      }
+    ]
   },
   "compatibility": {
     "category": "tooling",
     "issues": [
+      {
+        "href": "https://github.com/ember-cli/ember-page-title/pull/258",
+        "type": "pull",
+        "repo": "ember-page-title",
+        "owner": "ember-cli",
+        "number": "258",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/mainmatter/qunit-dom/pull/2065",
+        "type": "pull",
+        "repo": "qunit-dom",
+        "owner": "mainmatter",
+        "number": "2065",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/mainmatter/qunit-dom/pull/2031",
+        "type": "pull",
+        "repo": "qunit-dom",
+        "owner": "mainmatter",
+        "number": "2031",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/emberjs/ember-qunit/pull/1134",
+        "type": "pull",
+        "repo": "ember-qunit",
+        "owner": "emberjs",
+        "number": "1134",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/emberjs/ember-qunit/pull/1111",
+        "type": "pull",
+        "repo": "ember-qunit",
+        "owner": "emberjs",
+        "number": "1111",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/emberjs/ember-qunit/pull/1102",
+        "type": "pull",
+        "repo": "ember-qunit",
+        "owner": "emberjs",
+        "number": "1102",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/emberjs/ember-qunit/pull/1095",
+        "type": "pull",
+        "repo": "ember-qunit",
+        "owner": "emberjs",
+        "number": "1095",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/emberjs/ember-qunit/pull/1089",
+        "type": "pull",
+        "repo": "ember-qunit",
+        "owner": "emberjs",
+        "number": "1089",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/emberjs/ember-qunit/pull/1012",
+        "type": "pull",
+        "repo": "ember-qunit",
+        "owner": "emberjs",
+        "number": "1012",
+        "isPending": true
+      },
       {
         "href": "https://github.com/embroider-build/ember-auto-import/pull/512",
         "type": "pull",
         "repo": "ember-auto-import",
         "owner": "embroider-build",
         "number": "512",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/606",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "606",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/605",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "605",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/603",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "603",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/602",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "602",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/596",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "596",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/594",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "594",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/587",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "587",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/574",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "574",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/573",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "573",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/563",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "563",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/562",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "562",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/553",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "553",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/544",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "544",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/541",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "541",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/531",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "531",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/530",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "530",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/524",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "524",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/523",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "523",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/521",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "521",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/510",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "510",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/496",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "496",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/492",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "492",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/490",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "490",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/487",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "487",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/485",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "485",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/480",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "480",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/issues/588",
+        "type": "issues",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "588",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/issues/589",
+        "type": "issues",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "589",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/issues/592",
+        "type": "issues",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "592",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/issues/595",
+        "type": "issues",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "595",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/issues/601",
+        "type": "issues",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "601",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/issues/577",
+        "type": "issues",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "577",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/issues/558",
+        "type": "issues",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "558",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/issues/557",
+        "type": "issues",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "557",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/issues/556",
+        "type": "issues",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "556",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/issues/547",
+        "type": "issues",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "547",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/issues/540",
+        "type": "issues",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "540",
         "isPending": true
       }
     ]

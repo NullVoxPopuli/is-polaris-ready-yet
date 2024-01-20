@@ -11,7 +11,7 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "pnpm build:github-data && pnpm build:production",
+    "build": "pnpm build:production",
     "build:github-data": "pnpm esyes ./get-github-data.mts",
     "build:production": "ember build --environment=production",
     "lint": "concurrently \"npm:lint:*(!fix)\" --names \"lint:\"",

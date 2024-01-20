@@ -7,7 +7,7 @@ import { Octokit } from "@octokit/rest";
 import { data, type Dataset } from './issue-data.mts';
 
 
-const octokit = new Octokit();
+const octokit = new Octokit({ auth: process.env.GITHUB_AUTH });
 
 interface Result {
   [key: string]: {
@@ -46,6 +46,9 @@ for (let [key, dataset] of Object.entries(data)) {
     * so... we DoS them, I guess.
     */
   for (let issue of issues) {
+    // Try not to get rate-limited
+    await new Promise(resolve => setTimeout(resolve, 500));
+
     let sansDomain = issue.replace('https://github.com/', '');
     let [owner, repo, type, number] = sansDomain.split('/');
 
