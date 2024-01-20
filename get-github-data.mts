@@ -75,7 +75,7 @@ for (let [key, dataset] of Object.entries(data)) {
         repo,
         owner,
         number,
-        isPending: !isOpen,
+        isPending: isOpen,
       });
     } else if (type === 'pull') {
       let response = await octokit.rest.pulls.get({
@@ -92,7 +92,7 @@ for (let [key, dataset] of Object.entries(data)) {
         repo,
         owner,
         number,
-        isPending: !isOpen,
+        isPending: isOpen,
       });
     } else {
       throw new Error(`Unsupported type: ${type}, from: ${issue}`);
