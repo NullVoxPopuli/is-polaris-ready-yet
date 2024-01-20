@@ -67,7 +67,7 @@ for (let [key, dataset] of Object.entries(data)) {
         issue_number: number,
       });
 
-      let isOpen = response.state === 'open';
+      let isOpen = response.data.state === 'open';
 
       result[key].issues.push({
         href: issue,
@@ -84,7 +84,7 @@ for (let [key, dataset] of Object.entries(data)) {
         pull_number: number,
       });
 
-      let isOpen = response.state === 'open';
+      let isOpen = response.data.state === 'open';
 
       result[key].issues.push({
         href: issue,

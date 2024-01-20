@@ -12,7 +12,7 @@
         "repo": "ember.js",
         "owner": "emberjs",
         "number": "20062",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/embroider-build/content-tag/issues/39",
@@ -20,7 +20,7 @@
         "repo": "content-tag",
         "owner": "embroider-build",
         "number": "39",
-        "isPending": true
+        "isPending": false
       }
     ]
   },
@@ -33,7 +33,7 @@
         "repo": "rfcs",
         "owner": "emberjs",
         "number": "957",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/emberjs/ember.js/issues/20096",
@@ -41,7 +41,7 @@
         "repo": "ember.js",
         "owner": "emberjs",
         "number": "20096",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/emberjs/ember.js/issues/20095",
@@ -49,7 +49,7 @@
         "repo": "ember.js",
         "owner": "emberjs",
         "number": "20095",
-        "isPending": true
+        "isPending": false
       }
     ]
   },
@@ -86,7 +86,7 @@
         "repo": "data",
         "owner": "emberjs",
         "number": "8852",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/ember-cli/ember-page-title/pull/275",
@@ -115,7 +115,7 @@
         "repo": "ember.js",
         "owner": "emberjs",
         "number": "20472",
-        "isPending": true
+        "isPending": false
       }
     ]
   },
@@ -176,7 +176,7 @@
         "repo": "ember-test-waiters",
         "owner": "emberjs",
         "number": "458",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/emberjs/ember-test-waiters/pull/454",
@@ -232,7 +232,7 @@
         "repo": "ember-fetch",
         "owner": "ember-cli",
         "number": "738",
-        "isPending": true
+        "isPending": false
       }
     ]
   },
@@ -317,7 +317,7 @@
         "repo": "ember-auto-import",
         "owner": "embroider-build",
         "number": "512",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/embroider-build/ember-auto-import/pull/606",
@@ -533,7 +533,7 @@
         "repo": "ember-auto-import",
         "owner": "embroider-build",
         "number": "588",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/embroider-build/ember-auto-import/issues/589",
@@ -541,7 +541,7 @@
         "repo": "ember-auto-import",
         "owner": "embroider-build",
         "number": "589",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/embroider-build/ember-auto-import/issues/592",
@@ -549,7 +549,7 @@
         "repo": "ember-auto-import",
         "owner": "embroider-build",
         "number": "592",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/embroider-build/ember-auto-import/issues/595",
@@ -557,7 +557,7 @@
         "repo": "ember-auto-import",
         "owner": "embroider-build",
         "number": "595",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/embroider-build/ember-auto-import/issues/601",
@@ -565,7 +565,7 @@
         "repo": "ember-auto-import",
         "owner": "embroider-build",
         "number": "601",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/embroider-build/ember-auto-import/issues/577",
@@ -573,7 +573,7 @@
         "repo": "ember-auto-import",
         "owner": "embroider-build",
         "number": "577",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/embroider-build/ember-auto-import/issues/558",
@@ -581,7 +581,7 @@
         "repo": "ember-auto-import",
         "owner": "embroider-build",
         "number": "558",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/embroider-build/ember-auto-import/issues/557",
@@ -589,7 +589,7 @@
         "repo": "ember-auto-import",
         "owner": "embroider-build",
         "number": "557",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/embroider-build/ember-auto-import/issues/556",
@@ -597,7 +597,7 @@
         "repo": "ember-auto-import",
         "owner": "embroider-build",
         "number": "556",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/embroider-build/ember-auto-import/issues/547",
@@ -605,7 +605,7 @@
         "repo": "ember-auto-import",
         "owner": "embroider-build",
         "number": "547",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/embroider-build/ember-auto-import/issues/540",
@@ -613,7 +613,7 @@
         "repo": "ember-auto-import",
         "owner": "embroider-build",
         "number": "540",
-        "isPending": true
+        "isPending": false
       }
     ]
   },
@@ -626,7 +626,7 @@
         "repo": "embroider",
         "owner": "embroider-build",
         "number": "1744",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/embroider-build/embroider/pull/1736",
@@ -634,7 +634,7 @@
         "repo": "embroider",
         "owner": "embroider-build",
         "number": "1736",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/embroider-build/embroider/pull/1730",
@@ -642,7 +642,7 @@
         "repo": "embroider",
         "owner": "embroider-build",
         "number": "1730",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/embroider-build/embroider/pull/1614",
@@ -650,7 +650,7 @@
         "repo": "embroider",
         "owner": "embroider-build",
         "number": "1614",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/embroider-build/embroider/pull/1715",
@@ -658,7 +658,7 @@
         "repo": "embroider",
         "owner": "embroider-build",
         "number": "1715",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/embroider-build/embroider/pull/1762",
@@ -666,7 +666,7 @@
         "repo": "embroider",
         "owner": "embroider-build",
         "number": "1762",
-        "isPending": true
+        "isPending": false
       }
     ]
   },
@@ -679,7 +679,7 @@
         "repo": "glint",
         "owner": "typed-ember",
         "number": "626",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/typed-ember/glint/issues/672",
@@ -687,7 +687,7 @@
         "repo": "glint",
         "owner": "typed-ember",
         "number": "672",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/typed-ember/glint/issues/679",
@@ -695,7 +695,7 @@
         "repo": "glint",
         "owner": "typed-ember",
         "number": "679",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/typed-ember/glint/issues/661",
@@ -703,7 +703,7 @@
         "repo": "glint",
         "owner": "typed-ember",
         "number": "661",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/typed-ember/glint/issues/649",
@@ -711,7 +711,7 @@
         "repo": "glint",
         "owner": "typed-ember",
         "number": "649",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/typed-ember/glint/issues/645",
@@ -719,7 +719,7 @@
         "repo": "glint",
         "owner": "typed-ember",
         "number": "645",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/typed-ember/glint/issues/628",
@@ -727,7 +727,7 @@
         "repo": "glint",
         "owner": "typed-ember",
         "number": "628",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/typed-ember/glint/issues/614",
@@ -735,7 +735,7 @@
         "repo": "glint",
         "owner": "typed-ember",
         "number": "614",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/typed-ember/glint/issues/604",
@@ -743,7 +743,7 @@
         "repo": "glint",
         "owner": "typed-ember",
         "number": "604",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/typed-ember/glint/issues/601",
@@ -751,7 +751,7 @@
         "repo": "glint",
         "owner": "typed-ember",
         "number": "601",
-        "isPending": true
+        "isPending": false
       },
       {
         "href": "https://github.com/typed-ember/glint/issues/599",
@@ -759,7 +759,7 @@
         "repo": "glint",
         "owner": "typed-ember",
         "number": "599",
-        "isPending": true
+        "isPending": false
       }
     ]
   },
@@ -776,7 +776,7 @@
         "repo": "prettier",
         "owner": "prettier",
         "number": "15087",
-        "isPending": true
+        "isPending": false
       }
     ]
   },
