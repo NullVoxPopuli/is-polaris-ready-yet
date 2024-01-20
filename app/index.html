@@ -12,51 +12,6 @@
 
   <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css" />
   <link integrity="" rel="stylesheet" href="{{rootURL}}assets/is-ready.css" />
-  <script type="module">
-    import {Octokit, App} from "https://esm.sh/octokit";
-    const octokit = new Octokit({
-      userAgent: "is-polaris-ready-yet.nullvoxpopuli.com",
-    });
-
-    // https://github.com/orgs/emberjs/projects/9/views/1
-    // No Grouping:
-    //   https://github.com/orgs/emberjs/projects/9/views/2
-    let response = octokit.graphql(`
-        query{
-          node(id: "PROJECT_ID") {
-            ... on ProjectV2 {
-              fields(first: 20) {
-                nodes {
-                  ... on ProjectV2Field {
-                    id
-                    name
-                  }
-                  ... on ProjectV2IterationField {
-                    id
-                    name
-                    configuration {
-                      iterations {
-                        startDate
-                        id
-                      }
-                    }
-                  }
-                  ... on ProjectV2SingleSelectField {
-                    id
-                    name
-                    options {
-                      id
-                      name
-                    }
-                  }
-                }
-              }
-            }
-          }
-      `, {owner: 'emberjs'});
-
-    console.log(response);
-  </script>
 
   {{content-for "head-footer"}}
 </head>
