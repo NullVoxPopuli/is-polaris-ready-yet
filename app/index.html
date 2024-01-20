@@ -1,24 +1,73 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>PolarisStarter</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    {{content-for "head"}}
+<head>
+  <meta charset="utf-8" />
+  <title>Is Polaris Ready Yet?</title>
+  <meta name="description"
+    content="What's left before Polaris is ready for the masses? This status board aggregates progress across varying GitHub sources." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css" />
-    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/is-ready.css" />
+  {{content-for "head"}}
 
-    {{content-for "head-footer"}}
-  </head>
-  <body>
-    {{content-for "body"}}
+  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css" />
+  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/is-ready.css" />
+  <script type="module">
+    import {Octokit, App} from "https://esm.sh/octokit";
+    const octokit = new Octokit({
+      userAgent: "is-polaris-ready-yet.nullvoxpopuli.com",
+    });
 
-    <script src="{{rootURL}}assets/vendor.js"></script>
-    <script src="{{rootURL}}assets/is-ready.js"></script>
+    // https://github.com/orgs/emberjs/projects/9/views/1
+    // No Grouping:
+    //   https://github.com/orgs/emberjs/projects/9/views/2
+    let response = octokit.graphql(`
+        query{
+          node(id: "PROJECT_ID") {
+            ... on ProjectV2 {
+              fields(first: 20) {
+                nodes {
+                  ... on ProjectV2Field {
+                    id
+                    name
+                  }
+                  ... on ProjectV2IterationField {
+                    id
+                    name
+                    configuration {
+                      iterations {
+                        startDate
+                        id
+                      }
+                    }
+                  }
+                  ... on ProjectV2SingleSelectField {
+                    id
+                    name
+                    options {
+                      id
+                      name
+                    }
+                  }
+                }
+              }
+            }
+          }
+      `, {owner: 'emberjs'});
 
-    {{content-for "body-footer"}}
-  </body>
+    console.log(response);
+  </script>
+
+  {{content-for "head-footer"}}
+</head>
+
+<body>
+  {{content-for "body"}}
+
+  <script src="{{rootURL}}assets/vendor.js"></script>
+  <script src="{{rootURL}}assets/is-ready.js"></script>
+
+  {{content-for "body-footer"}}
+</body>
+
 </html>

@@ -1,0 +1,207 @@
+{
+  "routing": {
+    "category": "authoring experience",
+    "issues": []
+  },
+  "templateTag": {
+    "category": "authoring experience",
+    "issues": [
+      {
+        "href": "https://github.com/embroider-build/content-tag/issues/39",
+        "type": "issues",
+        "repo": "content-tag",
+        "owner": "embroider-build",
+        "number": "39",
+        "isPending": true
+      }
+    ]
+  },
+  "shrinkingTheBuild": {
+    "category": "tooling",
+    "issues": []
+  },
+  "compatibility": {
+    "category": "tooling",
+    "issues": [
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/512",
+        "type": "pull",
+        "repo": "ember-auto-import",
+        "owner": "embroider-build",
+        "number": "512",
+        "isPending": true
+      }
+    ]
+  },
+  "vite": {
+    "category": "tooling",
+    "issues": [
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/1744",
+        "type": "pull",
+        "repo": "embroider",
+        "owner": "embroider-build",
+        "number": "1744",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/1736",
+        "type": "pull",
+        "repo": "embroider",
+        "owner": "embroider-build",
+        "number": "1736",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/1730",
+        "type": "pull",
+        "repo": "embroider",
+        "owner": "embroider-build",
+        "number": "1730",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/1614",
+        "type": "pull",
+        "repo": "embroider",
+        "owner": "embroider-build",
+        "number": "1614",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/1715",
+        "type": "pull",
+        "repo": "embroider",
+        "owner": "embroider-build",
+        "number": "1715",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/1762",
+        "type": "pull",
+        "repo": "embroider",
+        "owner": "embroider-build",
+        "number": "1762",
+        "isPending": true
+      }
+    ]
+  },
+  "glint": {
+    "category": "tooling",
+    "issues": [
+      {
+        "href": "https://github.com/typed-ember/glint/issues/626",
+        "type": "issues",
+        "repo": "glint",
+        "owner": "typed-ember",
+        "number": "626",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/672",
+        "type": "issues",
+        "repo": "glint",
+        "owner": "typed-ember",
+        "number": "672",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/679",
+        "type": "issues",
+        "repo": "glint",
+        "owner": "typed-ember",
+        "number": "679",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/661",
+        "type": "issues",
+        "repo": "glint",
+        "owner": "typed-ember",
+        "number": "661",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/649",
+        "type": "issues",
+        "repo": "glint",
+        "owner": "typed-ember",
+        "number": "649",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/645",
+        "type": "issues",
+        "repo": "glint",
+        "owner": "typed-ember",
+        "number": "645",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/628",
+        "type": "issues",
+        "repo": "glint",
+        "owner": "typed-ember",
+        "number": "628",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/614",
+        "type": "issues",
+        "repo": "glint",
+        "owner": "typed-ember",
+        "number": "614",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/604",
+        "type": "issues",
+        "repo": "glint",
+        "owner": "typed-ember",
+        "number": "604",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/601",
+        "type": "issues",
+        "repo": "glint",
+        "owner": "typed-ember",
+        "number": "601",
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/599",
+        "type": "issues",
+        "repo": "glint",
+        "owner": "typed-ember",
+        "number": "599",
+        "isPending": true
+      }
+    ]
+  },
+  "eslint": {
+    "category": "tooling",
+    "issues": []
+  },
+  "prettier": {
+    "category": "tooling",
+    "issues": [
+      {
+        "href": "https://github.com/prettier/prettier/pull/15087",
+        "type": "pull",
+        "repo": "prettier",
+        "owner": "prettier",
+        "number": "15087",
+        "isPending": true
+      }
+    ]
+  },
+  "css": {
+    "category": "authoring experience",
+    "issues": []
+  },
+  "other": {
+    "category": "other",
+    "issues": []
+  }
+}
