@@ -1,5 +1,5 @@
 
-import { getData, writeData, type Result } from './utils.mts';
+import { getData, writeData, eachDataSet, type Result } from './utils.mts';
 
 let data = await getData();
 
@@ -8,8 +8,14 @@ let finished = 0;
 let labels = new Set();
 
 // 1. Remove duplicates (via href)
-for (let [key, dataSet] of Object.entries(data)) {
+await eachDataSet(data, (key, dataSet) => {
   let seen = new Set();
+
+  if (!dataSet.issues) {
+    console.log(`${key} is missing issues`);
+    console.log(dataSet);
+    process.exit(1);
+  }
 
   let newIssues = dataSet.issues.filter(issue => {
     if (seen.has(issue.href)) return false;
@@ -20,17 +26,17 @@ for (let [key, dataSet] of Object.entries(data)) {
   });
 
   dataSet.issues = newIssues;
-}
+});
 
 // 2. Count totals and extract labels
-for (let [key, dataSet] of Object.entries(data)) {
+await eachDataSet(data, (key, dataSet) => {
   total += dataSet.issues.length;
   finished += dataSet.issues.filter((i) => !i.isPending).length;
 
   for (let issue of dataSet.issues) {
     issue.labels.forEach(l => labels.add(l));
   }
-}
+});
 
 await writeData({
   ...data,

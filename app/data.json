@@ -61,26 +61,8 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/ember-template-imports/ember-template-imports/issues/159",
-        "text": "[ember-template-imports]: Crashes on class declaration with no id",
-        "labels": [],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/ember-template-imports/ember-template-imports/issues/160",
         "text": "[ember-template-imports]: Template shorter than three characters crashes build",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-template-imports/ember-template-imports/issues/160",
-        "text": "[ember-template-imports]: Template shorter than three characters crashes build",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-template-imports/ember-template-imports/issues/171",
-        "text": "[ember-template-imports]: missing semicolon in class attributes breaks build",
         "labels": [],
         "isPending": false
       },
@@ -99,18 +81,6 @@
       {
         "href": "https://github.com/ember-template-imports/ember-template-imports/issues/183",
         "text": "[ember-template-imports]: preprocessEmbeddedTemplates appears to be processing jsdoc comments",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-template-imports/ember-template-imports/issues/183",
-        "text": "[ember-template-imports]: preprocessEmbeddedTemplates appears to be processing jsdoc comments",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-template-imports/ember-template-imports/issues/186",
-        "text": "[ember-template-imports]: yielded components on a hash are linted as not defined when yielded on named blocks",
         "labels": [],
         "isPending": false
       },
@@ -135,22 +105,8 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/ember-template-imports/ember-template-imports/issues/207",
-        "text": "[ember-template-imports]: v4 is not working for select environments",
-        "labels": [
-          "bug"
-        ],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/ember-template-imports/ember-template-imports/issues/22",
         "text": "[ember-template-imports]: Identifier 'hbs' has already been declared",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-template-imports/ember-template-imports/issues/226",
-        "text": "[ember-template-imports]: no-unused-expressions",
         "labels": [],
         "isPending": false
       },
@@ -456,34 +412,11 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/ember-template-imports/ember-template-imports/pull/185",
-        "text": "[ember-template-imports]: docs: class based component inheriting from '@glimmer/component'",
-        "labels": [],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/ember-template-imports/ember-template-imports/pull/187",
         "text": "[ember-template-imports]: Use content-tag, which fixes *all the bugs*",
         "labels": [
           "enhancement",
           "breaking"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-template-imports/ember-template-imports/pull/187",
-        "text": "[ember-template-imports]: Use content-tag, which fixes *all the bugs*",
-        "labels": [
-          "enhancement",
-          "breaking"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-template-imports/ember-template-imports/pull/190",
-        "text": "[ember-template-imports]: Add explicit support for Ember 4.12 and 5.x",
-        "labels": [
-          "enhancement"
         ],
         "isPending": false
       },
@@ -586,20 +519,6 @@
         "labels": [
           "internal"
         ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-template-imports/ember-template-imports/pull/211",
-        "text": "[ember-template-imports]: Add failing test for v4 / content-tag not respecting imports, demonstrate fix by rolling for a new lockfile and cleaning up resulting peer errors",
-        "labels": [
-          "internal"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-template-imports/ember-template-imports/pull/219",
-        "text": "[ember-template-imports]: docs: add section on testing",
-        "labels": [],
         "isPending": false
       },
       {
@@ -963,20 +882,8 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/embroider-build/content-tag/pull/14",
-        "text": "[content-tag]: Enable typescript",
-        "labels": [],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/embroider-build/content-tag/pull/15",
         "text": "[content-tag]: Implementing export-default sugar form",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/content-tag/pull/16",
-        "text": "[content-tag]: Fix: Inner expressions get missed",
         "labels": [],
         "isPending": false
       },
@@ -1011,18 +918,6 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/embroider-build/content-tag/pull/21",
-        "text": "[content-tag]: Initial sourcemapping support",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/content-tag/pull/22",
-        "text": "[content-tag]: add Preprocessor.parse",
-        "labels": [],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/embroider-build/content-tag/pull/22",
         "text": "[content-tag]: add Preprocessor.parse",
         "labels": [],
@@ -1043,34 +938,10 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/embroider-build/content-tag/pull/24",
-        "text": "[content-tag]: BUG: backticks are not escaped",
-        "labels": [
-          "bug"
-        ],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/embroider-build/content-tag/pull/25",
         "text": "[content-tag]: Move the ContentTagVisitor to its own module",
         "labels": [
           "internal"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/content-tag/pull/25",
-        "text": "[content-tag]: Move the ContentTagVisitor to its own module",
-        "labels": [
-          "internal"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/content-tag/pull/27",
-        "text": "[content-tag]: Don't interpret js escapes in hbs",
-        "labels": [
-          "bug"
         ],
         "isPending": false
       },
@@ -1127,14 +998,6 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/embroider-build/content-tag/pull/36",
-        "text": "[content-tag]: Updating swc",
-        "labels": [
-          "bug"
-        ],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/embroider-build/content-tag/pull/38",
         "text": "[content-tag]: Add failing test for #37",
         "labels": [],
@@ -1156,14 +1019,6 @@
         "href": "https://github.com/embroider-build/content-tag/pull/43",
         "text": "[content-tag]: Move generated wasm-pack content to 'node' folder, allowing us to persist a custom index.d.ts",
         "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/content-tag/pull/44",
-        "text": "[content-tag]: Standalone content-tag implemented via conditional exports in package.json",
-        "labels": [
-          "enhancement"
-        ],
         "isPending": false
       },
       {
@@ -1199,22 +1054,6 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/embroider-build/content-tag/pull/49",
-        "text": "[content-tag]: npm pkg fix",
-        "labels": [
-          "internal"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/content-tag/pull/50",
-        "text": "[content-tag]: Add .npmignore to not ignore pkg/* folders",
-        "labels": [
-          "bug"
-        ],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/embroider-build/content-tag/pull/50",
         "text": "[content-tag]: Add .npmignore to not ignore pkg/* folders",
         "labels": [
@@ -1232,35 +1071,10 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/embroider-build/content-tag/pull/52",
-        "text": "[content-tag]: Remove extraneous gitignores which interfere with packing",
-        "labels": [
-          "bug",
-          "internal"
-        ],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/embroider-build/content-tag/pull/54",
         "text": "[content-tag]: fix package.json#exports for types",
         "labels": [
           "bug"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/content-tag/pull/54",
-        "text": "[content-tag]: fix package.json#exports for types",
-        "labels": [
-          "bug"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/content-tag/pull/57",
-        "text": "[content-tag]: Document API methods (Closes #45)",
-        "labels": [
-          "documentation"
         ],
         "isPending": false
       },
@@ -1275,12 +1089,6 @@
       {
         "href": "https://github.com/embroider-build/content-tag/pull/6",
         "text": "[content-tag]: use git dependencies for swc",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/content-tag/pull/7",
-        "text": "[content-tag]: Move component `this` reference into first argument",
         "labels": [],
         "isPending": false
       },
@@ -1339,26 +1147,8 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-cli/ember-cli/issues/10419",
-        "text": "[ember-cli]: Setup ESLint for gjs/gts",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/ember-cli/ember-cli/pull/10418",
         "text": "[ember-cli]: [ENHANCEMENT] Use `content-tag` to parse GTS in blueprints",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli/pull/10418",
-        "text": "[ember-cli]: [ENHANCEMENT] Use `content-tag` to parse GTS in blueprints",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-template-imports/ember-template-imports/issues/123",
-        "text": "[ember-template-imports]: Add gjs/gts highlighting to GitHub",
         "labels": [],
         "isPending": true
       },
@@ -1371,12 +1161,6 @@
       {
         "href": "https://github.com/ember-template-imports/ember-template-imports/issues/129",
         "text": "[ember-template-imports]: write docs for setting up VSCode ESLint plugin to work with gts/gjs files.",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-template-imports/ember-template-imports/issues/189",
-        "text": "[ember-template-imports]: using <template> in tests, how to rerender with an updated parameter",
         "labels": [],
         "isPending": true
       },
@@ -1407,14 +1191,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-template-imports/ember-template-imports/issues/212",
-        "text": "[ember-template-imports]: Quest: add support to popular third-party editor extensions",
-        "labels": [
-          "meta"
-        ],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/ember-template-imports/ember-template-imports/issues/223",
         "text": "[ember-template-imports]: Transpilation issue with `this` remaining in function args",
         "labels": [],
@@ -1423,12 +1199,6 @@
       {
         "href": "https://github.com/ember-template-imports/ember-template-imports/issues/227",
         "text": "[ember-template-imports]: Issues with semi-colons?",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-template-imports/ember-template-imports/issues/228",
-        "text": "[ember-template-imports]: Setting `enableTypeScriptTransform` to true breaks imports in .gjs tests",
         "labels": [],
         "isPending": true
       },
@@ -1550,12 +1320,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/embroider-build/content-tag/issues/39",
-        "text": "[content-tag]: For linting, we'd need to be able to emit a full AST, including nodes for the template",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/embroider-build/content-tag/issues/5",
         "text": "[content-tag]: See if we can construct StringInput directly from JsString",
         "labels": [],
@@ -1564,18 +1328,6 @@
       {
         "href": "https://github.com/embroider-build/content-tag/issues/60",
         "text": "[content-tag]: content-tag failing with HMR api used inside `gts/gjs`;",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/embroider-build/content-tag/issues/60",
-        "text": "[content-tag]: content-tag failing with HMR api used inside `gts/gjs`;",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/embroider-build/content-tag/issues/61",
-        "text": "[content-tag]: [Feature request] source map generation",
         "labels": [],
         "isPending": true
       },
@@ -1607,14 +1359,6 @@
         "href": "https://github.com/embroider-build/content-tag/pull/56",
         "text": "[content-tag]: Add line numbers to js errors",
         "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/embroider-build/content-tag/pull/59",
-        "text": "[content-tag]: Combine tests, authoring them once, and testing against both ESM and CJS",
-        "labels": [
-          "internal"
-        ],
         "isPending": true
       },
       {
@@ -3928,12 +3672,6 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/ember-cli/ember-cli/pull/10406",
-        "text": "[ember-cli]: [BUGFIX beta] use import type in helpers/index.ts :: typechecking in new apps otherwise fails",
-        "labels": [],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/ember-cli/ember-page-title/pull/262",
         "text": "[ember-page-title]: Re-export `pageTitle` from index",
         "labels": [
@@ -5243,12 +4981,6 @@
           "internal"
         ],
         "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-fetch/issues/738",
-        "text": "[ember-fetch]: Maintenance, V2, modern `fetch`, etc",
-        "labels": [],
-        "isPending": true
       },
       {
         "href": "https://github.com/ember-cli/ember-fetch/issues/738",
@@ -8677,12 +8409,6 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/480",
-        "text": "[ember-auto-import]: Provide context to errors",
-        "labels": [],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/embroider-build/ember-auto-import/pull/481",
         "text": "[ember-auto-import]: Dependency updates",
         "labels": [],
@@ -8691,12 +8417,6 @@
       {
         "href": "https://github.com/embroider-build/ember-auto-import/pull/484",
         "text": "[ember-auto-import]: bump the embroider package versions we're testing against",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/485",
-        "text": "[ember-auto-import]: support v2-addons that contain embroider/macros ",
         "labels": [],
         "isPending": false
       },
@@ -8719,20 +8439,8 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/487",
-        "text": "[ember-auto-import]: concat mixed configuration for webpack externals",
-        "labels": [],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/embroider-build/ember-auto-import/pull/489",
         "text": "[ember-auto-import]: Update to latest @embroider/internals and @embroider/macros",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/490",
-        "text": "[ember-auto-import]: backporting newer embroider dep into 1.x series",
         "labels": [],
         "isPending": false
       },
@@ -8752,20 +8460,6 @@
         "href": "https://github.com/embroider-build/ember-auto-import/pull/492",
         "text": "[ember-auto-import]: fastboot css fixes",
         "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/492",
-        "text": "[ember-auto-import]: fastboot css fixes",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/496",
-        "text": "[ember-auto-import]: don't let broccoli-asset-rev mess with css chunks",
-        "labels": [
-          "bug"
-        ],
         "isPending": false
       },
       {
@@ -8796,14 +8490,6 @@
         "href": "https://github.com/embroider-build/ember-auto-import/pull/509",
         "text": "[ember-auto-import]: Introduce option to allow skipping insertion of styles and scripts",
         "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/510",
-        "text": "[ember-auto-import]: avoid unnecssary full page reloads",
-        "labels": [
-          "bug"
-        ],
         "isPending": false
       },
       {
@@ -8851,12 +8537,6 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/521",
-        "text": "[ember-auto-import]: Adjust appRoot to account for dummy apps",
-        "labels": [],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/embroider-build/ember-auto-import/pull/522",
         "text": "[ember-auto-import]: upgrade scenario-tester",
         "labels": [],
@@ -8866,20 +8546,6 @@
         "href": "https://github.com/embroider-build/ember-auto-import/pull/523",
         "text": "[ember-auto-import]: Allow user webpack config to override internal config",
         "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/523",
-        "text": "[ember-auto-import]: Allow user webpack config to override internal config",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/524",
-        "text": "[ember-auto-import]: Prioritize user's devTool setting",
-        "labels": [
-          "bug"
-        ],
         "isPending": false
       },
       {
@@ -8909,22 +8575,6 @@
         "text": "[ember-auto-import]: Move Dynamic Template Import error to runtime instead of a build error",
         "labels": [
           "bug"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/530",
-        "text": "[ember-auto-import]: Move Dynamic Template Import error to runtime instead of a build error",
-        "labels": [
-          "bug"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/531",
-        "text": "[ember-auto-import]: Improve upgrade-guide",
-        "labels": [
-          "documentation"
         ],
         "isPending": false
       },
@@ -8959,26 +8609,10 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/541",
-        "text": "[ember-auto-import]: Respect v2 addon's explicit external list",
-        "labels": [
-          "bug"
-        ],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/embroider-build/ember-auto-import/pull/542",
         "text": "[ember-auto-import]: Add babel/core to app templates",
         "labels": [
           "internal"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/544",
-        "text": "[ember-auto-import]: Add support for consumers using Node ES Module support (e.g. `type=module` in `package.json`)",
-        "labels": [
-          "enhancement"
         ],
         "isPending": false
       },
@@ -9023,12 +8657,6 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/553",
-        "text": "[ember-auto-import]: Add v1 addons that could be consumed by v2 addons in module-scope to …",
-        "labels": [],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/embroider-build/ember-auto-import/pull/561",
         "text": "[ember-auto-import]: Restructure entry file bundle logic to support \"layering\" - Rebase",
         "labels": [],
@@ -9037,18 +8665,6 @@
       {
         "href": "https://github.com/embroider-build/ember-auto-import/pull/562",
         "text": "[ember-auto-import]: Prevent HTML-escaping of module specifiers",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/562",
-        "text": "[ember-auto-import]: Prevent HTML-escaping of module specifiers",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/563",
-        "text": "[ember-auto-import]: remove incorrect version safety check",
         "labels": [],
         "isPending": false
       },
@@ -9073,18 +8689,6 @@
       {
         "href": "https://github.com/embroider-build/ember-auto-import/pull/573",
         "text": "[ember-auto-import]: added babel-plugin-ember-template-compilation",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/573",
-        "text": "[ember-auto-import]: added babel-plugin-ember-template-compilation",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/574",
-        "text": "[ember-auto-import]: Detect where modules loop back to AMD from webpack",
         "labels": [],
         "isPending": false
       },
@@ -9135,34 +8739,10 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/587",
-        "text": "[ember-auto-import]: Feature: allowAppImports",
-        "labels": [
-          "enhancement"
-        ],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/embroider-build/ember-auto-import/pull/594",
         "text": "[ember-auto-import]: Add section on importing a module for side affects only to the README.md",
         "labels": [
           "documentation"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/594",
-        "text": "[ember-auto-import]: Add section on importing a module for side affects only to the README.md",
-        "labels": [
-          "documentation"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/596",
-        "text": "[ember-auto-import]: Support private properties and static blocks",
-        "labels": [
-          "enhancement"
         ],
         "isPending": false
       },
@@ -9199,22 +8779,6 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/602",
-        "text": "[ember-auto-import]: Allow arbitrary extensions for app-imports",
-        "labels": [
-          "bug"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/603",
-        "text": "[ember-auto-import]: Fix imports with a query part",
-        "labels": [
-          "bug"
-        ],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/embroider-build/ember-auto-import/pull/603",
         "text": "[ember-auto-import]: Fix imports with a query part",
         "labels": [
@@ -9233,22 +8797,6 @@
       {
         "href": "https://github.com/embroider-build/ember-auto-import/pull/605",
         "text": "[ember-auto-import]: Add es-compat to make asset loaders work as expected",
-        "labels": [
-          "bug"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/605",
-        "text": "[ember-auto-import]: Add es-compat to make asset loaders work as expected",
-        "labels": [
-          "bug"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/606",
-        "text": "[ember-auto-import]: Fix dynamic import inside allowAppImports dirs",
         "labels": [
           "bug"
         ],
@@ -10153,20 +9701,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/embroider-build/ember-auto-import/issues/540",
-        "text": "[ember-auto-import]: wrong assets url if rootUrl is set to empty string ''",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/issues/547",
-        "text": "[ember-auto-import]: V1 Addons declared as peerDependencies are resolved by ember-auto-import",
-        "labels": [
-          "working-group"
-        ],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/embroider-build/ember-auto-import/issues/547",
         "text": "[ember-auto-import]: V1 Addons declared as peerDependencies are resolved by ember-auto-import",
         "labels": [
@@ -10187,26 +9721,8 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/embroider-build/ember-auto-import/issues/556",
-        "text": "[ember-auto-import]: npm package inconsistently resolved when imported from v1 vs. v2 addon",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/embroider-build/ember-auto-import/issues/557",
         "text": "[ember-auto-import]: uuid v9.0.0 import in fastboot fails with crypto.getRandomValues() not supported",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/issues/557",
-        "text": "[ember-auto-import]: uuid v9.0.0 import in fastboot fails with crypto.getRandomValues() not supported",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/issues/558",
-        "text": "[ember-auto-import]: Does not work with babel-plugin-lodash",
         "labels": [],
         "isPending": true
       },
@@ -10235,31 +9751,11 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/embroider-build/ember-auto-import/issues/577",
-        "text": "[ember-auto-import]: Modifying SASS files triggers full reload since 2.6.2",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/embroider-build/ember-auto-import/issues/588",
         "text": "[ember-auto-import]: `instanceof` fails in classic mode",
         "labels": [
           "has reproduction"
         ],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/issues/588",
-        "text": "[ember-auto-import]: `instanceof` fails in classic mode",
-        "labels": [
-          "has reproduction"
-        ],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/issues/589",
-        "text": "[ember-auto-import]: css imports not working until referenced",
-        "labels": [],
         "isPending": true
       },
       {
@@ -10275,26 +9771,8 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/embroider-build/ember-auto-import/issues/592",
-        "text": "[ember-auto-import]: \"Require is not defined\"",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/embroider-build/ember-auto-import/issues/595",
         "text": "[ember-auto-import]: Dynamic import missing fingerprint URL",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/issues/595",
-        "text": "[ember-auto-import]: Dynamic import missing fingerprint URL",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/issues/601",
-        "text": "[ember-auto-import]: Add option to disable decorator transforms in case we are using a different decorator transform plugin",
         "labels": [],
         "isPending": true
       },
@@ -10321,12 +9799,6 @@
       {
         "href": "https://github.com/embroider-build/ember-auto-import/pull/479",
         "text": "[ember-auto-import]: Add context option to webpack config",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/embroider-build/ember-auto-import/pull/512",
-        "text": "[ember-auto-import]: Restructure entry file bundle logic to support \"layering\"",
         "labels": [],
         "isPending": true
       },
@@ -19527,12 +18999,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/embroider-build/embroider/pull/1614",
-        "text": "[embroider]: esbuild resolver for Vite dependency optimization",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/embroider-build/embroider/pull/1643",
         "text": "[embroider]: Perf: Cache the lockfile and package.json lookups",
         "labels": [],
@@ -19559,22 +19025,8 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/embroider-build/embroider/pull/1715",
-        "text": "[embroider]: Move the app files in an embroider rewritten app into virtualised content",
-        "labels": [
-          "enhancement"
-        ],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/embroider-build/embroider/pull/1720",
         "text": "[embroider]: add test scenarios for beta",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/embroider-build/embroider/pull/1730",
-        "text": "[embroider]: move vite index html to root",
         "labels": [],
         "isPending": true
       },
@@ -19603,20 +19055,8 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/embroider-build/embroider/pull/1736",
-        "text": "[embroider]: fix vite build ",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/embroider-build/embroider/pull/1742",
         "text": "[embroider]: make vite use root instead of rewritten app",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/embroider-build/embroider/pull/1744",
-        "text": "[embroider]: control ember build through vite",
         "labels": [],
         "isPending": true
       },
@@ -19649,12 +19089,6 @@
       {
         "href": "https://github.com/embroider-build/embroider/pull/1760",
         "text": "[embroider]: Add exclude option to appReexports and publicEntrypoints rollup plugins",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/embroider-build/embroider/pull/1762",
-        "text": "[embroider]: Fix incorrect ownerOfFile at root of filesystem",
         "labels": [],
         "isPending": true
       },
@@ -24217,26 +23651,8 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/typed-ember/glint/issues/599",
-        "text": "[glint]: `glint --declaration` fails to create declaration files when `@glint-ignore`, `@glint-expect-error`, or `@glint-nocheck` is used",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/typed-ember/glint/issues/601",
         "text": "[glint]: Semantic Token Scopes not provided",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/typed-ember/glint/issues/601",
-        "text": "[glint]: Semantic Token Scopes not provided",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/typed-ember/glint/issues/604",
-        "text": "[glint]: LSP Suggestions",
         "labels": [],
         "isPending": true
       },
@@ -24268,12 +23684,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/typed-ember/glint/issues/614",
-        "text": "[glint]: Syntax error in tsconfig.json causes out-of-memory error",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/typed-ember/glint/issues/617",
         "text": "[glint]: Bug?: \"Unclosed element `pre`, when `<pre>` is mentioned in test name of gts test file",
         "labels": [],
@@ -24285,20 +23695,6 @@
         "labels": [
           "hacktoberfest"
         ],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/typed-ember/glint/issues/626",
-        "text": "[glint]: Quest: let's forward _all_ the ServerCapabilities to tsserver",
-        "labels": [
-          "hacktoberfest"
-        ],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/typed-ember/glint/issues/628",
-        "text": "[glint]: Import of .gts emits broken declarations",
-        "labels": [],
         "isPending": true
       },
       {
@@ -24320,26 +23716,8 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/typed-ember/glint/issues/645",
-        "text": "[glint]: {{#each-in}} breaks if used with a Map",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/typed-ember/glint/issues/649",
         "text": "[glint]: --watch reports errors when normal build does not",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/typed-ember/glint/issues/649",
-        "text": "[glint]: --watch reports errors when normal build does not",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/typed-ember/glint/issues/661",
-        "text": "[glint]: *Like-bug: (ModifierLike, ComponentLike, etc?) When using WithBoundArgs,  Type instantiation is excessively deep and possibly infinite (requiring glint-ignore/expect-error to move forward in a project)",
         "labels": [],
         "isPending": true
       },
@@ -24352,12 +23730,6 @@
       {
         "href": "https://github.com/typed-ember/glint/issues/667",
         "text": "[glint]: provide completions for element tag names",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/typed-ember/glint/issues/672",
-        "text": "[glint]: Glint doesn’t support multiple Typescript extends",
         "labels": [],
         "isPending": true
       },
@@ -24388,12 +23760,6 @@
       {
         "href": "https://github.com/typed-ember/glint/issues/678",
         "text": "[glint]: Drop support for GlimmerX",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/typed-ember/glint/issues/679",
-        "text": "[glint]: Remove the need for consumers to install `@glint/environment-` packages",
         "labels": [],
         "isPending": true
       },
@@ -24521,14 +23887,6 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/10",
-        "text": "[ember-eslint-parser]: Add the noop preprocessor-to-exports",
-        "labels": [
-          "enhancement"
-        ],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/11",
         "text": "[ember-eslint-parser]: Add light README",
         "labels": [
@@ -24545,32 +23903,8 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/13",
-        "text": "[ember-eslint-parser]: Run eslint-plugin-ember's tests with every change",
-        "labels": [
-          "internal"
-        ],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/14",
         "text": "[ember-eslint-parser]: Resolve \"Parsing error: Cannot read properties of null\"",
-        "labels": [
-          "bug"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/14",
-        "text": "[ember-eslint-parser]: Resolve \"Parsing error: Cannot read properties of null\"",
-        "labels": [
-          "bug"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/15",
-        "text": "[ember-eslint-parser]: fix named block",
         "labels": [
           "bug"
         ],
@@ -24589,22 +23923,6 @@
         "text": "[ember-eslint-parser]: Use pnpm for eslint-plugin-ember testing",
         "labels": [
           "internal"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/17",
-        "text": "[ember-eslint-parser]: Use pnpm for eslint-plugin-ember testing",
-        "labels": [
-          "internal"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/18",
-        "text": "[ember-eslint-parser]: Fix: 'this' is undefined",
-        "labels": [
-          "bug"
         ],
         "isPending": false
       },
@@ -24633,22 +23951,6 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/20",
-        "text": "[ember-eslint-parser]: fix rust utf8 ranges vs js utf16 ranges",
-        "labels": [
-          "bug"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/21",
-        "text": "[ember-eslint-parser]: Fix Incorrectly missing scope",
-        "labels": [
-          "bug"
-        ],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/21",
         "text": "[ember-eslint-parser]: Fix Incorrectly missing scope",
         "labels": [
@@ -24659,22 +23961,6 @@
       {
         "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/22",
         "text": "[ember-eslint-parser]: `<@argument>` Parsing error: Cannot read properties of null (reading 'index')",
-        "labels": [
-          "bug"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/22",
-        "text": "[ember-eslint-parser]: `<@argument>` Parsing error: Cannot read properties of null (reading 'index')",
-        "labels": [
-          "bug"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/24",
-        "text": "[ember-eslint-parser]: allow SVG child Elements without reference",
         "labels": [
           "bug"
         ],
@@ -24713,14 +23999,6 @@
       {
         "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/6",
         "text": "[ember-eslint-parser]: always notify if not correctly setup",
-        "labels": [
-          "bug"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/7",
-        "text": "[ember-eslint-parser]: Fix requires of the transforms module",
         "labels": [
           "bug"
         ],
@@ -27745,14 +27023,6 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2028",
-        "text": "[eslint-plugin-ember]: Move gjs/gts parser to `ember-eslint-parser` library",
-        "labels": [
-          "Breaking"
-        ],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2029",
         "text": "[eslint-plugin-ember]: Changes from v11.12.0",
         "labels": [
@@ -27806,15 +27076,6 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2045",
-        "text": "[eslint-plugin-ember]: Bump ember-eslint-parser to `0.2.3`",
-        "labels": [
-          "Bug",
-          "dependencies"
-        ],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2046",
         "text": "[eslint-plugin-ember]: Fix issue with `no-deprecated-router-transition-methods` throwing errors outside of class usage",
         "labels": [
@@ -27831,23 +27092,6 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2047",
-        "text": "[eslint-plugin-ember]: Remove unused dependency `@glimmer/syntax`",
-        "labels": [
-          "Internal"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2048",
-        "text": "[eslint-plugin-ember]: Bump ember-eslint-parser to `0.2.4`",
-        "labels": [
-          "Bug",
-          "dependencies"
-        ],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2048",
         "text": "[eslint-plugin-ember]: Bump ember-eslint-parser to `0.2.4`",
         "labels": [
@@ -27861,22 +27105,6 @@
         "text": "[eslint-plugin-ember]: Bump ember-eslint-parser to `0.2.5` - Includes fix for SVG scope parsing",
         "labels": [
           "Bug"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2055",
-        "text": "[eslint-plugin-ember]: Bump ember-eslint-parser to `0.2.5` - Includes fix for SVG scope parsing",
-        "labels": [
-          "Bug"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2068",
-        "text": "[eslint-plugin-ember]: add `plugin:@typescript-eslint/recommended` to readme for GTS",
-        "labels": [
-          "Documentation"
         ],
         "isPending": false
       },
@@ -36266,18 +35494,6 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/113",
-        "text": "[prettier-plugin-ember-template-tag]: [Bug] `prettier . --write` does not run on .gjs/.gts files",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/131",
-        "text": "[prettier-plugin-ember-template-tag]: Consider disable minification?",
-        "labels": [],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/131",
         "text": "[prettier-plugin-ember-template-tag]: Consider disable minification?",
         "labels": [],
@@ -36286,22 +35502,6 @@
       {
         "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/149",
         "text": "[prettier-plugin-ember-template-tag]: Replace ember-template-imports with content-tag",
-        "labels": [
-          "breaking"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/149",
-        "text": "[prettier-plugin-ember-template-tag]: Replace ember-template-imports with content-tag",
-        "labels": [
-          "breaking"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/154",
-        "text": "[prettier-plugin-ember-template-tag]: Remove handling of \"preprocessed\" template tags when it is no longer necessary for eslint-plugin-ember compat",
         "labels": [
           "breaking"
         ],
@@ -36322,26 +35522,8 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/173",
-        "text": "[prettier-plugin-ember-template-tag]: [Bug] Unexpected token error on route files",
-        "labels": [],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/192",
         "text": "[prettier-plugin-ember-template-tag]: RFC: `<template>` in `CallExpression` argument position",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/192",
-        "text": "[prettier-plugin-ember-template-tag]: RFC: `<template>` in `CallExpression` argument position",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/193",
-        "text": "[prettier-plugin-ember-template-tag]: RFC: Short templates in the top-level-of-a-class position",
         "labels": [],
         "isPending": false
       },
@@ -36358,26 +35540,8 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/20",
-        "text": "[prettier-plugin-ember-template-tag]: [Bug] doesn't work with eslint<->prettier integration?",
-        "labels": [],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/222",
         "text": "[prettier-plugin-ember-template-tag]: [Bug] Incorrect behavior when template contains a",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/222",
-        "text": "[prettier-plugin-ember-template-tag]: [Bug] Incorrect behavior when template contains a",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/228",
-        "text": "[prettier-plugin-ember-template-tag]: [Bug] An apostrophe in a comment breaks formatting",
         "labels": [],
         "isPending": false
       },
@@ -36394,26 +35558,8 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/40",
-        "text": "[prettier-plugin-ember-template-tag]: [Bug] VSCode Integration Not Working",
-        "labels": [],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/43",
         "text": "[prettier-plugin-ember-template-tag]: [Bug] With invalid hbs, prettier will transform `<template>` in source code",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/43",
-        "text": "[prettier-plugin-ember-template-tag]: [Bug] With invalid hbs, prettier will transform `<template>` in source code",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/47",
-        "text": "[prettier-plugin-ember-template-tag]: [Bug] Regressions in 0.3.1",
         "labels": [],
         "isPending": false
       },
@@ -36430,18 +35576,6 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/49",
-        "text": "[prettier-plugin-ember-template-tag]: [Bug] In v0.3.2, with invalid hbs, a newline is added before the closing <template> tag",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/61",
-        "text": "[prettier-plugin-ember-template-tag]: [Bug] Prettier v3 Support",
-        "labels": [],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/61",
         "text": "[prettier-plugin-ember-template-tag]: [Bug] Prettier v3 Support",
         "labels": [],
@@ -36450,18 +35584,6 @@
       {
         "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/62",
         "text": "[prettier-plugin-ember-template-tag]: [Bug] Breaks @trivago/prettier-plugin-sort-imports",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/62",
-        "text": "[prettier-plugin-ember-template-tag]: [Bug] Breaks @trivago/prettier-plugin-sort-imports",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/90",
-        "text": "[prettier-plugin-ember-template-tag]: Usage of only-allow",
         "labels": [],
         "isPending": false
       },
@@ -36608,27 +35730,11 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/pull/162",
-        "text": "[prettier-plugin-ember-template-tag]: content tag",
-        "labels": [
-          "breaking"
-        ],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/pull/17",
         "text": "[prettier-plugin-ember-template-tag]: Test cleanup",
         "labels": [
           "documentation",
           "internal"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/pull/178",
-        "text": "[prettier-plugin-ember-template-tag]: Clean up content-tag implementation",
-        "labels": [
-          "enhancement"
         ],
         "isPending": false
       },
@@ -36706,22 +35812,8 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/pull/185",
-        "text": "[prettier-plugin-ember-template-tag]: Remove ember-cli-htmlbars dependency",
-        "labels": [
-          "dependencies"
-        ],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/pull/186",
         "text": "[prettier-plugin-ember-template-tag]: Upgrade vite",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/pull/188",
-        "text": "[prettier-plugin-ember-template-tag]: Add test for ember-route-template routes",
         "labels": [],
         "isPending": false
       },
@@ -36748,22 +35840,6 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/pull/194",
-        "text": "[prettier-plugin-ember-template-tag]: Fix formatting issues #191, #192, #193",
-        "labels": [
-          "bug"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/pull/195",
-        "text": "[prettier-plugin-ember-template-tag]: More content-tag cleanup",
-        "labels": [
-          "enhancement"
-        ],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/pull/195",
         "text": "[prettier-plugin-ember-template-tag]: More content-tag cleanup",
         "labels": [
@@ -36782,14 +35858,6 @@
         "text": "[prettier-plugin-ember-template-tag]: Upgrade dev dependencies",
         "labels": [
           "dependencies"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/pull/208",
-        "text": "[prettier-plugin-ember-template-tag]: Switch to type: module",
-        "labels": [
-          "breaking"
         ],
         "isPending": false
       },
@@ -36830,22 +35898,6 @@
         "text": "[prettier-plugin-ember-template-tag]: Upgrade content-tag",
         "labels": [
           "dependencies"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/pull/211",
-        "text": "[prettier-plugin-ember-template-tag]: Upgrade content-tag",
-        "labels": [
-          "dependencies"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/pull/212",
-        "text": "[prettier-plugin-ember-template-tag]: Fix bug where preceding {} was slurping up template",
-        "labels": [
-          "bug"
         ],
         "isPending": false
       },
@@ -37278,18 +36330,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/issues/29",
-        "text": "[ember-eslint-parser]: Document what to do with custom-elements and other not-defined HTML tags (no-undef)",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/issues/30",
-        "text": "[ember-eslint-parser]: Parsing error: Cannot read properties of null (reading 'type')",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/issues/30",
         "text": "[ember-eslint-parser]: Parsing error: Cannot read properties of null (reading 'type')",
         "labels": [],
@@ -37302,26 +36342,8 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/issues/31",
-        "text": "[ember-eslint-parser]: Parsing error: No Babel config file detected for [GJS files]",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/32",
         "text": "[ember-eslint-parser]: Add GJS test project",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/32",
-        "text": "[ember-eslint-parser]: Add GJS test project",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/33",
-        "text": "[ember-eslint-parser]: test: add failing component for array destructure",
         "labels": [],
         "isPending": true
       },
@@ -39460,18 +38482,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/191",
-        "text": "[prettier-plugin-ember-template-tag]: [Bug] 2.0.0 Errors when components contain multi-byte characters (e.g. emoji) 💩 (not always, though)",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/218",
-        "text": "[prettier-plugin-ember-template-tag]: [Bug] Required semicolons incorrectly removed",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/218",
         "text": "[prettier-plugin-ember-template-tag]: [Bug] Required semicolons incorrectly removed",
         "labels": [],
@@ -39490,18 +38500,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/42",
-        "text": "[prettier-plugin-ember-template-tag]: [Bug] New line added in comment block (and maybe generally when dealing with embedded formats with syntax errors)",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/53",
-        "text": "[prettier-plugin-ember-template-tag]: [Bug] Does not work with VSCode `formatOnPaste` config",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/53",
         "text": "[prettier-plugin-ember-template-tag]: [Bug] Does not work with VSCode `formatOnPaste` config",
         "labels": [],
@@ -39510,18 +38508,6 @@
       {
         "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/81",
         "text": "[prettier-plugin-ember-template-tag]: [Bug] Invalid formatting of `render` function in tests when running prettier via eslint-plugin-ember + eslint-plugin-prettier",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/81",
-        "text": "[prettier-plugin-ember-template-tag]: [Bug] Invalid formatting of `render` function in tests when running prettier via eslint-plugin-ember + eslint-plugin-prettier",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues/84",
-        "text": "[prettier-plugin-ember-template-tag]: plugin is parsing JS comments and throws errors",
         "labels": [],
         "isPending": true
       },
@@ -42328,14 +41314,6 @@
         "href": "https://github.com/ember-cli/ember-cli/pull/10393",
         "text": "[ember-cli]: [ENHANCEMENT] feat: add skip-install alias to skip-npm",
         "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli/pull/10394",
-        "text": "[ember-cli]: [ENHANCEMENT] automatically select a port by default with `ember serve`",
-        "labels": [
-          "enhancement"
-        ],
         "isPending": false
       },
       {
@@ -57775,19 +56753,27 @@
       }
     ]
   },
-  "total": 218,
-  "finished": 144,
+  "total": 8130,
+  "finished": 6984,
   "labels": [
     "bug",
-    "enhancement",
-    "breaking",
-    "internal",
+    "invalid",
     "documentation",
+    "dependencies",
+    "internal",
+    "breaking",
+    "enhancement",
+    "blocker",
     "meta",
     "Help Wanted",
     "Quest",
     "S-Exploring",
     "S-Proposed",
+    "good first issue",
+    "help wanted",
+    "duplicate",
+    "deprecation",
+    "question",
     "design",
     "T-ember-data",
     "T-deprecation",
@@ -57797,17 +56783,83 @@
     "T-fastboot",
     "T-learning",
     "T-ember-cli",
+    "blocked",
     "Feature",
     "TypeScript",
+    "Hacktoberfest",
+    "hacktoberfest-accepted",
+    "feature",
+    "test",
     "Cleanup",
     "Final Comment Period",
+    "needs reproduction",
     "working-group",
     "has reproduction",
+    "testing",
+    "wontfix",
+    "working as expected",
+    "typescript limitation",
+    "error messages",
+    "external issue",
+    "refactor",
     "hacktoberfest",
-    "Breaking",
     "Bug",
-    "dependencies",
+    "Enhancement",
+    "New Rule",
+    "Question",
+    "Breaking",
+    "Documentation",
     "Internal",
-    "Documentation"
+    "a11y",
+    "todos",
+    "typescript",
+    "blueprints",
+    "embroider",
+    "v5.0",
+    "performance",
+    "ember-new-output",
+    "needs confirmation",
+    "addons",
+    "needs contributor",
+    "v4.0",
+    "has PR",
+    "security",
+    "needs tests",
+    "agenda",
+    "on hold",
+    "maybe resolved?",
+    "👶Good for New Contributors",
+    "🐹requires source yuidoc update",
+    "ember-data",
+    "has PR :ballot_box_with_check:",
+    "bug :bug:",
+    "Website Redesign RFC",
+    "good first issue :1st_place_medal:",
+    "discussion :studio_microphone:",
+    "ready for review :white_check_mark:",
+    "CSS :sparkles:",
+    "enhancement :unicorn:",
+    "stale",
+    "pinned",
+    "blocker 🚫",
+    "Octane",
+    "has volunteer",
+    "steering",
+    "empress-blog",
+    "has pr",
+    "needs maintainer",
+    "has a PR",
+    "ready",
+    "needs reviewer response",
+    "needs contributor response",
+    "needs a reviewer",
+    "instrumentation",
+    "broccoli",
+    "documentation :writing_hand:",
+    "blocked :stop_sign:",
+    "not-blocking-release",
+    "needs team discussion",
+    "search",
+    "writing/content"
   ]
 }
