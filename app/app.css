@@ -31,6 +31,7 @@ h1 {
     display: block;
     font-size: 3.5rem;
   }
+
   .answer-no {
     display: block;
     font-size: 1.5rem;
@@ -53,11 +54,13 @@ a {
   font-weight: normal;
   color: var(--ember-brand);
 }
+
 .get-started {
   max-width: max-content;
   margin: 0 auto;
   margin-top: 2.5rem;
 }
+
 .filters {
   max-width: max-content;
   margin: 0 auto;
@@ -93,11 +96,13 @@ section {
       width: 1rem;
       display: inline-block;
     }
+
     li a.not-done {
       background-color: white;
     }
+
     li a.done {
-      background-color: rgb(0, 200, 100);
+      background-color: rgb(0 200 100);
     }
   }
 

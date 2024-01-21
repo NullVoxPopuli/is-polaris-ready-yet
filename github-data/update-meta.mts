@@ -1,5 +1,4 @@
-
-import { getData, writeData, eachDataSet, type Result } from './utils.mts';
+import { getData, writeData, eachDataSet, type Result } from "./utils.mts";
 
 let data = await getData();
 
@@ -17,7 +16,7 @@ await eachDataSet(data, (key, dataSet) => {
     process.exit(1);
   }
 
-  let newIssues = dataSet.issues.filter(issue => {
+  let newIssues = dataSet.issues.filter((issue) => {
     if (seen.has(issue.href)) return false;
 
     seen.add(issue.href);
@@ -34,7 +33,7 @@ await eachDataSet(data, (key, dataSet) => {
   finished += dataSet.issues.filter((i) => !i.isPending).length;
 
   for (let issue of dataSet.issues) {
-    issue.labels.forEach(l => labels.add(l));
+    issue.labels.forEach((l) => labels.add(l));
   }
 });
 

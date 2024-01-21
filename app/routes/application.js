@@ -5,6 +5,7 @@ export default class Application extends Route {
     'display-as-list': {},
     'hide-done': {},
     'exclude-labels': {},
+    external: {},
     with: {},
     without: {},
   };

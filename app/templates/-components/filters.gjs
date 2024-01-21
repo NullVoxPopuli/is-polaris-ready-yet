@@ -3,7 +3,7 @@ import { service } from '@ember/service';
 
 import { Form, Switch } from 'ember-primitives';
 
-const BOOLEAN = ['display-as-list', 'hide-done'];
+const BOOLEAN = ['display-as-list', 'hide-done', 'external'];
 
 export class DisplaySettings extends Component {
   <template>
@@ -16,6 +16,11 @@ export class DisplaySettings extends Component {
       <Switch @checked={{this.qps.hideDone}} as |s|>
         <s.Control name="hide-done" />
         <s.Label>Hide done</s.Label>
+      </Switch>
+
+      <Switch @checked={{this.qps.external}} as |s|>
+        <s.Control name="external" />
+        <s.Label>Show external</s.Label>
       </Switch>
 
       <label>

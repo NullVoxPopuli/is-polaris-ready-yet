@@ -1,4 +1,3 @@
-import { debounce } from '@ember/runloop';
 import Service, { service } from '@ember/service';
 
 import { task, timeout } from 'ember-concurrency';
@@ -16,6 +15,10 @@ export default class QueryParams extends Service {
 
   get hideDone() {
     return this.current['hide-done'] === '1';
+  }
+
+  get external() {
+    return this.current['external'] === '1';
   }
 
   get with() {

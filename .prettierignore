@@ -1,3 +1,4 @@
+*.json
 # unconventional js
 /blueprints/*/files/
 app/templates/*.gts

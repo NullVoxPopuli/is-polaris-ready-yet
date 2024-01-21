@@ -4,11 +4,29 @@ import { service } from '@ember/service';
 
 import { ExternalLink } from 'ember-primitives';
 
+const EMBER_ORGS = [
+  'embroider-build',
+  'ember-template-imports',
+  'typed-ember',
+  'emberjs',
+  'ember-cli',
+  'ember-modifier',
+  'ember-learn',
+  'ember-template-lint',
+  'tracked-tools',
+];
+
 function filtered(issues, qps) {
   let result = issues;
 
   if (qps.hideDone) {
     result = result.filter((issue) => issue.isPending);
+  }
+
+  if (qps.external) {
+    result = result.filter((issue) => {
+      return !EMBER_ORGS.some((org) => issue.href.includes(`.com/${org}`));
+    });
   }
 
   if (qps.without) {

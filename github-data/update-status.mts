@@ -1,12 +1,12 @@
-import path from 'node:path';
-import fs from 'node:fs/promises';
-import sortBy from 'lodash.sortby';
+import path from "node:path";
+import fs from "node:fs/promises";
+import sortBy from "lodash.sortby";
 
-import fse from 'fs-extra';
+import fse from "fs-extra";
 import { Octokit } from "@octokit/rest";
 
-import { formatIssue, getData, writeData, parseURL type Result } from './utils.mts';
-import { data, type Dataset } from './issue-data.mts';
+import { formatIssue, getData, writeData, parseURL, type Result } from "./utils.mts";
+import { data, type Dataset } from "./issue-data.mts";
 
 const octokit = new Octokit({ auth: process.env.GITHUB_AUTH });
 
@@ -18,22 +18,21 @@ for (let [key, dataset] of Object.entries(data)) {
 
   result[key] ||= { category, issues: [] };
 
-  if (typeof result[key] !== 'object') continue;
+  if (typeof result[key] !== "object") continue;
 
   /**
-    * Octokit/GH doesn't have a bulk-request API
-    * so... we DoS them, I guess.
-    */
+   * Octokit/GH doesn't have a bulk-request API
+   * so... we DoS them, I guess.
+   */
   for (let issue of issues) {
     // Try not to get rate-limited
-    await new Promise(resolve => setTimeout(resolve, 500));
+    await new Promise((resolve) => setTimeout(resolve, 500));
 
     let { owner, repo, type, number } = parseURL(issue);
 
-    let existingData = existing[key]?.issues
-      ?.find(ex => {
+    let existingData = existing[key]?.issues?.find((ex) => {
       let u = parseURL(ex.href);
-      return u.owner === owner && u.repo === repo && u.type === type
+      return u.owner === owner && u.repo === repo && u.type === type;
     });
 
     console.log(issue, existingData);
@@ -45,9 +44,9 @@ for (let [key, dataset] of Object.entries(data)) {
       continue;
     }
 
-    console.log('getting data');
+    console.log("getting data");
 
-    if (type === 'issues') {
+    if (type === "issues") {
       let response = await octokit.rest.issues.get({
         owner,
         repo,
@@ -55,7 +54,7 @@ for (let [key, dataset] of Object.entries(data)) {
       });
 
       result[key].issues.push(formatIssue(response.data));
-    } else if (type === 'pull') {
+    } else if (type === "pull") {
       let response = await octokit.rest.pulls.get({
         owner,
         repo,
