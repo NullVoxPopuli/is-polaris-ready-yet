@@ -115,6 +115,7 @@ async function getIssuesUntil({ org, repo }) {
       return {
         href: d.html_url,
         text: `[${repo}]: ${d.title}`,
+        labels: d.labels?.map(label => label.name),
         isPending: d.state === 'open',
       }
     });
@@ -173,8 +174,6 @@ for (let [category, repos] of Object.entries(assignments)) {
     for (let issue of issues) {
       if (!alreadyCategorized.has(issue)) {
         issueData[category].issues.push(issue.href);
-
-        continue;
       }
 
       // find category (which may be the same as 'category'

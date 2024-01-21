@@ -19,10 +19,13 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem;
   margin: 0 auto;
   width: max-content;
-  margin-bottom: 2.5rem;
+  font-size: 1.5rem;
+
+  .title {
+    font-size: 2.5rem;
+  }
 
   .answer {
     display: block;
@@ -39,9 +42,15 @@ a {
   color: var(--ember-light-blue);
 }
 
+.progress {
+  font-size: 1rem;
+  font-weight: normal;
+  color: var(--ember-brand);
+}
 .get-started {
   max-width: 500px;
   margin: 0 auto;
+  margin-top: 2.5rem;
 }
 
 main {

@@ -16,11 +16,17 @@ const GetStarted = <template>
 </template>;
 
 const byCategory = {};
+let total = 0;
+let totalResolved = 0;
 
 for (let [key, dataSet] of Object.entries(data)) {
   byCategory[dataSet.category] ||= {};
   byCategory[dataSet.category][key] = dataSet;
+  total += dataSet.issues.length;
+  totalResolved += dataSet.issues.filter((i) => !i.isPending).length;
 }
+
+const percent = Math.round((totalResolved / total) * 100);
 
 const AX = byCategory['authoring experience'];
 const tooling = byCategory['tooling'];
@@ -63,9 +69,18 @@ export default Route(
     {{pageTitle "is Polaris ready yet?"}}
 
     <h1>
-      Is Polaris ready yet?
+      <span class="title">
+        Is Polaris ready yet?
+      </span>
       <!-- <span class="answer">Yes!</span> -->
       <span class="answer-no">Almost!, we're getting there.</span>
+      <span class="progress">
+        {{percent}}% of the way there.
+        {{totalResolved}}
+        of
+        {{total}}
+        tasks finished.
+      </span>
     </h1>
 
     <p class="get-started">
