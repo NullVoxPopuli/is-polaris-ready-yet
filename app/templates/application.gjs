@@ -60,7 +60,8 @@ export default Route(
 
     <h1>
       Is Polaris ready yet?
-      <span class="answer">No.</span>
+      <!-- <span class="answer">Yes!</span> -->
+      <span class="answer-no">Almost!, we're getting there.</span>
     </h1>
 
     <p class="get-started">
@@ -81,8 +82,7 @@ export default Route(
       <Section @title="Shrinking the Build" @data={{tooling.shrinkingTheBuild}} />
       <Section @title="Compatibility" @data={{tooling.compatibility}} />
       <Section @title="Glint" @data={{tooling.glint}} />
-      <Section @title="ESLint" @data={{tooling.eslint}} />
-      <Section @title="Prettier" @data={{tooling.prettier}} />
+      <Section @title="Linting" @data={{tooling.linting}} />
       <br /><br />
       <Section @title="Other" @data={{other.other}} />
     </main>

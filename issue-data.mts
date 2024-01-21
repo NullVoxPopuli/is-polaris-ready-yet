@@ -1,4 +1,4 @@
-import jsonData from './issue-data.json';
+import jsonData from './issue-data.json' with { type: "json" };
 
 export interface Dataset {
   category: 'tooling' | 'authoring experience' | 'other';
