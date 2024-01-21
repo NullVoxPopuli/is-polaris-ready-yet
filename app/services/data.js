@@ -18,4 +18,8 @@ export default class Data extends Service {
   get percent() {
     return Math.round((this.finished / this.total) * 100);
   }
+
+  get labels() {
+    return data.labels;
+  }
 }

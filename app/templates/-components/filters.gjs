@@ -27,10 +27,21 @@ export class DisplaySettings extends Component {
         <span>Exclude Text</span>
         <input name="without" value={{this.qps.without}} />
       </label>
+
+      <label>
+        <span>Exclude Labels</span>
+        <select name="exclude-labels">
+          <option value="">Show All / Exclude None</option>
+          {{#each this.data.labels as |label|}}
+            <option value={{label}}>{{label}}</option>
+          {{/each}}
+        </select>
+      </label>
     </Form>
   </template>
 
   @service qps;
+  @service data;
 
   update = (newValues) => {
     let qps = this.qps.current;

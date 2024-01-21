@@ -1,10 +1,10 @@
 import Route from '@ember/routing/route';
 
-export default class Query extends Route {
+export default class Application extends Route {
   queryParams = {
     'display-as-list': {},
     'hide-done': {},
-    label: {},
+    'exclude-labels': {},
     with: {},
     without: {},
   };

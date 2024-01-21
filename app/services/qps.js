@@ -26,6 +26,10 @@ export default class QueryParams extends Service {
     return this.current['without'];
   }
 
+  get excludeLabels() {
+    return this.current['exclude-labels'];
+  }
+
   set = (qps) => {
     this.transition.perform(qps);
   };
