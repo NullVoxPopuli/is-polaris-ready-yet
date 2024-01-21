@@ -22,5 +22,11 @@ module.exports = {
       plugins: ['ember'],
       parser: 'ember-eslint-parser',
     },
+    {
+      files: '**/*.{js,gjs,gts,ts}',
+      rules: {
+        'no-console': 'off',
+      },
+    },
   ],
 };

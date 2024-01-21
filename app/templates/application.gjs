@@ -1,62 +1,35 @@
-// @glint-nocheck
 import { pageTitle } from 'ember-page-title';
-import { ExternalLink, Form, Switch } from 'ember-primitives';
+import { service } from 'ember-primitives';
+import { ExternalLink } from 'ember-primitives';
 import Route from 'ember-route-template';
 import data from 'is-ready/data.json';
 
+import { Filters } from './-components/filters';
+import { Header } from './-components/header';
+import { Section } from './-components/section';
+
 const GetStarted = <template>
-  To get started with a Polaris App: clone this
+  To get started with a Polaris App:
+  <br />Clone this
   <ExternalLink href="https://github.com/NullVoxPopuli/polaris-starter">starter template</ExternalLink>.
 
   <br /><br />
 
-  To get started with a Polaris Library: use the
+  To get started with a Polaris Library:
+  <br />use the
   <ExternalLink href="https://github.com/embroider-build/addon-blueprint">
     @embroider/addon-blueprint</ExternalLink>.
 </template>;
 
-const total = data.total;
-const totalResolved = data.finished;
-
-const percent = Math.round((totalResolved / total) * 100);
-
-const DisplaySettings = <template>
-  <Form>
-    <Switch as |s|>
-      <s.Control name="displayAsList" />
-      <s.Label>List instead of boxes</s.Label>
-    </Switch>
-  </Form>
-</template>;
-
-const Section = <template>
-  <section>
-    <header>
-      <h3>{{@title}}</h3>
-    </header>
-
-    {{! display as list? }}
-    <ul class="display-as-boxes">
-      {{#each @data.issues as |issue|}}
-        <li>
-          <ExternalLink
-            href={{issue.href}}
-            class={{if issue.isPending "not-done" "done"}}
-            title={{issue.text}}
-          >
-            {{issue.text}}
-          </ExternalLink>
-        </li>
-      {{/each}}
-    </ul>
-  </section>
-</template>;
-
 function howLong() {
-  console.time('Rendering from json');
+  console.time('Rendering the list');
 
+  // With so much data, rendering
+  // blocks animation frames,
+  // so we can use this to determine
+  // about how long rendering takes
   requestAnimationFrame(() => {
-    console.timeEnd('Rendering from json');
+    console.timeEnd('Rendering the list');
   });
 }
 
@@ -64,24 +37,15 @@ export default Route(
   <template>
     {{pageTitle "is Polaris ready yet?"}}
 
-    <h1>
-      <span class="title">
-        Is Polaris ready yet?
-      </span>
-      <!-- <span class="answer">Yes!</span> -->
-      <span class="answer-no">Almost!, we're getting there.</span>
-      <span class="progress">
-        {{percent}}% of the way there.
-        {{totalResolved}}
-        of
-        {{total}}
-        tasks finished.
-      </span>
-    </h1>
+    <Header />
 
     <p class="get-started">
       <GetStarted />
     </p>
+
+    <div class="filters">
+      <Filters />
+    </div>
 
     <main>
       <h2>Authoring Experience</h2>
@@ -102,6 +66,8 @@ export default Route(
       <Section @title="Other" @data={{data.other}} />
     </main>
 
-    {{(howLong)}}
+    {{#let (service "qps") as |qps|}}
+      {{(howLong qps.current)}}
+    {{/let}}
   </template>
 );
