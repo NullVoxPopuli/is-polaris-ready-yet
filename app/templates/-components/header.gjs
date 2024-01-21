@@ -1,4 +1,5 @@
 import { service } from 'ember-primitives';
+import { ExternalLink } from 'ember-primitives';
 
 export const Header = <template>
   {{#let (service "data") as |data|}}
@@ -17,6 +18,10 @@ export const Header = <template>
         tasks finished.
       </span>
     </h1>
+
+    <ExternalLink class="contribute" href="https://github.com/NullVoxPopuli/is-polaris-ready-yet/">
+      Contribute on GitHub!
+    </ExternalLink>
 
   {{/let}}
 </template>;

@@ -48,6 +48,10 @@ export default Route(
     </div>
 
     <main>
+      {{#let (service "qps") as |qps|}}
+        {{(howLong qps.current)}}
+      {{/let}}
+
       <h2>Authoring Experience</h2>
       <Section @title="<template>" @data={{data.templateTag}} />
       <Section @title="Vite" @data={{data.vite}} />
@@ -65,9 +69,5 @@ export default Route(
       <br /><br />
       <Section @title="Other" @data={{data.other}} />
     </main>
-
-    {{#let (service "qps") as |qps|}}
-      {{(howLong qps.current)}}
-    {{/let}}
   </template>
 );
