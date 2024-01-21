@@ -35,7 +35,7 @@ for (let [key, dataset] of Object.entries(data)) {
     let existingData = existing[key]?.issues
       ?.find(ex => ex.owner === owner && ex.repo === repo && ex.type === type);
 
-    console.log(issue);
+    console.log(issue, existingData);
     // Uncomment this to only update data not previously fetched
     if (existingData) continue;
 

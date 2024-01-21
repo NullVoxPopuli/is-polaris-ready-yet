@@ -186,9 +186,7 @@ async function writeData() {
     existing[key].issues = sortBy(existing[key].issues, ['isPending', 'href']);
   }
 
-  await fs.writeFile('issue-data.json', JSON.stringify(issueData, null, 2));
   await fs.writeFile(jsonPath, JSON.stringify(existing, null, 2));
-  await fs.writeFile('app/data.json', JSON.stringify(existing, null, 2));
 }
 
 
