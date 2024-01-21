@@ -45,8 +45,12 @@ const Section = <template>
     <ul class="display-as-boxes">
       {{#each @data.issues as |issue|}}
         <li>
-          <ExternalLink href={{issue.href}} class={{if issue.isPending "not-done" "done"}}>
-            {{issue.owner}}/{{issue.repo}}#{{issue.number}}
+          <ExternalLink
+            href={{issue.href}}
+            class={{if issue.isPending "not-done" "done"}}
+            title={{issue.text}}
+          >
+            {{issue.text}}
           </ExternalLink>
         </li>
       {{/each}}

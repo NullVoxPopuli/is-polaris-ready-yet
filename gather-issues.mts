@@ -1,4 +1,4 @@
-import { data as existingData } from "./issue-data.mts";
+import { data as issueData } from "./issue-data.mts";
 import { Octokit } from "@octokit/rest";
 import path from 'node:path';
 import fs from 'node:fs/promises';
@@ -41,7 +41,7 @@ const assignments = {
     { org: 'ember-cli', repo: 'ember-cli-terser' },
   ],
   removingOldPatterns: [
-    { org: 'ember-learn', repo: 'ember-deprecation-app' },
+    { org: 'ember-learn', repo: 'deprecation-app' },
   ],
   other: [
     { org: 'ember-cli', repo: 'ember-cli' },
@@ -58,10 +58,21 @@ const assignments = {
 };
 
 
-let alreadyFetched = new Set();
+let alreadyCategorized = new Set();
+let firstCategories = new Map();
 
-for (let [key, dataset] of Object.entries(existingData)) {
-  dataset.issues.forEach(issue => alreadyFetched.add(issue));
+for (let [key, dataset] of Object.entries(issueData)) {
+  dataset.issues.forEach(issue => {
+    alreadyCategorized.add(issue)
+    if (!firstCategories.get(issue)) {
+      firstCategories.set(issue, key);
+    }
+  });
+
+}
+
+function firstCategoryFor(href) {
+   return firstCategories.get(href); 
 }
 
 
@@ -103,10 +114,7 @@ async function getIssuesUntil({ org, repo }) {
 
       return {
         href: d.html_url,
-        owner,
-        repo,
-        number: d.number,
-        type,
+        text: `[${repo}]: ${d.title}`,
         isPending: d.state === 'open',
       }
     });
@@ -114,11 +122,15 @@ async function getIssuesUntil({ org, repo }) {
     return data;
   }
 
-  let page = 0;
+  let page = 1;
   while(true) {
     let data = await getPage(page);
 
+    console.log(`Page ${page} for ${org}/${repo} had ${data.length} result(s)`);
+
     results.push(...data);
+
+    if (data.length === 0) { break; }
 
     if (!pageHadSomethingTooOld) {
       page++;
@@ -127,7 +139,6 @@ async function getIssuesUntil({ org, repo }) {
     }
   }
 
-      process.exit(1);
   return results;
 }
 
@@ -138,8 +149,8 @@ async function getRepoData({ org, repo }) {
 }
 
 
-let existing = [];
-let jsonPath = 'public/data.json';
+let existing = {};
+let jsonPath = 'app/data.json';
 if (await fse.pathExists(jsonPath)) {
 
   let buffer = await fs.readFile(jsonPath);
@@ -152,21 +163,24 @@ if (await fse.pathExists(jsonPath)) {
 // GET THE DATA
 /////////////////
 for (let [category, repos] of Object.entries(assignments)) {
-
-  if (!existing[category].issues) {
-    console.log(`${category} missing issues`);
-    process.exit(1);
-  }
+  issueData[category] ||= { issues: [] };
+  existing[category] ||= { issues: [] };
 
   for (let repo of repos) {
+    await new Promise(resolve => setTimeout(resolve, 1000));
     let issues = await getRepoData({ org: repo.org, repo: repo.repo });
 
     for (let issue of issues) {
-      if (alreadyFetched.has(issue)) continue;
+      if (!alreadyCategorized.has(issue)) {
+        issueData[category].issues.push(issue.href);
 
-      existingData[category].issues.push(issue.href);
+        continue;
+      }
+
+      // find category (which may be the same as 'category'
+      category = firstCategoryFor(issue.href);
+
       existing[category] ||= { issues: [] };
-
       existing[category].issues.push(issue);
 
       await writeData();
@@ -174,13 +188,16 @@ for (let [category, repos] of Object.entries(assignments)) {
   }
 }
 
+
 async function writeData() {
   for (let [key, data] of Object.entries(existing)) {
     existing[key].issues = sortBy(existing[key].issues, ['isPending', 'href']);
   }
 
-  await fs.writeFile('issue-data.json', JSON.stringify(existingData, null, 2));
+  await fs.writeFile('issue-data.json', JSON.stringify(issueData, null, 2));
   await fs.writeFile(jsonPath, JSON.stringify(existing, null, 2));
   await fs.writeFile('app/data.json', JSON.stringify(existing, null, 2));
 }
 
+
+await writeData();
