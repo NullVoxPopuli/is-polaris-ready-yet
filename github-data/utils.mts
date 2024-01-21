@@ -6,9 +6,15 @@ import fse from 'fs-extra';
 
 import { type Dataset } from './issue-data.mts';
 
-export function formatIssue(d) {
+export function parseURL(url) {
   let sansDomain = d.html_url.replace('https://github.com/', '');
   let [owner, repo, type, number] = sansDomain.split('/');
+
+  return { owner, repo, type, number };
+}
+
+export function formatIssue(d) {
+  let { owner, repo, type, number } = parseURL(d.html_url);
 
   return {
     href: d.html_url,
