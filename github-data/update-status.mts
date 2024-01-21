@@ -16,7 +16,10 @@ let existing = await getData();
 for (let [key, dataset] of Object.entries(data)) {
   let { category, issues } = dataset;
 
-  result[key] = { category, issues: [] };
+  console.log(category);
+  result[key] ||= { category, issues: [] };
+
+  if (typeof result[key] !== 'object') continue;
 
   /**
     * Octokit/GH doesn't have a bulk-request API
@@ -32,6 +35,7 @@ for (let [key, dataset] of Object.entries(data)) {
     let existingData = existing[key]?.issues
       ?.find(ex => ex.owner === owner && ex.repo === repo && ex.type === type);
 
+    console.log(issue);
     // Uncomment this to only update data not previously fetched
     if (existingData) continue;
 
@@ -39,6 +43,8 @@ for (let [key, dataset] of Object.entries(data)) {
     if (existingData?.isPending === false) {
       continue;
     }
+
+    console.log('getting data');
 
     if (type === 'issues') {
       let response = await octokit.rest.issues.get({

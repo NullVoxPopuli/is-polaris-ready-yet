@@ -15,13 +15,8 @@ const GetStarted = <template>
     @embroider/addon-blueprint</ExternalLink>.
 </template>;
 
-let total = 0;
-let totalResolved = 0;
-
-for (let [key, dataSet] of Object.entries(data)) {
-  total += dataSet.issues.length;
-  totalResolved += dataSet.issues.filter((i) => !i.isPending).length;
-}
+const total = data.total;
+const totalResolved = data.finished;
 
 const percent = Math.round((totalResolved / total) * 100);
 
@@ -56,6 +51,14 @@ const Section = <template>
     </ul>
   </section>
 </template>;
+
+function howLong() {
+  console.time('Rendering from json');
+
+  requestAnimationFrame(() => {
+    console.timeEnd('Rendering from json');
+  });
+}
 
 export default Route(
   <template>
@@ -99,6 +102,6 @@ export default Route(
       <Section @title="Other" @data={{data.other}} />
     </main>
 
-    {{outlet}}
+    {{(howLong)}}
   </template>
 );
