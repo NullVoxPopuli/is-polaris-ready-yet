@@ -30,6 +30,15 @@ h1 {
   }
 }
 
+a {
+  color: var(--ember-light-blue);
+}
+
+.get-started {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 main {
   width: 100%;
 }

@@ -5,7 +5,14 @@ import Route from 'ember-route-template';
 import data from 'is-ready/data.json';
 
 const GetStarted = <template>
-  To get started with a Polaris App: To get started with a Polaris Library:
+  To get started with a Polaris App: clone this
+  <ExternalLink href="https://github.com/NullVoxPopuli/polaris-starter">starter template</ExternalLink>.
+
+  <br /><br />
+
+  To get started with a Polaris Library: use the
+  <ExternalLink href="https://github.com/embroider-build/addon-blueprint">
+    @embroider/addon-blueprint</ExternalLink>.
 </template>;
 
 const byCategory = {};
@@ -55,6 +62,10 @@ export default Route(
       Is Polaris ready yet?
       <span class="answer">No.</span>
     </h1>
+
+    <p class="get-started">
+      <GetStarted />
+    </p>
 
     <main>
       <h2>Authoring Experience</h2>
