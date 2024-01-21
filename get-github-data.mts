@@ -1,5 +1,6 @@
 import path from 'node:path';
 import fs from 'node:fs/promises';
+import sortBy from 'lodash.sortby';
 
 import fse from 'fs-extra';
 import { Octokit } from "@octokit/rest";
@@ -98,6 +99,11 @@ for (let [key, dataset] of Object.entries(data)) {
       throw new Error(`Unsupported type: ${type}, from: ${issue}`);
     }
   }
+}
+
+
+for (let [key, data] of Object.entries(result)) {
+  result[key].issues = sortBy(result[key].issues, ['isPending', 'href']);
 }
 
 await fs.writeFile(jsonPath, JSON.stringify(result, null, 2));

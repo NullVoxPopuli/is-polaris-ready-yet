@@ -115,6 +115,7 @@
     "ember-primitives": "^0.10.2",
     "ember-resources": "^7.0.0",
     "ember-route-template": "^1.0.3",
+    "lodash.sortby": "^4.7.0",
     "tracked-built-ins": "^3.3.0"
   },
   "volta": {

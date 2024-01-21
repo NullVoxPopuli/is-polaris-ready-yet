@@ -17,6 +17,7 @@ for (let [key, dataSet] of Object.entries(data)) {
 
 const AX = byCategory['authoring experience'];
 const tooling = byCategory['tooling'];
+const other = byCategory['other'];
 
 const DisplaySettings = <template>
   <Form>
@@ -61,6 +62,9 @@ export default Route(
       <Section @title="Vite" @data={{tooling.vite}} />
       <Section @title="CSS" @data={{AX.css}} />
       <Section @title="Routing" @data={{AX.routing}} />
+      <Section @title="Reactivity" @data={{AX.reactivity}} />
+      <Section @title="Intellisense" @data={{AX.intellisense}} />
+      <Section @title="Removing Old Patterns" @data={{AX.removingOldPatterns}} />
 
       <h2>Tooling</h2>
       <Section @title="Shrinking the Build" @data={{tooling.shrinkingTheBuild}} />
@@ -68,6 +72,8 @@ export default Route(
       <Section @title="Glint" @data={{tooling.glint}} />
       <Section @title="ESLint" @data={{tooling.eslint}} />
       <Section @title="Prettier" @data={{tooling.prettier}} />
+      <br /><br />
+      <Section @title="Other" @data={{other.other}} />
     </main>
 
     {{outlet}}
