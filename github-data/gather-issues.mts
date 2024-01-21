@@ -5,6 +5,7 @@ import fs from 'node:fs/promises';
 import sortBy from 'lodash.sortby';
 
 import fse from 'fs-extra';
+import { formatIssue } from './utils.mts';
 
 // First LTS of Ember Octane
 const minDate = '2020-02-12';
@@ -72,7 +73,7 @@ for (let [key, dataset] of Object.entries(issueData)) {
 }
 
 function firstCategoryFor(href) {
-   return firstCategories.get(href); 
+   return firstCategories.get(href);
 }
 
 
@@ -109,15 +110,7 @@ async function getIssuesUntil({ org, repo }) {
 
       return isNewEnough;
     }).map(d => {
-      let sansDomain = d.html_url.replace('https://github.com/', '');
-      let [owner, repo, type, number] = sansDomain.split('/');
-
-      return {
-        href: d.html_url,
-        text: `[${repo}]: ${d.title}`,
-        labels: d.labels?.map(label => label.name),
-        isPending: d.state === 'open',
-      }
+      return formatIssue(d);
     });
 
     return data;

@@ -15,22 +15,15 @@ const GetStarted = <template>
     @embroider/addon-blueprint</ExternalLink>.
 </template>;
 
-const byCategory = {};
 let total = 0;
 let totalResolved = 0;
 
 for (let [key, dataSet] of Object.entries(data)) {
-  byCategory[dataSet.category] ||= {};
-  byCategory[dataSet.category][key] = dataSet;
   total += dataSet.issues.length;
   totalResolved += dataSet.issues.filter((i) => !i.isPending).length;
 }
 
 const percent = Math.round((totalResolved / total) * 100);
-
-const AX = byCategory['authoring experience'];
-const tooling = byCategory['tooling'];
-const other = byCategory['other'];
 
 const DisplaySettings = <template>
   <Form>
@@ -89,21 +82,21 @@ export default Route(
 
     <main>
       <h2>Authoring Experience</h2>
-      <Section @title="<template>" @data={{AX.templateTag}} />
-      <Section @title="Vite" @data={{tooling.vite}} />
-      <Section @title="CSS" @data={{AX.css}} />
-      <Section @title="Routing" @data={{AX.routing}} />
-      <Section @title="Reactivity" @data={{AX.reactivity}} />
-      <Section @title="Intellisense" @data={{AX.intellisense}} />
-      <Section @title="Removing Old Patterns" @data={{AX.removingOldPatterns}} />
+      <Section @title="<template>" @data={{data.templateTag}} />
+      <Section @title="Vite" @data={{data.vite}} />
+      <Section @title="CSS" @data={{data.css}} />
+      <Section @title="Routing" @data={{data.routing}} />
+      <Section @title="Reactivity" @data={{data.reactivity}} />
+      <Section @title="Intellisense" @data={{data.intellisense}} />
+      <Section @title="Removing Old Patterns" @data={{data.removingOldPatterns}} />
 
       <h2>Tooling</h2>
-      <Section @title="Shrinking the Build" @data={{tooling.shrinkingTheBuild}} />
-      <Section @title="Compatibility" @data={{tooling.compatibility}} />
-      <Section @title="Glint" @data={{tooling.glint}} />
-      <Section @title="Linting" @data={{tooling.linting}} />
+      <Section @title="Shrinking the Build" @data={{data.shrinkingTheBuild}} />
+      <Section @title="Compatibility" @data={{data.compatibility}} />
+      <Section @title="Glint" @data={{data.glint}} />
+      <Section @title="Linting" @data={{data.linting}} />
       <br /><br />
-      <Section @title="Other" @data={{other.other}} />
+      <Section @title="Other" @data={{data.other}} />
     </main>
 
     {{outlet}}
