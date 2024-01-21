@@ -17,6 +17,16 @@ export class DisplaySettings extends Component {
         <s.Control name="hide-done" />
         <s.Label>Hide done</s.Label>
       </Switch>
+
+      <label>
+        <span>Include Text</span>
+        <input name="with" value={{this.qps.with}} />
+      </label>
+
+      <label>
+        <span>Exclude Text</span>
+        <input name="without" value={{this.qps.without}} />
+      </label>
     </Form>
   </template>
 

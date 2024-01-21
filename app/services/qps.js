@@ -1,4 +1,7 @@
+import { debounce } from '@ember/runloop';
 import Service, { service } from '@ember/service';
+
+import { task, timeout } from 'ember-concurrency';
 
 export default class QueryParams extends Service {
   @service router;
@@ -15,7 +18,20 @@ export default class QueryParams extends Service {
     return this.current['hide-done'] === '1';
   }
 
+  get with() {
+    return this.current['with'];
+  }
+
+  get without() {
+    return this.current['without'];
+  }
+
   set = (qps) => {
-    this.router.transitionTo({ queryParams: qps });
+    this.transition.perform(qps);
   };
+
+  transition = task({ restartable: true }, async (qps) => {
+    await timeout(250);
+    this.router.transitionTo({ queryParams: qps });
+  });
 }

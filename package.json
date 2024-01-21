@@ -112,6 +112,7 @@
   },
   "dependencies": {
     "@octokit/rest": "^20.0.2",
+    "ember-concurrency": "^3.1.1",
     "ember-modifier": "^4.1.0",
     "ember-primitives": "^0.10.2",
     "ember-resources": "^7.0.0",
