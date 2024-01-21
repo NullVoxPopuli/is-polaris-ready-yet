@@ -55,7 +55,14 @@ export default Route(
       <h2>Authoring Experience</h2>
       <Section @title="<template>" @data={{data.templateTag}} />
       <Section @title="Vite" @data={{data.vite}} />
-      <Section @title="CSS" @data={{data.css}} />
+      <Section @title="CSS" @data={{data.css}}>
+        There is
+        <ExternalLink href="https://github.com/cardstack/glimmer-scoped-css">
+          glimmer-scoped-css
+        </ExternalLink>
+        which describes the direction we want to go with formal CSS support in Polaris. It needs
+        polish though, and needs more compatibility.
+      </Section>
       <Section @title="Routing" @data={{data.routing}} />
       <Section @title="Reactivity" @data={{data.reactivity}} />
       <Section @title="Intellisense" @data={{data.intellisense}} />

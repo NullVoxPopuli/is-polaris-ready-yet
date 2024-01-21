@@ -81,6 +81,9 @@ export class Section extends Component {
           {{this.unfilteredTotal}}
           done.
         {{/if}}
+
+        <br />
+        {{yield}}
       </p>
 
       <ul class={{if this.qps.displayAsList "display-as-list" "display-as-boxes"}}>
