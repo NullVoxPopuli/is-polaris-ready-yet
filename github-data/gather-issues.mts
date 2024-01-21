@@ -5,7 +5,7 @@ import fs from 'node:fs/promises';
 import sortBy from 'lodash.sortby';
 
 import fse from 'fs-extra';
-import { formatIssue } from './utils.mts';
+import { formatIssue, writeData } from './utils.mts';
 
 // First LTS of Ember Octane
 const minDate = '2020-02-12';
@@ -170,24 +170,14 @@ for (let [category, repos] of Object.entries(assignments)) {
       }
 
       // find category (which may be the same as 'category'
-      category = firstCategoryFor(issue.href);
+      let newCategory = firstCategoryFor(issue.href) || category;
 
-      existing[category] ||= { issues: [] };
-      existing[category].issues.push(issue);
+      existing[newCategory] ||= { issues: [] };
+      existing[newCategory].issues.push(issue);
 
-      await writeData();
+      await writeData(existing);
     }
   }
 }
 
-
-async function writeData() {
-  for (let [key, data] of Object.entries(existing)) {
-    existing[key].issues = sortBy(existing[key].issues, ['isPending', 'href']);
-  }
-
-  await fs.writeFile(jsonPath, JSON.stringify(existing, null, 2));
-}
-
-
-await writeData();
+await writeData(existing);
