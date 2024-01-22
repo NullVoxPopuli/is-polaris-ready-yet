@@ -69,6 +69,37 @@ const Completion = <template>
   {{#if (hasStarted @total)}}{{percent @done @total}}% {{/if}}({{@done}} of {{@total}} done)
 </template>;
 
+class Info extends Component {
+  <template>
+    {{#if this.isFiltered}}
+      Filtered to
+      <Completion @done={{this.filteredDone}} @total={{@filtered.length}} />
+      from
+      <Completion @done={{this.unfilteredDone}} @total={{this.unfilteredTotal}} />
+    {{else}}
+      <Completion @done={{this.unfilteredDone}} @total={{this.unfilteredTotal}} />
+    {{/if}}
+  </template>
+
+  @cached
+  get filteredDone() {
+    return this.args.filtered.filter((x) => !x.isPending).length;
+  }
+
+  @cached
+  get unfilteredDone() {
+    return this.args.unfiltered.issues.filter((x) => !x.isPending).length;
+  }
+
+  get unfilteredTotal() {
+    return this.args.unfiltered.issues.length;
+  }
+
+  get isFiltered() {
+    return this.args.filtered.length !== this.unfilteredTotal;
+  }
+}
+
 export class Section extends Component {
   <template>
     <section>
@@ -77,17 +108,14 @@ export class Section extends Component {
       </header>
 
       <p>
-
-        <details open={{this.needsPlanning}}><summary>
-            {{#if this.isFiltered}}
-              Filtered to
-              <Completion @done={{this.filteredDone}} @total={{this.filtered.length}} />
-              from
-              <Completion @done={{this.unfilteredDone}} @total={{this.unfilteredTotal}} />
-            {{else}}
-              <Completion @done={{this.unfilteredDone}} @total={{this.unfilteredTotal}} />
-            {{/if}}
-          </summary>{{yield}}</details>
+        {{#if (has-block)}}
+          <details open={{this.needsPlanning}}>
+            <summary>
+              <Info @filtered={{this.filtered}} @unfiltered={{@data}} />
+            </summary>{{yield}}</details>
+        {{else}}
+          <Info @filtered={{this.filtered}} @unfiltered={{@data}} />
+        {{/if}}
       </p>
 
       <ul class={{if this.qps.displayAsList "display-as-list" "display-as-boxes"}}>
@@ -112,24 +140,6 @@ export class Section extends Component {
   @cached
   get filtered() {
     return filtered(this.args.data.issues, this.qps);
-  }
-
-  @cached
-  get filteredDone() {
-    return this.filtered.filter((x) => !x.isPending).length;
-  }
-
-  @cached
-  get unfilteredDone() {
-    return this.args.data.issues.filter((x) => !x.isPending).length;
-  }
-
-  get unfilteredTotal() {
-    return this.args.data.issues.length;
-  }
-
-  get isFiltered() {
-    return this.filtered.length !== this.unfilteredTotal;
   }
 
   get needsPlanning() {
