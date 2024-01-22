@@ -18,13 +18,13 @@ jobs:
     steps:
       - uses: wyvox/action@v1
 
-      - run: pnpm esyes .github-data/gather-issues.mts
+      - run: pnpm esyes ./github-data/gather-issues.mts
         env:
           GITHUB_AUTH: ${{ secrets.GH_REFRESH_DATA }}
-      - run: pnpm esyes .github-data/update-status.mts
+      - run: pnpm esyes ./github-data/update-status.mts
         env:
           GITHUB_AUTH: ${{ secrets.GH_REFRESH_DATA }}
-      - run: pnpm esyes .github-data/update-meta.mts
+      - run: pnpm esyes ./github-data/update-meta.mts
         env:
           GITHUB_AUTH: ${{ secrets.GH_REFRESH_DATA }}
 
@@ -39,7 +39,7 @@ jobs:
             This PR contains the results of running these commands
 
             ```bash
-            pnpm esyes .github-data/gather-issues.mts
-            pnpm esyes .github-data/update-status.mts
-            pnpm esyes .github-data/update-meta.mts
+            pnpm esyes ./github-data/gather-issues.mts
+            pnpm esyes ./github-data/update-status.mts
+            pnpm esyes ./github-data/update-meta.mts
             ```
