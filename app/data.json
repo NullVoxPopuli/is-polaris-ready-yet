@@ -7,6 +7,26 @@
     "category": "authoring experience",
     "issues": [
       {
+        "href": "https://github.com/IgnaceMaes/ember-shiki/pull/1",
+        "text": "[ember-shiki]: Publish initial release",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/NullVoxPopuli/highlightjs-glimmer/pull/429",
+        "text": "[highlightjs-glimmer]: Update allowed `node` versions",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/antfu/shikiji/issues/46",
+        "text": "[shikiji]: Example 404 not found?",
+        "labels": [
+          "upstream"
+        ],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-template-imports/ember-template-imports/issues/108",
         "text": "[ember-template-imports]: Should avoid generating inline sourcemaps for unchanged *.js files",
         "labels": [],
@@ -1087,6 +1107,14 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/embroider-build/content-tag/pull/59",
+        "text": "[content-tag]: Simplify testing situation to assure import and require works",
+        "labels": [
+          "internal"
+        ],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/embroider-build/content-tag/pull/6",
         "text": "[content-tag]: use git dependencies for swc",
         "labels": [],
@@ -1123,8 +1151,32 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/shikijs/shiki/pull/550",
+        "text": "[shiki]: chore: make sample match language name for Glimmer TS",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/tailwindlabs/tailwindcss-intellisense/pull/867",
         "text": "[tailwindcss-intellisense]: feat: add glimmer langs",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/tree-sitter/tree-sitter-javascript/issues/212",
+        "text": "[tree-sitter-javascript]: Implement support for parsing new <template> syntax",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/tree-sitter/tree-sitter-javascript/pull/208",
+        "text": "[tree-sitter-javascript]: Support <template> tags for Glimmer",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/tree-sitter/tree-sitter-typescript/pull/218",
+        "text": "[tree-sitter-typescript]: Update tree-sitter-javascript",
         "labels": [],
         "isPending": false
       },
@@ -1137,6 +1189,18 @@
       {
         "href": "https://github.com/XAMPPRocky/tokei/pull/1052",
         "text": "[tokei]: Add support for Glimmer JS/TS",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/alexlafroscia/tree-sitter-glimmer/issues/60",
+        "text": "[tree-sitter-glimmer]: Indent module support",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/alexlafroscia/tree-sitter-glimmer/pull/112",
+        "text": "[tree-sitter-glimmer]: Support indents and folding",
         "labels": [],
         "isPending": true
       },
@@ -1362,16 +1426,14 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/embroider-build/content-tag/pull/59",
-        "text": "[content-tag]: Combine tests, authoring them once, and testing against both ESM and CJS",
-        "labels": [
-          "internal"
-        ],
+        "href": "https://github.com/github-linguist/linguist/pull/6680",
+        "text": "[linguist]: Add Glimmer TS language",
+        "labels": [],
         "isPending": true
       },
       {
-        "href": "https://github.com/github-linguist/linguist/pull/6680",
-        "text": "[linguist]: Add Glimmer TS language",
+        "href": "https://github.com/lifeart/vsc-ember-syntax/pull/45",
+        "text": "[vsc-ember-syntax]: feat: add glimmer js/ts markdown language injects",
         "labels": [],
         "isPending": true
       },
@@ -7795,6 +7857,14 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/embroider-build/ember-auto-import/issues/608",
+        "text": "[ember-auto-import]: Importing does not work",
+        "labels": [
+          "needs reproduction"
+        ],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/embroider-build/ember-auto-import/pull/269",
         "text": "[ember-auto-import]: Explain the entry point in README",
         "labels": [],
@@ -9783,14 +9853,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/embroider-build/ember-auto-import/issues/608",
-        "text": "[ember-auto-import]: Importing does not work",
-        "labels": [
-          "needs reproduction"
-        ],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/embroider-build/ember-auto-import/pull/345",
         "text": "[ember-auto-import]: WIP: ease usage with ember-cli-content-security-policy",
         "labels": [],
@@ -10398,6 +10460,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/embroider-build/embroider/issues/1333",
+        "text": "[embroider]:  How to get CSS related assets fingerprinted by Embroider ?",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/embroider-build/embroider/issues/1336",
         "text": "[embroider]: Errors with embroider and ember-table / ensure-safe-component / TypeScript",
         "labels": [],
@@ -10703,6 +10771,12 @@
       {
         "href": "https://github.com/embroider-build/embroider/issues/1750",
         "text": "[embroider]: mirage/config.ts isn't found",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/issues/1754",
+        "text": "[embroider]: docs: inconsistency between `addon-author-guide.md` and ember-welcome-page",
         "labels": [],
         "isPending": false
       },
@@ -15077,6 +15151,14 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/embroider-build/embroider/pull/1765",
+        "text": "[embroider]: Docs(addon-author-guide)/ remove the out-of-date part about alternative to monorepos",
+        "labels": [
+          "documentation"
+        ],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/embroider-build/embroider/pull/387",
         "text": "[embroider]: special-case \"template.hbs\" as a forbidden template-only component",
         "labels": [],
@@ -17895,12 +17977,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/embroider-build/embroider/issues/1333",
-        "text": "[embroider]:  How to get CSS related assets fingerprinted by Embroider ?",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/embroider-build/embroider/issues/1337",
         "text": "[embroider]: With strict settings turned on, the template-stack when using the globals resolver becomes less meaningful",
         "labels": [],
@@ -18279,12 +18355,6 @@
       {
         "href": "https://github.com/embroider-build/embroider/issues/1752",
         "text": "[embroider]: `Module not found: Error: bug: embroider resolver's meta is not propagating`",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/embroider-build/embroider/issues/1754",
-        "text": "[embroider]: docs: inconsistency between `addon-author-guide.md` and ember-welcome-page",
         "labels": [],
         "isPending": true
       },
@@ -20447,6 +20517,14 @@
         "href": "https://github.com/typed-ember/glint/issues/521",
         "text": "[glint]: Can this run as part of `ember build`?",
         "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/524",
+        "text": "[glint]: Make VS Code plugin work for pnpm projects",
+        "labels": [
+          "documentation"
+        ],
         "isPending": false
       },
       {
@@ -23543,14 +23621,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/typed-ember/glint/issues/524",
-        "text": "[glint]: Make VS Code plugin work for pnpm projects",
-        "labels": [
-          "documentation"
-        ],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/typed-ember/glint/issues/534",
         "text": "[glint]: glint language server incorrectly surfacing diagnostics form template-only components in non-TS packages",
         "labels": [
@@ -23772,6 +23842,24 @@
       {
         "href": "https://github.com/typed-ember/glint/issues/681",
         "text": "[glint]: repo maintenance (if anyone wants to help)",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/692",
+        "text": "[glint]: auto-import / import-suggestions only work on gts files",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/693",
+        "text": "[glint]: Allow attributes duplication on element",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/694",
+        "text": "[glint]: GJS parsed as JSX",
         "labels": [],
         "isPending": true
       },
@@ -38561,11 +38649,1979 @@
   },
   "other": {
     "category": "other",
-    "issues": []
+    "issues": [
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10284",
+        "text": "[ember-cli]: Cannot create new project with npm 9, peer violations from dependencies",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10288",
+        "text": "[ember-cli]:  Ubuntu server 22.04 errors",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10295",
+        "text": "[ember-cli]: ember-cli 5 makes the quick start guide error",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10312",
+        "text": "[ember-cli]: Support prettier v3 in blueprints",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10315",
+        "text": "[ember-cli]: Support Yarn v3 with ember new Command",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10344",
+        "text": "[ember-cli]: WARNING: Ember CLI v5.2.0 is not tested against Node v20.4.0. S",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10383",
+        "text": "[ember-cli]: `test` script should not run `lint:*` scripts",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10384",
+        "text": "[ember-cli]: Drop Node 16 in ember-cli 5.4",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10401",
+        "text": "[ember-cli]: TypeScript error on new project: 'SetupTestOptions' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10412",
+        "text": "[ember-cli]: fingerprint.prepend not working for the chunk js files",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10283",
+        "text": "[ember-cli]: Refactor `--typescript` support in blueprints",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10285",
+        "text": "[ember-cli]: Fix sync output repos",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10286",
+        "text": "[ember-cli]: Use explicit error check for BLUEPRINT in sync-output-repos script",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10287",
+        "text": "[ember-cli]: Implementation of RFC 907 - pnpm support",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10289",
+        "text": "[ember-cli]: Show a file diff when files don't match in the acceptance/new tests",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10290",
+        "text": "[ember-cli]: Update .eslintignore, so saving the doesn't run eslint on tests/fixtures",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10293",
+        "text": "[ember-cli]: update stable deps",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10294",
+        "text": "[ember-cli]: update beta deps",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10296",
+        "text": "[ember-cli]: [BUGFIX] Don't invoke Testem.hookIntoTestFramework if there is no test framework (yet)",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10297",
+        "text": "[ember-cli]: Update pnpm fixtures",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10298",
+        "text": "[ember-cli]: Add the fixtures/addon/pnpm path to the update-blueprint-dependencies…",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10300",
+        "text": "[ember-cli]: [BUGFIX] Do not try to wire up Testem unless a test framework is detected",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10302",
+        "text": "[ember-cli]: update stable deps",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10306",
+        "text": "[ember-cli]: Set resolution-mode to highest for apps using pnpm",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10307",
+        "text": "[ember-cli]: update beta deps",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10309",
+        "text": "[ember-cli]: add typescript fixtures",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10311",
+        "text": "[ember-cli]: [ENHANCEMENT] Add v4.12 LTS scenario to `addon` blueprint",
+        "labels": [
+          "enhancement",
+          "blueprints"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10313",
+        "text": "[ember-cli]: [BUGFIX] Do not try to wire up Testem unless a test framework is dete…",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10314",
+        "text": "[ember-cli]: [BUGFIX] Do not try to wire up Testem unless a test framework is dete…",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10316",
+        "text": "[ember-cli]: [BUGFIX] Remove `auto` as a possible value for `locationType` in `config` declaration",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10317",
+        "text": "[ember-cli]: inline pnpm action",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10318",
+        "text": "[ember-cli]: [ENHANCEMENT] Bump `ember-resolver` and remove `@ember/string` in `app` blueprint",
+        "labels": [
+          "enhancement"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10319",
+        "text": "[ember-cli]: Use pnpm-action from org",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10331",
+        "text": "[ember-cli]: [ENHANCEMENT] Exclude `@ember/string` from `addon` blueprint",
+        "labels": [
+          "enhancement"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10332",
+        "text": "[ember-cli]: [ENHANCEMENT] Support converting gts files in blueprint",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10335",
+        "text": "[ember-cli]: Update ci.yml to trigger on merge queue",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10336",
+        "text": "[ember-cli]: Remove all telemetry code",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10337",
+        "text": "[ember-cli]: remove EMBER_CLI_PNPM",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10338",
+        "text": "[ember-cli]: [INTERNAL] Remove `PNPM` experiment from CI matrix",
+        "labels": [
+          "internal"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10340",
+        "text": "[ember-cli]: Update RELEASE.md with some manual steps (for now)",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10341",
+        "text": "[ember-cli]: [ENHANCEMENT] Remove reference to `ember-mocha` in `app` blueprint",
+        "labels": [
+          "enhancement"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10342",
+        "text": "[ember-cli]: update stable deps",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10343",
+        "text": "[ember-cli]: update beta deps",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10345",
+        "text": "[ember-cli]: [BUGFIX beta] App blueprint may not have explicit-any in ember-data types",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10346",
+        "text": "[ember-cli]: [BUGFIX release] App blueprint may not have explicit-any in ember-data types ",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10347",
+        "text": "[ember-cli]: Test against node 20",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10348",
+        "text": "[ember-cli]: [INTERNAL] Respect the current SemVer range when updating blueprint dependencies",
+        "labels": [
+          "internal"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10349",
+        "text": "[ember-cli]: [BUGFIX release] Add `@babel/core` to `app` and `addon` blueprints",
+        "labels": [
+          "bug",
+          "blueprints"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10350",
+        "text": "[ember-cli]: [ENHANCEMENT] Deprecate Travis CI support",
+        "labels": [
+          "enhancement",
+          "blueprints"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10351",
+        "text": "[ember-cli]: [ENHANCEMENT] Remove `ember-lts-4.4` scenario from `addon` blueprint",
+        "labels": [
+          "enhancement",
+          "blueprints"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10352",
+        "text": "[ember-cli]: [ENHANCEMENT] Add official support for Node.js v20",
+        "labels": [
+          "enhancement"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10353",
+        "text": "[ember-cli]: [ENHANCEMENT] Remove all telemetry",
+        "labels": [
+          "enhancement"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10354",
+        "text": "[ember-cli]: [INTERNAL] Remove `@babel/core` as a dependency",
+        "labels": [
+          "dependencies"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10356",
+        "text": "[ember-cli]: arbitrarily trigger ci",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10357",
+        "text": "[ember-cli]: Add workflow_dispatch to CI",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10368",
+        "text": "[ember-cli]: [ENHANCEMENT] Streamline package-manager CLI options",
+        "labels": [
+          "enhancement"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10370",
+        "text": "[ember-cli]: When generating a new app with --embroider use all optimisation flags",
+        "labels": [
+          "enhancement",
+          "blueprints"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10372",
+        "text": "[ember-cli]: Reduce confusion when wanting to run tests",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10373",
+        "text": "[ember-cli]: add broccoli-plugin to new app to fix hoisting for tests",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10374",
+        "text": "[ember-cli]: Fix CI by adding broccoli-plugin to the test fixture so that it uses the correct",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10375",
+        "text": "[ember-cli]: use broccoli-plugin v1 api for test-addon",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10378",
+        "text": "[ember-cli]: update stable deps",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10379",
+        "text": "[ember-cli]: Add workflow_dispatch to CI",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10380",
+        "text": "[ember-cli]: Add broccoli-plugin to the test fixture so that it uses the correct",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10381",
+        "text": "[ember-cli]: update beta deps",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10382",
+        "text": "[ember-cli]: Move to pnpm",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10388",
+        "text": "[ember-cli]: [CLEANUP] Drop support for Node v16",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10389",
+        "text": "[ember-cli]: Merge beta into master",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10393",
+        "text": "[ember-cli]: [ENHANCEMENT] feat: add skip-install alias to skip-npm",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10394",
+        "text": "[ember-cli]: [ENHANCEMENT] automatically select a port by default with `ember serve`",
+        "labels": [
+          "enhancement"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10395",
+        "text": "[ember-cli]: update stable deps",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10397",
+        "text": "[ember-cli]: update beta deps",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10400",
+        "text": "[ember-cli]: [BUGFIX beta] use import type in helpers/index.ts :: typechecking in new apps fails atm",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10402",
+        "text": "[ember-cli]: [BUGFIX release] use import type in helpers/index.ts :: typechecking in new apps otherwise fails",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10403",
+        "text": "[ember-cli]: Fix some docs that were showing up weirdly in generated api docs",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10404",
+        "text": "[ember-cli]: Add a workflow to deploy api docs to ember-learn/ember-cli.github.io",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10405",
+        "text": "[ember-cli]: Update to deploy to the master branch and also correct a comment",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10407",
+        "text": "[ember-cli]: merge beta branch",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10413",
+        "text": "[ember-cli]: update stable deps",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10414",
+        "text": "[ember-cli]: update beta deps",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10425",
+        "text": "[ember-cli]: fix GitHub Action floating deps scenario for PNPM",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/cli-guides/issues/286",
+        "text": "[cli-guides]: Update cli-guides to ember 3.28",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/cli-guides/pull/287",
+        "text": "[cli-guides]: update to v3.28 with ember-cli-update and update to latest template",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/cli-guides/pull/290",
+        "text": "[cli-guides]: Add things about pnpm",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/cli-guides/pull/291",
+        "text": "[cli-guides]: Update reference to travis to GitHub Actions",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/cli-guides/pull/293",
+        "text": "[cli-guides]: update guidemaker-ember-template",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/cli-guides/pull/298",
+        "text": "[cli-guides]: update guidemaker-ember-template",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/cli-guides/pull/300",
+        "text": "[cli-guides]: Correct section on CSS minification",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/cli-guides/pull/301",
+        "text": "[cli-guides]: Fix CI by bumping node version",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/cli-guides/pull/302",
+        "text": "[cli-guides]: Mention npm scripts, per RFC-831",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/cli-guides/pull/304",
+        "text": "[cli-guides]: remove mention of official support for Mocha",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/cli-guides/pull/305",
+        "text": "[cli-guides]: Remove reference to Travis",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/cli-guides/pull/306",
+        "text": "[cli-guides]: Update upgrading.md",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/cli-guides/pull/308",
+        "text": "[cli-guides]: docs: add --skip-install alias",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/cli-guides/pull/311",
+        "text": "[cli-guides]: Add docs for shouldTransformTypescript blueprint property",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/cli-guides/pull/312",
+        "text": "[cli-guides]: Add --typescript option to generate command docs",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/cli-guides/pull/313",
+        "text": "[cli-guides]: Update configuration.md with isTypeScriptProject",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs-data/pull/10",
+        "text": "[ember-api-docs-data]: Add 5.2",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs-data/pull/11",
+        "text": "[ember-api-docs-data]: Add 5.3",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs-data/pull/12",
+        "text": "[ember-api-docs-data]: Fix old versions",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs-data/pull/13",
+        "text": "[ember-api-docs-data]: regenerate docs for ember-data 2.18",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs-data/pull/15",
+        "text": "[ember-api-docs-data]: add missing entries for ember-data 3.28",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs-data/pull/16",
+        "text": "[ember-api-docs-data]: Fix ember data",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs-data/pull/17",
+        "text": "[ember-api-docs-data]: re-generate ember-data 2.18",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs-data/pull/18",
+        "text": "[ember-api-docs-data]: Fix missing entries for Ember",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs-data/pull/19",
+        "text": "[ember-api-docs-data]: fix issue with ember 4.12 pointing at the wrong patch version",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs-data/pull/21",
+        "text": "[ember-api-docs-data]: V5.4.0",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs-data/pull/22",
+        "text": "[ember-api-docs-data]: Clean up readme",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs-data/pull/24",
+        "text": "[ember-api-docs-data]: V5.5.0 ",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs-data/pull/8",
+        "text": "[ember-api-docs-data]: Sync data from S3",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs-data/pull/9",
+        "text": "[ember-api-docs-data]: Add 5.1 for ember and ember-data",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/issues/867",
+        "text": "[ember-api-docs]: EmberObject API page redirects to 404 when on ember versions 3.12 or below",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/issues/869",
+        "text": "[ember-api-docs]: Netlify bug - Wrong 301 redirect for percent encoded URLs",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/issues/870",
+        "text": "[ember-api-docs]: Fix edit button styling",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/issues/872",
+        "text": "[ember-api-docs]: Stale search results when switching versions",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/issues/875",
+        "text": "[ember-api-docs]: Side menu styling",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/issues/878",
+        "text": "[ember-api-docs]: logo isn't working in the header in the redesign",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/issues/890",
+        "text": "[ember-api-docs]: ember-data 3.28 links aren't working",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/871",
+        "text": "[ember-api-docs]: Fix styling of title and pencil",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/873",
+        "text": "[ember-api-docs]: Clear stale search results when version is changed",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/874",
+        "text": "[ember-api-docs]: Sidemenu styling",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/880",
+        "text": "[ember-api-docs]: bugfix/878 fix header icon",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/881",
+        "text": "[ember-api-docs]: API docs styling tweaks",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/885",
+        "text": "[ember-api-docs]: Remove the collapse functionality",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/887",
+        "text": "[ember-api-docs]: API docs redesign anchor",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/896",
+        "text": "[ember-api-docs]: Update README to include fully local run",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/898",
+        "text": "[ember-api-docs]: update lint-to-the-future",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/899",
+        "text": "[ember-api-docs]: fix extra < on ember-data-landing-page",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/900",
+        "text": "[ember-api-docs]: update node-sass and ember-auto-import",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/issues/480",
+        "text": "[ember-styleguide]: Move tabel of contents styling to styleguide",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/issues/482",
+        "text": "[ember-styleguide]: Make sure ember-styleguide live reload works properly",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/issues/487",
+        "text": "[ember-styleguide]: Move link SVG styling to style guide (from API-docs & Guidemaker)",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/464",
+        "text": "[ember-styleguide]: Increase width sidebar",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/473",
+        "text": "[ember-styleguide]: Sync menu content from ember-website to styleguide",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/474",
+        "text": "[ember-styleguide]: Add @ember/string to ember-release dependencies",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/478",
+        "text": "[ember-styleguide]: Sidebar clean up + full width",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/479",
+        "text": "[ember-styleguide]: Pin node version in volta so that it runs for people who have node 18",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/483",
+        "text": "[ember-styleguide]: Update bottled ember",
+        "labels": [
+          "dependencies"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/488",
+        "text": "[ember-styleguide]: drop support for EOL node < 18",
+        "labels": [
+          "breaking"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/489",
+        "text": "[ember-styleguide]: move to release-it for deploys",
+        "labels": [
+          "internal"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/491",
+        "text": "[ember-styleguide]: Drop support for Ember < 3.28",
+        "labels": [
+          "breaking"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/492",
+        "text": "[ember-styleguide]: Move table of contents styling into concepts",
+        "labels": [
+          "CSS :sparkles:",
+          "enhancement"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/493",
+        "text": "[ember-styleguide]: Move header anchor styling into styleguide",
+        "labels": [
+          "enhancement"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/496",
+        "text": "[ember-styleguide]: update fastboot and ember-try to fix CI",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/issues/1051",
+        "text": "[ember-website]: [BUG] Brand Guide URL 404s",
+        "labels": [
+          "bug",
+          "help wanted",
+          "good first issue"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/issues/1055",
+        "text": "[ember-website]: Add npm start in README.md's Running / Development",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/issues/1064",
+        "text": "[ember-website]: Error of syntax ?",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1032",
+        "text": "[ember-website]: Alumnize David Hamilton",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1034",
+        "text": "[ember-website]: Embroider Initiative Sponsors",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1035",
+        "text": "[ember-website]: Release versions",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1037",
+        "text": "[ember-website]: Sponsor updates",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1038",
+        "text": "[ember-website]: Remove mirage",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1039",
+        "text": "[ember-website]: Add new Embroider team member - Simon",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1041",
+        "text": "[ember-website]: New Link: \"Try\" (out the framework)",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1044",
+        "text": "[ember-website]: chore: bump release page versions and dates for 5.1",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1046",
+        "text": "[ember-website]: Update ember-styleguide to v8.4.0",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1047",
+        "text": "[ember-website]: Use headerLinks directly from ember-styleguide",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1049",
+        "text": "[ember-website]: Add @22a to embroider team",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1050",
+        "text": "[ember-website]: Update release pages for 5.2",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1052",
+        "text": "[ember-website]: fix: Fixed 404 ERROR",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1053",
+        "text": "[ember-website]: [BUGFIXED] Brand Guide URL 404s",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1054",
+        "text": "[ember-website]: added target=\"_blank\" in the anchor tag for the hyperlink",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1056",
+        "text": "[ember-website]: fix: Updated README.md",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1058",
+        "text": "[ember-website]: Add Polaris editions page",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1059",
+        "text": "[ember-website]: Update browser-support.hbs to include v5",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1060",
+        "text": "[ember-website]: Fix Discord Link on Polaris Page",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1061",
+        "text": "[ember-website]: Add Foodee as user",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1062",
+        "text": "[ember-website]: Update 5.3 release pages",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1063",
+        "text": "[ember-website]: Alumnize Chris Krycho from Ember TS team",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1065",
+        "text": "[ember-website]: add TRIPTYK user",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1067",
+        "text": "[ember-website]: Add Phorest Salon Software as an Ember user ",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1069",
+        "text": "[ember-website]: docs: extend the Polaris edition page",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1070",
+        "text": "[ember-website]: Update release pages for 5.4",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1071",
+        "text": "[ember-website]: remove ota insights, add lighthouse",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1072",
+        "text": "[ember-website]: release 5.5",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1074",
+        "text": "[ember-website]: Update to node 20",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1075",
+        "text": "[ember-website]: Fix implicit injection deprecation",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/empress-blog-ember-template/pull/141",
+        "text": "[empress-blog-ember-template]: include version-5 in tags",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/issues/145",
+        "text": "[guidemaker-ember-template]: Layout of the \"old guides\" warning looks a bit strange",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/issues/146",
+        "text": "[guidemaker-ember-template]: Implement a design for the \"info banner\"",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/issues/152",
+        "text": "[guidemaker-ember-template]: Width of the content as discussed in the discord thread + stickiness sidepanels",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/issues/156",
+        "text": "[guidemaker-ember-template]: Pulls in duplicate copy of showdown",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/issues/165",
+        "text": "[guidemaker-ember-template]: Make sure that we use sanitize-html on algolia results",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/147",
+        "text": "[guidemaker-ember-template]: clean up search dropdown-header component",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/148",
+        "text": "[guidemaker-ember-template]: clean up the info-banner component",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/149",
+        "text": "[guidemaker-ember-template]: Remove margin bottom from pencil",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/150",
+        "text": "[guidemaker-ember-template]: Improve styling error page",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/151",
+        "text": "[guidemaker-ember-template]: Make Old Version warning blue and better spaced",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/153",
+        "text": "[guidemaker-ember-template]: Change reading width + centering of the content",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/154",
+        "text": "[guidemaker-ember-template]: add prefixHeaderId to on-this-page links",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/155",
+        "text": "[guidemaker-ember-template]: Revert \"add prefixHeaderId to on-this-page links\"",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/157",
+        "text": "[guidemaker-ember-template]: fix: add renderInPlace=true to EmberPowerSelect invocation in versions.hbs",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/160",
+        "text": "[guidemaker-ember-template]: update ember-showdown-prism",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/161",
+        "text": "[guidemaker-ember-template]: chore: add some spacing between article and footer",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/162",
+        "text": "[guidemaker-ember-template]: Sidebar styling tweaks",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/164",
+        "text": "[guidemaker-ember-template]: Bumped e-showdown-prism dep to 4.4",
+        "labels": [
+          "enhancement"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/166",
+        "text": "[guidemaker-ember-template]: Use Sanitize-HTML to not render input fields in our search response",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/167",
+        "text": "[guidemaker-ember-template]: feat: Use Shikiji as syntax highlighter [WIP]",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/issues/1926",
+        "text": "[guides-source]: Update the guides-source PR to include the real template instead of the GitHub branch",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/issues/1937",
+        "text": "[guides-source]: Differences not shown in manual code",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/issues/1956",
+        "text": "[guides-source]: data-diff +/- symbol renders outside of code block in first line",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/issues/1959",
+        "text": "[guides-source]: Remove highlightjs / prismjs domain-wide in favor of ember-shiki",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1924",
+        "text": "[guides-source]: Update helper guides to use regular functions",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1925",
+        "text": "[guides-source]: Update to ember 3.28",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1927",
+        "text": "[guides-source]: 5.0 Release",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1928",
+        "text": "[guides-source]: Remove use of pushObject on RecordArray and ManyArray",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1929",
+        "text": "[guides-source]: update minor details in the search index deployment script",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1930",
+        "text": "[guides-source]: Fix broken handlebars highlighting",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1931",
+        "text": "[guides-source]: update pre-built guides",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1932",
+        "text": "[guides-source]: Update prebuilt versions",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1933",
+        "text": "[guides-source]: Add more versions to prebuilt",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1934",
+        "text": "[guides-source]: Fix `<LinkTo />` in title",
+        "labels": [
+          "needs a reviewer"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1935",
+        "text": "[guides-source]: Update prebuilt guides",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1939",
+        "text": "[guides-source]: v5.1.0 Release",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1941",
+        "text": "[guides-source]: update guidemaker-ember-template",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1944",
+        "text": "[guides-source]: Mention the pnpm-lock.yaml",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1946",
+        "text": "[guides-source]: Update the guides for element modifiers",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1947",
+        "text": "[guides-source]: Mention extension pack and update listed extensions",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1953",
+        "text": "[guides-source]: docs: mention vs code extension pack",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1955",
+        "text": "[guides-source]: update guidemaker-ember-template",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1957",
+        "text": "[guides-source]: v5.2.0",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1960",
+        "text": "[guides-source]: Add TypeScript guides",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1962",
+        "text": "[guides-source]: v5.3.0",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1963",
+        "text": "[guides-source]: Update quick-start.md",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1964",
+        "text": "[guides-source]: remove references to mocha in the guides",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1965",
+        "text": "[guides-source]: npm upgrade",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1969",
+        "text": "[guides-source]: Fix grammar in built-in-components.md",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1970",
+        "text": "[guides-source]: ⬆️ Dep on ember-test-selectors@6",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1972",
+        "text": "[guides-source]: ⬆️ dep on ember-metrics@1.5.2+",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1976",
+        "text": "[guides-source]: Release v5.4.0",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1977",
+        "text": "[guides-source]: 🐹 Migrate to ember 4",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1979",
+        "text": "[guides-source]: Update index.md",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1980",
+        "text": "[guides-source]: ✅ 🔥 Delete \"Unit | Service | head data\" test file",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1981",
+        "text": "[guides-source]: Demonstrating unique-id helper",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1983",
+        "text": "[guides-source]: wip gjs content",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1984",
+        "text": "[guides-source]: Fix version links processing",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1985",
+        "text": "[guides-source]: ember-cli-update v4.0.1...v4.4.1",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1987",
+        "text": "[guides-source]: Release v5.5.0",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1991",
+        "text": "[guides-source]: feat: Use Shikiji as syntax highlighter [WIP]",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1994",
+        "text": "[guides-source]: ci: upgrade Node to v20",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1995",
+        "text": "[guides-source]: deps: Upgrade fastboot and prember",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10301",
+        "text": "[ember-cli]: Generating a new project on Node 14 with ember-cli 4.12 with yarn and typescript fails",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10339",
+        "text": "[ember-cli]: Test against yarn 3",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10369",
+        "text": "[ember-cli]: ember build --watch fails with '[NodeWrapper:4 /path/to/some/folder] is not a SourceNode' when the app name contains 'ember-data' anywhere",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10371",
+        "text": "[ember-cli]: incompatible with bun (or bun is incompatible)",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10390",
+        "text": "[ember-cli]: Fails to fingerprint in production mode",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10391",
+        "text": "[ember-cli]: set `declaration: false` in tsconfig.json for the app blueprint.",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10411",
+        "text": "[ember-cli]: Run Prettier standalone ",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10415",
+        "text": "[ember-cli]: ember-cli@5.5.0 has security vulnerability",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10420",
+        "text": "[ember-cli]: You passed the '--typescript' flag but there is no TypeScript blueprint available. A JavaScript blueprint will be generated instead.",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10334",
+        "text": "[ember-cli]: Add lint:fix to `ember addon`",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10355",
+        "text": "[ember-cli]: fix: Be more explicit about page-title being a helper rather than a component",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10416",
+        "text": "[ember-cli]: Group tests' logs together so you know what log/error/warning/deprecation/etc came from which test.",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10417",
+        "text": "[ember-cli]: Set a breakpoint when the window is about to unload.",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/cli-guides/issues/303",
+        "text": "[cli-guides]: Add a tutorial for using TypeScript in an addon",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/cli-guides/pull/310",
+        "text": "[cli-guides]: commands ref: update `ember serve` help text",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs-data/issues/14",
+        "text": "[ember-api-docs-data]: Write a script that adds search indexes to Algolia",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs-data/pull/20",
+        "text": "[ember-api-docs-data]: fix: update installation instructions",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs-data/pull/23",
+        "text": "[ember-api-docs-data]: Add ember-cli",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs-data/pull/25",
+        "text": "[ember-api-docs-data]: Use Markdown for all descriptions",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/issues/876",
+        "text": "[ember-api-docs]: Adjust data and UX to account for differing ember-data versions",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/issues/877",
+        "text": "[ember-api-docs]: Make the codeblocks work for the website redesign",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/issues/879",
+        "text": "[ember-api-docs]: Start using \"wide mode\" in the redesign branch",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/issues/882",
+        "text": "[ember-api-docs]: use the new anchor functionality in the redesign",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/issues/883",
+        "text": "[ember-api-docs]: Remove logic for collapsable menu items",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/issues/884",
+        "text": "[ember-api-docs]: Implement 404",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/issues/886",
+        "text": "[ember-api-docs]: Tab interface doesn't have any tab highlighted on the new prember site",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/issues/891",
+        "text": "[ember-api-docs]: 5.3 is missing search",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/issues/894",
+        "text": "[ember-api-docs]: ember-api-docs can not currently be run locally against ember-source or ember-data",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/868",
+        "text": "[ember-api-docs]: WIP: tracking branch for the website redesign RFC",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/897",
+        "text": "[ember-api-docs]: Enable ember-cli as a real project",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/902",
+        "text": "[ember-api-docs]: use ember-showdown-prism ",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/issues/465",
+        "text": "[ember-styleguide]: Update the underline implementation",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/issues/466",
+        "text": "[ember-styleguide]: Create a \"webpage\" wrapper for around images",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/issues/467",
+        "text": "[ember-styleguide]: Add a a11y audit to the styleguide tests",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/issues/472",
+        "text": "[ember-styleguide]: Move search dropdown to styleguide",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/issues/484",
+        "text": "[ember-styleguide]: update bottled ember on ember-styleguide",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/issues/485",
+        "text": "[ember-styleguide]: remove ember-cli css hack from ember-styleguide",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/issues/486",
+        "text": "[ember-styleguide]: Fix sidebar-weirdness",
+        "labels": [
+          "enhancement"
+        ],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/issues/494",
+        "text": "[ember-styleguide]: Content styling (centred with the on this page)",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/471",
+        "text": "[ember-styleguide]: Move Algolia styling to Styleguide",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/477",
+        "text": "[ember-styleguide]: Update links.js",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/490",
+        "text": "[ember-styleguide]: update to v4.8 with ember-cli-update",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/495",
+        "text": "[ember-styleguide]: Central content + on-this-page styling",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/issues/1033",
+        "text": "[ember-website]: [REQUEST] Dark mode?",
+        "labels": [
+          "enhancement"
+        ],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/issues/1036",
+        "text": "[ember-website]: [Documentation] JavaScript Environment Requirements ",
+        "labels": [
+          "help wanted"
+        ],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/issues/1078",
+        "text": "[ember-website]: Suggestion: remove usage of ember-data",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1040",
+        "text": "[ember-website]: New page: Community Resources",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1073",
+        "text": "[ember-website]: WIP - rough pass on updating LTS page for data breaking lockstep",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1076",
+        "text": "[ember-website]: Update to Ember 4.12.2",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/empress-blog-ember-template/pull/142",
+        "text": "[empress-blog-ember-template]: feat: use `ember-showdown-shikiji` for syntax highlighting",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/issues/158",
+        "text": "[guidemaker-ember-template]: video thumbnail size",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/issues/159",
+        "text": "[guidemaker-ember-template]: Headers should be inside of a section",
+        "labels": [
+          "good first issue"
+        ],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/163",
+        "text": "[guidemaker-ember-template]: feat: Use Algolia Docsearch",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/168",
+        "text": "[guidemaker-ember-template]: feat: Use `ember-showdown-shikiji` for syntax highlighting",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/issues/1936",
+        "text": "[guides-source]: [Documentation] Mention `tracked-tools` in Autotracking Guide",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/issues/1938",
+        "text": "[guides-source]: Mapbox now requires a credit card to register an account",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/issues/1943",
+        "text": "[guides-source]: Update Guides for Tracked Built-ins",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/issues/1951",
+        "text": "[guides-source]: Add new.emberjs.com link to Quick Start page",
+        "labels": [
+          "help wanted"
+        ],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/issues/1954",
+        "text": "[guides-source]: Feature Epic - Cross Site Search",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/issues/1967",
+        "text": "[guides-source]: Rendering Values page is badly named",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/issues/1973",
+        "text": "[guides-source]: Changing version triggers DEPRECATIONS",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/issues/1982",
+        "text": "[guides-source]: Seems NASA is not using ember.js and so ember inspector won't detect it",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/issues/1988",
+        "text": "[guides-source]: Ember Data relationships guide has syntax that errors in 5.x",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/issues/1989",
+        "text": "[guides-source]: Mention unless in Conditional Content",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/issues/1990",
+        "text": "[guides-source]: Don't tell people to use @ember/render-modifiers",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/issues/1992",
+        "text": "[guides-source]: Write about named blocks",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1940",
+        "text": "[guides-source]: testing: Improve examples by avoiding `assert.expect()`",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1952",
+        "text": "[guides-source]: Add SPA fallback",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1958",
+        "text": "[guides-source]: Update block-content.md [Named blocks]",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1961",
+        "text": "[guides-source]: Update index.md",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1966",
+        "text": "[guides-source]: Update rendering-values.md with example of how to return a component from a function",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1974",
+        "text": "[guides-source]: Add a section for using vanilla classes with dependency injection",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1975",
+        "text": "[guides-source]: Update engines",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1978",
+        "text": "[guides-source]: docs: Add Template Tag format guides",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1986",
+        "text": "[guides-source]: ember-cli-update v4.4.1...v4.8.1",
+        "labels": [],
+        "isPending": true
+      }
+    ]
   },
-  "total": 8130,
-  "finished": 6984,
+  "total": 5685,
+  "finished": 4733,
   "labels": [
+    "upstream",
     "bug",
     "invalid",
     "documentation",
@@ -38622,54 +40678,8 @@
     "Internal",
     "a11y",
     "todos",
-    "typescript",
     "blueprints",
-    "embroider",
-    "v5.0",
-    "performance",
-    "ember-new-output",
-    "needs confirmation",
-    "addons",
-    "needs contributor",
-    "v4.0",
-    "has PR",
-    "security",
-    "needs tests",
-    "agenda",
-    "on hold",
-    "maybe resolved?",
-    "👶Good for New Contributors",
-    "🐹requires source yuidoc update",
-    "ember-data",
-    "has PR :ballot_box_with_check:",
-    "bug :bug:",
-    "Website Redesign RFC",
-    "good first issue :1st_place_medal:",
-    "discussion :studio_microphone:",
-    "ready for review :white_check_mark:",
     "CSS :sparkles:",
-    "enhancement :unicorn:",
-    "stale",
-    "pinned",
-    "blocker 🚫",
-    "Octane",
-    "has volunteer",
-    "steering",
-    "empress-blog",
-    "has pr",
-    "needs maintainer",
-    "has a PR",
-    "ready",
-    "needs reviewer response",
-    "needs contributor response",
-    "needs a reviewer",
-    "instrumentation",
-    "broccoli",
-    "documentation :writing_hand:",
-    "blocked :stop_sign:",
-    "not-blocking-release",
-    "needs team discussion",
-    "search",
-    "writing/content"
+    "needs a reviewer"
   ]
 }
