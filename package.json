@@ -28,7 +28,7 @@
     "start": "ember serve",
     "test": "concurrently \"npm:lint\" \"npm:test:*\" --names \"lint,test:\"",
     "test:ember": "ember test",
-    "lint:types": "glint"
+    "lint:types": "echo 'See https://github.com/typed-ember/glint/issues/694'"
   },
   "devDependencies": {
     "@babel/core": "^7.23.7",

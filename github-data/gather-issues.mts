@@ -15,7 +15,7 @@ const minDateTime = new Date(`${minDate}T00:00:00Z`);
 // - developers find docs hard
 // - "official docs" tend to wait for things to stabilize
 //   (or rather, be on the way up away from the pit of incoherence towards cohesion)
-const docsMinDateTime = new Date('2023-06-01T00:00:00Z');
+const docsMinDateTime = new Date("2023-06-01T00:00:00Z");
 const emberCliMinDateTime = docsMinDateTime;
 
 const assignments = {
@@ -97,11 +97,11 @@ async function getIssuesUntil({ org, repo }) {
 
         let isNewEnough = createdAt > minDateTime;
 
-        if (org === 'ember-learn') {
+        if (org === "ember-learn") {
           isNewEnough = createdAt > docsMinDateTime;
         }
 
-        if (repo === 'ember-cli') {
+        if (repo === "ember-cli") {
           isNewEnough = createdAt > emberCliMinDateTime;
         }
 
