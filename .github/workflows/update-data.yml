@@ -30,6 +30,7 @@ jobs:
 
       - uses: peter-evans/create-pull-request@v5
         with:
+          token: ${{ secrets.GH_CREATE_PR }}
           commit-message: "Prepare Release using 'release-plan'"
           author: "github-actions[bot] <github-actions-bot@users.noreply.github.com>"
           labels: "internal"
