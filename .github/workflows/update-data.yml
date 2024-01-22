@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron:  '30 5 * * *'
+
+concurrency:
+  group: update-data-${{ github.head_ref || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  update-data:
+    name: "Update Data"
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: wyvox/action@v1
+
+      - run: pnpm esyes .github-data/gather-issues.mts
+        env:
+          GITHUB_AUTH: ${{ secrets.GH_REFRESH_DATA }}
+      - run: pnpm esyes .github-data/update-status.mts
+        env:
+          GITHUB_AUTH: ${{ secrets.GH_REFRESH_DATA }}
+      - run: pnpm esyes .github-data/update-meta.mts
+        env:
+          GITHUB_AUTH: ${{ secrets.GH_REFRESH_DATA }}
+
+      - uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: "Prepare Release using 'release-plan'"
+          author: "github-actions[bot] <github-actions-bot@users.noreply.github.com>"
+          labels: "internal"
+          branch: "update-issue-data"
+          title: "Update issue data, status, and meta"
+          body: |
+            This PR contains the results of running these commands
+
+            ```bash
+            pnpm esyes .github-data/gather-issues.mts
+            pnpm esyes .github-data/update-status.mts
+            pnpm esyes .github-data/update-meta.mts
+            ```
