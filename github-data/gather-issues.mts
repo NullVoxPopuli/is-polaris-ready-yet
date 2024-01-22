@@ -10,6 +10,13 @@ import { formatIssue, writeData } from "./utils.mts";
 // First LTS of Ember Octane
 const minDate = "2020-02-12";
 const minDateTime = new Date(`${minDate}T00:00:00Z`);
+// Arbitrarily chosen, could be better
+// docs tend to lag behind for a couple reasons
+// - developers find docs hard
+// - "official docs" tend to wait for things to stabilize
+//   (or rather, be on the way up away from the pit of incoherence towards cohesion)
+const docsMinDateTime = new Date('2023-06-01T00:00:00Z');
+const emberCliMinDateTime = docsMinDateTime;
 
 const assignments = {
   templateTag: [
@@ -89,6 +96,14 @@ async function getIssuesUntil({ org, repo }) {
         let createdAt = new Date(d.created_at);
 
         let isNewEnough = createdAt > minDateTime;
+
+        if (org === 'ember-learn') {
+          isNewEnough = createdAt > docsMinDateTime;
+        }
+
+        if (repo === 'ember-cli') {
+          isNewEnough = createdAt > emberCliMinDateTime;
+        }
 
         if (!isNewEnough) {
           pageHadSomethingTooOld = true;
