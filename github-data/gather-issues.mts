@@ -77,6 +77,19 @@ function firstCategoryFor(href) {
 
 const octokit = new Octokit({ auth: process.env.GITHUB_AUTH });
 
+const IGNORE_LABELS = [
+  "internal",
+  "meta",
+  "upstream",
+  "test",
+  "needs reproduction",
+  "wontfix",
+  "working as expected",
+  "typescript limitation",
+  "external issue",
+  "dependencies",
+];
+
 async function getIssuesUntil({ org, repo }) {
   let results = [];
 
@@ -117,7 +130,7 @@ async function getIssuesUntil({ org, repo }) {
 
         let labels = d.labels.map((label) => label.name);
 
-        if (labels.includes("internal")) {
+        if (IGNORE_LABELS.some((ignore) => labels.includes(ignore))) {
           return false;
         }
 
