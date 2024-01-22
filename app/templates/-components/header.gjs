@@ -8,6 +8,9 @@ export const Header = <template>
       <span class="title">
         Is Polaris ready yet?
       </span>
+      <ExternalLink class="whats-polaris" href="https://emberjs.com/editions/polaris/">
+        (what's Polaris?)
+      </ExternalLink>
       {{! <span class="answer">Yes!</span> }}
       <span class="answer-no">Almost!, we're getting there.</span>
       <span class="progress">
@@ -22,6 +25,5 @@ export const Header = <template>
     <ExternalLink class="contribute" href="https://github.com/NullVoxPopuli/is-polaris-ready-yet/">
       Contribute on GitHub!
     </ExternalLink>
-
   {{/let}}
 </template>;

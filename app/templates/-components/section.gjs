@@ -57,6 +57,18 @@ function filtered(issues, qps) {
   return result;
 }
 
+function hasStarted(num) {
+  return num > 0;
+}
+
+function percent(numerator, denominator) {
+  return Math.round((numerator / denominator) * 100);
+}
+
+const Completion = <template>
+  {{#if (hasStarted @total)}}{{percent @done @total}}% {{/if}}({{@done}} of {{@total}} done)
+</template>;
+
 export class Section extends Component {
   <template>
     <section>
@@ -65,25 +77,17 @@ export class Section extends Component {
       </header>
 
       <p>
-        {{#if this.isFiltered}}
-          Filtered to
-          {{this.filteredDone}}
-          of
-          {{this.filtered.length}}
-          done, from
-          {{this.unfilteredDone}}
-          of
-          {{this.unfilteredTotal}}
-          done.
-        {{else}}
-          {{this.unfilteredDone}}
-          of
-          {{this.unfilteredTotal}}
-          done.
-        {{/if}}
 
-        <br />
-        {{yield}}
+        <details open={{this.needsPlanning}}><summary>
+            {{#if this.isFiltered}}
+              Filtered to
+              <Completion @done={{this.filteredDone}} @total={{this.filtered.length}} />
+              from
+              <Completion @done={{this.unfilteredDone}} @total={{this.unfilteredTotal}} />
+            {{else}}
+              <Completion @done={{this.unfilteredDone}} @total={{this.unfilteredTotal}} />
+            {{/if}}
+          </summary>{{yield}}</details>
       </p>
 
       <ul class={{if this.qps.displayAsList "display-as-list" "display-as-boxes"}}>
@@ -126,5 +130,9 @@ export class Section extends Component {
 
   get isFiltered() {
     return this.filtered.length !== this.unfilteredTotal;
+  }
+
+  get needsPlanning() {
+    return this.unfilteredTotal === 0;
   }
 }

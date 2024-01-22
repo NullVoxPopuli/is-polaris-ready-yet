@@ -1,4 +1,14 @@
-# is-ready
+# is Polaris ready yet?
+
+Status board for Polaris-related work: https://is-polaris-ready.nullvoxpopuli.com/
+
+## Where does the data come from?
+
+Two files:
+- automatically scaped via: [this script](https://github.com/NullVoxPopuli/is-polaris-ready-yet/blob/main/github-data/gather-issues.mts)
+- manually sorted and added issue/pull requests via: [this json](https://github.com/NullVoxPopuli/is-polaris-ready-yet/blob/main/github-data/issue-data.json)
+
+If you'd like to make a change to where an issue / pull-request shows up, feel free to PR an addition/move/removal/etc to the JSON.
 
 
 ## Installation
