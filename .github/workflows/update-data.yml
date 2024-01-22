@@ -31,7 +31,7 @@ jobs:
       - uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GH_CREATE_PR }}
-          commit-message: "Prepare Release using 'release-plan'"
+          commit-message: "[update-data.yml]: update issue/json data"
           author: "github-actions[bot] <github-actions-bot@users.noreply.github.com>"
           labels: "internal"
           branch: "update-issue-data"
