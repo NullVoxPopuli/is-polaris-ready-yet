@@ -38,7 +38,7 @@ export async function eachDataSet(data, callback) {
 export async function getData() {
   let existing: Result = {};
 
-  let jsonPath = "app/data.json";
+  let jsonPath = "public/data.json";
   if (await fse.pathExists(jsonPath)) {
     let buffer = await fs.readFile(jsonPath);
     let str = buffer.toString();
@@ -56,7 +56,7 @@ export async function writeData(result) {
     result[key].issues = sortBy(result[key].issues, ["isPending", "href"]);
   }
 
-  await fs.writeFile("app/data.json", JSON.stringify(result, null, 2));
+  await fs.writeFile("public/data.json", JSON.stringify(result, null, 2));
 }
 
 export interface Result {

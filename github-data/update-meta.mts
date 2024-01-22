@@ -41,5 +41,5 @@ await writeData({
   ...data,
   total,
   finished,
-  labels: [...labels],
+  labels: [...labels].sort(),
 });

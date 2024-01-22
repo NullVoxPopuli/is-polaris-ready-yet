@@ -1,18 +1,16 @@
 import Service from '@ember/service';
 
-import data from 'is-ready/data.json';
-
 export default class Data extends Service {
   get data() {
-    return data;
+    return globalThis.GH_ISSUE_DATA;
   }
 
   get total() {
-    return data.total;
+    return globalThis.GH_ISSUE_DATA.total;
   }
 
   get finished() {
-    return data.finished;
+    return globalThis.GH_ISSUE_DATA.finished;
   }
 
   get percent() {
@@ -20,6 +18,6 @@ export default class Data extends Service {
   }
 
   get labels() {
-    return data.labels;
+    return globalThis.GH_ISSUE_DATA.labels;
   }
 }
