@@ -10,15 +10,14 @@ import { data, type Dataset } from "./issue-data.mts";
 
 const octokit = new Octokit({ auth: process.env.GITHUB_AUTH });
 
-let result: Result = {};
 let existing = await getData();
 
 for (let [key, dataset] of Object.entries(data)) {
   let { category, issues } = dataset;
 
-  result[key] ||= { category, issues: [] };
+  existing[key] ||= { category, issues: [] };
 
-  if (typeof result[key] !== "object") continue;
+  if (typeof existing[key] !== "object") continue;
 
   /**
    * Octokit/GH doesn't have a bulk-request API
@@ -53,7 +52,7 @@ for (let [key, dataset] of Object.entries(data)) {
         issue_number: number,
       });
 
-      result[key].issues.push(formatIssue(response.data));
+      existing[key].issues.push(formatIssue(response.data));
     } else if (type === "pull") {
       let response = await octokit.rest.pulls.get({
         owner,
@@ -61,11 +60,11 @@ for (let [key, dataset] of Object.entries(data)) {
         pull_number: number,
       });
 
-      result[key].issues.push(formatIssue(response.data));
+      existing[key].issues.push(formatIssue(response.data));
     } else {
       throw new Error(`Unsupported type: ${type}, from: ${issue}`);
     }
   }
 }
 
-await writeData(result);
+await writeData(existing);
