@@ -166,7 +166,9 @@ if (await fse.pathExists(jsonPath)) {
 /////////////////
 for (let [category, repos] of Object.entries(assignments)) {
   issueData[category] ||= { issues: [] };
-  existing[category] ||= { issues: [] };
+  // Clearing the data in case it's stale.
+  existing[category] = { ...existing[category], issues: [] };
+  // existing[category] ||= { issues: [] };
 
   for (let repo of repos) {
     await new Promise((resolve) => setTimeout(resolve, 1000));
