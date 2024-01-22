@@ -115,6 +115,12 @@ async function getIssuesUntil({ org, repo }) {
           return false;
         }
 
+        let labels = d.labels.map((label) => label.name);
+
+        if (labels.includes("internal")) {
+          return false;
+        }
+
         return isNewEnough;
       })
       .map((d) => {
