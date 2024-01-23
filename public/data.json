@@ -5291,6 +5291,12 @@
         "text": "[glint]: build: migrate to yarn v4",
         "labels": [],
         "isPending": true
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/pull/695",
+        "text": "[glint]: [feat] improve attributes transform semantics to match hbs AST",
+        "labels": [],
+        "isPending": true
       }
     ]
   },
@@ -33733,6 +33739,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10426",
+        "text": "[ember-cli]: update stable deps",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-learn/cli-guides/issues/303",
         "text": "[cli-guides]: Add a tutorial for using TypeScript in an addon",
         "labels": [],
@@ -34176,7 +34188,7 @@
     "category": "authoring experience",
     "issues": []
   },
-  "total": 4850,
+  "total": 4852,
   "finished": 3949,
   "labels": [
     "Breaking",
