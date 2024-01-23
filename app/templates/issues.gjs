@@ -1,4 +1,3 @@
-import { pageTitle } from 'ember-page-title';
 import { service } from 'ember-primitives';
 import { ExternalLink } from 'ember-primitives';
 import Route from 'ember-route-template';

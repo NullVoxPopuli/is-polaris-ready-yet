@@ -1,31 +1,31 @@
 <!doctype html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Is Polaris Ready Yet?</title>
+    <meta
+      name="description"
+      content="What's left before Polaris is ready for the masses? This status board aggregates progress across varying GitHub sources."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8" />
-  <title>Is Polaris Ready Yet?</title>
-  <meta name="description"
-    content="What's left before Polaris is ready for the masses? This status board aggregates progress across varying GitHub sources." />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {{content-for "head"}}
 
-  {{content-for "head"}}
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css" />
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/is-ready.css" />
+    <link rel="preload" href="/data.json" as="fetch" />
 
-  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css" />
-  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/is-ready.css" />
-  <link rel="preload" href="/data.json" as="fetch" />
+    {{content-for "head-footer"}}
+  </head>
 
-  {{content-for "head-footer"}}
-</head>
+  <body>
+    <div id="loader">Loading data on about 5000 issues and pull requests</div>
 
-<body>
-  <div id="loader">Loading data on about 5000 issues and pull requests</div>
+    {{content-for "body"}}
 
-  {{content-for "body"}}
+    <script src="{{rootURL}}assets/vendor.js"></script>
+    <script src="{{rootURL}}assets/is-ready.js"></script>
 
-  <script src="{{rootURL}}assets/vendor.js"></script>
-  <script src="{{rootURL}}assets/is-ready.js"></script>
-
-  {{content-for "body-footer"}}
-</body>
-
+    {{content-for "body-footer"}}
+  </body>
 </html>
