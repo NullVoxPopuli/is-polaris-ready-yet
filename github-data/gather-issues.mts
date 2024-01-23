@@ -79,6 +79,8 @@ const octokit = new Octokit({ auth: process.env.GITHUB_AUTH });
 
 const IGNORE_LABELS = [
   "internal",
+  "Internal",
+  "CSS :sparkles:",
   "meta",
   "upstream",
   "test",

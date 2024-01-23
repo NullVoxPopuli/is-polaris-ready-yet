@@ -13,11 +13,14 @@
 
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css" />
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/is-ready.css" />
+    <link rel="preload" href="/data.json" as="fetch" />
 
     {{content-for "head-footer"}}
   </head>
 
   <body>
+    <div id="loader">Loading data on about 5000 issues and pull requests</div>
+
     {{content-for "body"}}
 
     <script src="{{rootURL}}assets/vendor.js"></script>

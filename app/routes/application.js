@@ -9,4 +9,14 @@ export default class Application extends Route {
     with: {},
     without: {},
   };
+
+  async model() {
+    let response = await fetch('/data.json');
+
+    globalThis.GH_ISSUE_DATA = await response.json();
+  }
+
+  afterModel() {
+    document.querySelector('#loader')?.remove();
+  }
 }
