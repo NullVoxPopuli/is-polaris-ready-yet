@@ -120,6 +120,10 @@ async function getIssuesUntil({ org, repo }) {
           isNewEnough = createdAt > emberCliMinDateTime;
         }
 
+        if (d.draft) {
+          return false;
+        }
+
         if (!isNewEnough) {
           pageHadSomethingTooOld = true;
         }
