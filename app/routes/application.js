@@ -15,4 +15,8 @@ export default class Application extends Route {
 
     globalThis.GH_ISSUE_DATA = await response.json();
   }
+
+  afterModel() {
+    document.querySelector('#loader')?.remove();
+  }
 }
