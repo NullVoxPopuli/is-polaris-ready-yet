@@ -49,6 +49,16 @@ export default Route(
       {{/let}}
 
       {{#let (service "data") as |d|}}
+        <Section @title="high-level" @data={{d.data.highlevel}}>
+          This section is exclusively issues from
+          <ExternalLink href="https://github.com/emberjs/tracking-polaris/issues">
+            the tracking-polaris repo
+          </ExternalLink>. It's a newer project, and nearly includes none of the work that happened
+          prior to tracking-polaris being created, but it is a good indicator of the high-level
+          tasks that need to be done. This is also a place folks can ask questions and help
+          contribute if want.
+        </Section>
+
         <h2>Authoring Experience</h2>
         <Section @title="<template>" @data={{d.data.templateTag}}>
           "template-tag" is the new file format for components that unifies on the concepts of
