@@ -45,9 +45,7 @@ const assignments = {
     { org: "ember-cli", repo: "ember-cli-terser" },
   ],
   removingOldPatterns: [{ org: "ember-learn", repo: "deprecation-app" }],
-  highlevel: [
-    { org: 'emberjs', repo: 'tracking-polaris' },
-  ],
+  highlevel: [{ org: "emberjs", repo: "tracking-polaris" }],
   other: [
     { org: "ember-cli", repo: "ember-cli" },
     { org: "ember-learn", repo: "guides-source" },
