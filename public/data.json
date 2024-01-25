@@ -880,6 +880,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/lifeart/vsc-ember-syntax/pull/45",
+        "text": "[vsc-ember-syntax]: feat: add glimmer js/ts markdown language injects",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/shikijs/shiki/pull/550",
         "text": "[shiki]: chore: make sample match language name for Glimmer TS",
         "labels": [],
@@ -1098,12 +1104,6 @@
       {
         "href": "https://github.com/embroider-build/content-tag/pull/62",
         "text": "[content-tag]: Add js/rust bindings for inline source map generation",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/lifeart/vsc-ember-syntax/pull/45",
-        "text": "[vsc-ember-syntax]: feat: add glimmer js/ts markdown language injects",
         "labels": [],
         "isPending": true
       },
@@ -27616,280 +27616,6 @@
         "isPending": false
       },
       {
-        "href": "https://github.com/ember-cli/ember-cli-inject-live-reload/issues/159",
-        "text": "[ember-cli-inject-live-reload]: Livereload script not injected after a refresh",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-inject-live-reload/pull/165",
-        "text": "[ember-cli-inject-live-reload]: Add `data-embroider-ignore` attribute if embroider is present",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-inject-live-reload/pull/175",
-        "text": "[ember-cli-inject-live-reload]: Ensure the script tag we inject is ignored by Embroider",
-        "labels": [
-          "enhancement"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-inject-live-reload/pull/177",
-        "text": "[ember-cli-inject-live-reload]: Update url in package.json",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-inject-live-reload/pull/183",
-        "text": "[ember-cli-inject-live-reload]: Update package metadata",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-inject-live-reload/pull/184",
-        "text": "[ember-cli-inject-live-reload]: Update referenced URLs",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-inject-live-reload/pull/185",
-        "text": "[ember-cli-inject-live-reload]: Update package.json metadata",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-inject-live-reload/pull/189",
-        "text": "[ember-cli-inject-live-reload]: add test apps and playwright",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-inject-live-reload/pull/195",
-        "text": "[ember-cli-inject-live-reload]: Drop support for `ember-cli` v3.5.0 and lower",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/issues/201",
-        "text": "[ember-cli-terser]: broccoli-uglify-sourcemap dependency needs to be updated",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/issues/235",
-        "text": "[ember-cli-terser]: upgrade to ember 3.22",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/issues/242",
-        "text": "[ember-cli-terser]: ember production build is failed",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/issues/254",
-        "text": "[ember-cli-terser]: Production builds failing without IE11 as build target",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/issues/265",
-        "text": "[ember-cli-terser]: Sourcemaps broken when using fingerprinting",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/issues/271",
-        "text": "[ember-cli-terser]: Ember build is falling in production environment",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/issues/290",
-        "text": "[ember-cli-terser]: Failed to open file /code_cache/.overlay/base.apk/assets/Mapnik/7/90/51.png",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/issues/299",
-        "text": "[ember-cli-terser]: Failed to open file '/data/data/com.ribedevs.buildup/code_cache/.overlay/base.apk/resources.arsc': No such file or directory",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/issues/301",
-        "text": "[ember-cli-terser]: Mark `ember-cli-uglify` package as deprecated",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/issues/306",
-        "text": "[ember-cli-terser]: Ember cli sourcemaps setting not respected by 4.0.2?",
-        "labels": [
-          "bug"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/issues/315",
-        "text": "[ember-cli-terser]: Document that `ember-cli-terser` is a noop under Embroider",
-        "labels": [
-          "documentation"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/issues/318",
-        "text": "[ember-cli-terser]: Plan v5 Release",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/pull/218",
-        "text": "[ember-cli-terser]: Replace uglify-js mentions with terser",
-        "labels": [
-          "documentation"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/pull/219",
-        "text": "[ember-cli-terser]: Drop support for Node 8, 9, 11, and 13.",
-        "labels": [
-          "breaking"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/pull/224",
-        "text": "[ember-cli-terser]: Update to `terser@5` via `broccoli-uglify-sourcemap@4`",
-        "labels": [
-          "breaking"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/pull/225",
-        "text": "[ember-cli-terser]: Remove ember-try usage.",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/pull/228",
-        "text": "[ember-cli-terser]: Migrate to broccoli-terser-sourcemap.",
-        "labels": [
-          "enhancement"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/pull/229",
-        "text": "[ember-cli-terser]: Remove deep defaulting of minification options.",
-        "labels": [
-          "breaking"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/pull/230",
-        "text": "[ember-cli-terser]: Rename to ember-cli-terser.",
-        "labels": [
-          "enhancement"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/pull/236",
-        "text": "[ember-cli-terser]: Fix upgraing from ember-cli-uglify options in ember-cli-build.js",
-        "labels": [
-          "bug"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/pull/247",
-        "text": "[ember-cli-terser]: Mention how to configure broccoli-terser-sourcemap options",
-        "labels": [
-          "documentation"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/pull/266",
-        "text": "[ember-cli-terser]: Move ember-cli-terser to run after broccoli-asset-rev (reduces sourcemapping issues in some contexts)",
-        "labels": [
-          "bug"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/pull/294",
-        "text": "[ember-cli-terser]: WIP: Switch to esbulid",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/pull/295",
-        "text": "[ember-cli-terser]: Cache node modules",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/pull/296",
-        "text": "[ember-cli-terser]: Rename package",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/pull/297",
-        "text": "[ember-cli-terser]: Run esbuild before broccoli-asset-rev",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/pull/308",
-        "text": "[ember-cli-terser]: Recursively assign Object properties to preserve sourcemap options",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/pull/312",
-        "text": "[ember-cli-terser]: Reroll lock file",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/pull/313",
-        "text": "[ember-cli-terser]: Make sure the `sourcemaps` build option is respected, even when providing a custom `terser` config",
-        "labels": [
-          "bug"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/pull/314",
-        "text": "[ember-cli-terser]: Basic Node tests setup",
-        "labels": [],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/pull/316",
-        "text": "[ember-cli-terser]: Document that `ember-cli-terser` has no effect under Embroider",
-        "labels": [
-          "documentation"
-        ],
-        "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/pull/317",
-        "text": "[ember-cli-terser]: Update release setup",
-        "labels": [],
-        "isPending": false
-      },
-      {
         "href": "https://github.com/ember-cli/ember-cli-update/issues/1016",
         "text": "[ember-cli-update]: codemods excessively processor intensive",
         "labels": [],
@@ -30404,70 +30130,6 @@
       {
         "href": "https://github.com/ember-cli/ember-cli-htmlbars/pull/763",
         "text": "[ember-cli-htmlbars]: Fix colocated source maps",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-inject-live-reload/issues/150",
-        "text": "[ember-cli-inject-live-reload]: Add CLI flag for --live-reload-js-url",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-inject-live-reload/issues/153",
-        "text": "[ember-cli-inject-live-reload]: [feature] support overlay for errors and warnings",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-inject-live-reload/issues/187",
-        "text": "[ember-cli-inject-live-reload]: Bug: new Ember app doesn't transition into or out-of broccoli-middleware error page",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-inject-live-reload/pull/176",
-        "text": "[ember-cli-inject-live-reload]: Update package.json URLs",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-inject-live-reload/pull/182",
-        "text": "[ember-cli-inject-live-reload]: Fix Raw Domain Ports",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-inject-live-reload/pull/196",
-        "text": "[ember-cli-inject-live-reload]: support empty rootURL with Ember CLI >= 5.0",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/issues/275",
-        "text": "[ember-cli-terser]: Sourcemaps + fingerprinting regression with ember-cli-terser 4.0.2?",
-        "labels": [
-          "bug"
-        ],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/issues/287",
-        "text": "[ember-cli-terser]: v4.0.2 gives build error `Unexpected token: punc (:)`",
-        "labels": [
-          "bug"
-        ],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/pull/277",
-        "text": "[ember-cli-terser]: Update to ember-cli 3.26.1 blueprint",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli-terser/pull/298",
-        "text": "[ember-cli-terser]: Revert broccoli asset rev change",
         "labels": [],
         "isPending": true
       },
@@ -33559,8 +33221,8 @@
     "category": "authoring experience",
     "issues": []
   },
-  "total": 4751,
-  "finished": 3864,
+  "total": 4700,
+  "finished": 3824,
   "labels": [
     "Breaking",
     "Bug",
