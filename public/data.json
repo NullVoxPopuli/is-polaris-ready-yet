@@ -16476,6 +16476,30 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2071",
+        "text": "[eslint-plugin-ember]: A failing test for no-ember-super-in-es-classes (nested classes)",
+        "labels": [
+          "Bug"
+        ],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2072",
+        "text": "[eslint-plugin-ember]: A failing test for no-deprecated-router-transition-methods (multiple classes)",
+        "labels": [
+          "Bug"
+        ],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2073",
+        "text": "[eslint-plugin-ember]: A failing test for no-deprecated-router-transition-methods (legacy class, decorators)",
+        "labels": [
+          "Bug"
+        ],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-template-lint/ember-template-lint/issues/1119",
         "text": "[ember-template-lint]: update test suite for new rule creation",
         "labels": [],
@@ -22218,6 +22242,14 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/embroider-build/embroider/pull/1768",
+        "text": "[embroider]: docs(porting addons to v2): change the recommended package manager to pnpm",
+        "labels": [
+          "documentation"
+        ],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/embroider-build/embroider/pull/387",
         "text": "[embroider]: special-case \"template.hbs\" as a forbidden template-only component",
         "labels": [],
@@ -24829,6 +24861,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/embroider-build/embroider/issues/1770",
+        "text": "[embroider]: v1 addon build watching gets stuck in a loop",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/embroider-build/embroider/issues/392",
         "text": "[embroider]: Making addon with template transforms embroider compatible",
         "labels": [],
@@ -25476,14 +25514,6 @@
         "href": "https://github.com/embroider-build/embroider/pull/1762",
         "text": "[embroider]: Fix incorrect ownerOfFile at root of filesystem",
         "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/embroider-build/embroider/pull/1768",
-        "text": "[embroider]: docs(porting addons to v2): change the recommended package manager to pnpm",
-        "labels": [
-          "documentation"
-        ],
         "isPending": true
       },
       {
@@ -33529,8 +33559,8 @@
     "category": "authoring experience",
     "issues": []
   },
-  "total": 4747,
-  "finished": 3863,
+  "total": 4751,
+  "finished": 3864,
   "labels": [
     "Breaking",
     "Bug",
