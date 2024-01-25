@@ -41,8 +41,9 @@ const assignments = {
     { org: "ember-cli", repo: "ember-fetch" },
     { org: "ember-cli", repo: "ember-cli-update" },
     { org: "ember-cli", repo: "ember-try" },
-    { org: "ember-cli", repo: "ember-cli-inject-live-reload" },
-    { org: "ember-cli", repo: "ember-cli-terser" },
+    // not relevant for Polaris, we won't be using these
+    // { org: "ember-cli", repo: "ember-cli-inject-live-reload" },
+    // { org: "ember-cli", repo: "ember-cli-terser" },
   ],
   removingOldPatterns: [{ org: "ember-learn", repo: "deprecation-app" }],
   highlevel: [{ org: "emberjs", repo: "tracking-polaris" }],
