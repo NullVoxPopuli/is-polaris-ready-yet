@@ -10,6 +10,14 @@ Two files:
 
 If you'd like to make a change to where an issue / pull-request shows up, feel free to PR an addition/move/removal/etc to the JSON.
 
+## Want to remove an issue/pull request from the list?
+
+PR an addition to `./github-data/omit.txt` that includes the URL
+
+## Want to add an issue/pull request to the list?
+
+PR an addition to `./github-data/issue-data.json` that includes the URL
+
 
 ## Installation
 

@@ -1,16 +1,29 @@
 import path from "node:path";
 import fs from "node:fs/promises";
+import url from "node:url";
 import sortBy from "lodash.sortby";
 
 import fse from "fs-extra";
 
 import { type Dataset } from "./issue-data.mts";
 
+const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
+
 export function parseURL(url) {
   let sansDomain = url.replace("https://github.com/", "");
   let [owner, repo, type, number] = sansDomain.split("/");
 
   return { owner, repo, type, number };
+}
+
+export async function getOmissions() {
+  const omissions = path.join(__dirname, "omit.txt");
+  const buffer = await fs.readFile(omissions);
+  const str = buffer.toString();
+
+  const lines = str.split("\n").filter(Boolean);
+
+  return lines;
 }
 
 export function formatIssue(d) {

@@ -5,7 +5,7 @@ import fs from "node:fs/promises";
 import sortBy from "lodash.sortby";
 
 import fse from "fs-extra";
-import { formatIssue, writeData } from "./utils.mts";
+import { formatIssue, writeData, getOmissions } from "./utils.mts";
 
 // First LTS of Ember Octane
 const minDate = "2020-02-12";
@@ -94,6 +94,8 @@ const IGNORE_LABELS = [
   "dependencies",
 ];
 
+const omissions = new Set(await getOmissions());
+
 async function getIssuesUntil({ org, repo }) {
   let results = [];
 
@@ -110,6 +112,10 @@ async function getIssuesUntil({ org, repo }) {
 
     let data = issuesResponse.data
       .filter((d) => {
+        if (omissions.has(d.html_url)) {
+          return false;
+        }
+
         let createdAt = new Date(d.created_at);
 
         let isNewEnough = createdAt > minDateTime;
