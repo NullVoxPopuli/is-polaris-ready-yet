@@ -1000,6 +1000,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-template-imports/ember-template-imports/issues/229",
+        "text": "[ember-template-imports]: GJS/GTS components break when rendering an `<svg>` that contains `<linearGradient>`",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-template-imports/ember-template-imports/issues/38",
         "text": "[ember-template-imports]: Updates based on spec mode discussion",
         "labels": [],
@@ -32992,17 +32998,9 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-learn/ember-styleguide/pull/498",
-        "text": "[ember-styleguide]: use release-plan",
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/500",
+        "text": "[ember-styleguide]: use new lint-to-the-future dashboard action",
         "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-learn/ember-website/issues/1033",
-        "text": "[ember-website]: [REQUEST] Dark mode?",
-        "labels": [
-          "enhancement"
-        ],
         "isPending": true
       },
       {
