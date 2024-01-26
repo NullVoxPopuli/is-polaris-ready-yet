@@ -22,6 +22,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10418",
+        "text": "[ember-cli]: [ENHANCEMENT] Use `content-tag` to parse GTS in blueprints",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-template-imports/ember-template-imports/issues/108",
         "text": "[ember-template-imports]: Should avoid generating inline sourcemaps for unchanged *.js files",
         "labels": [],
@@ -942,12 +948,6 @@
       {
         "href": "https://github.com/ember-cli/ember-cli/issues/10419",
         "text": "[ember-cli]: Setup ESLint for gjs/gts",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli/pull/10418",
-        "text": "[ember-cli]: [ENHANCEMENT] Use `content-tag` to parse GTS in blueprints",
         "labels": [],
         "isPending": true
       },
@@ -31367,6 +31367,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10415",
+        "text": "[ember-cli]: ember-cli@5.5.0 has security vulnerability",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-cli/ember-cli/pull/10283",
         "text": "[ember-cli]: Refactor `--typescript` support in blueprints",
         "labels": [],
@@ -32106,6 +32112,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-learn/ember-styleguide/issues/494",
+        "text": "[ember-styleguide]: Content styling (centred with the on this page)",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-learn/ember-styleguide/pull/464",
         "text": "[ember-styleguide]: Increase width sidebar",
         "labels": [],
@@ -32154,6 +32166,14 @@
       {
         "href": "https://github.com/ember-learn/ember-styleguide/pull/493",
         "text": "[ember-styleguide]: Move header anchor styling into styleguide",
+        "labels": [
+          "enhancement"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/495",
+        "text": "[ember-styleguide]: Central content + on-this-page styling",
         "labels": [
           "enhancement"
         ],
@@ -32784,12 +32804,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-cli/ember-cli/issues/10415",
-        "text": "[ember-cli]: ember-cli@5.5.0 has security vulnerability",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/ember-cli/ember-cli/issues/10420",
         "text": "[ember-cli]: You passed the '--typescript' flag but there is no TypeScript blueprint available. A JavaScript blueprint will be generated instead.",
         "labels": [],
@@ -32960,12 +32974,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-learn/ember-styleguide/issues/494",
-        "text": "[ember-styleguide]: Content styling (centred with the on this page)",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/ember-learn/ember-styleguide/pull/471",
         "text": "[ember-styleguide]: Move Algolia styling to Styleguide",
         "labels": [],
@@ -32984,8 +32992,8 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-learn/ember-styleguide/pull/495",
-        "text": "[ember-styleguide]: Central content + on-this-page styling",
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/498",
+        "text": "[ember-styleguide]: use release-plan",
         "labels": [],
         "isPending": true
       },
@@ -33096,7 +33104,9 @@
       {
         "href": "https://github.com/ember-learn/guides-source/issues/1988",
         "text": "[guides-source]: Ember Data relationships guide has syntax that errors in 5.x",
-        "labels": [],
+        "labels": [
+          "ember-data"
+        ],
         "isPending": true
       },
       {
@@ -33221,8 +33231,8 @@
     "category": "authoring experience",
     "issues": []
   },
-  "total": 4700,
-  "finished": 3824,
+  "total": 4701,
+  "finished": 3828,
   "labels": [
     "Breaking",
     "Bug",
@@ -33254,6 +33264,7 @@
     "deprecation",
     "design",
     "documentation",
+    "ember-data",
     "enhancement",
     "error messages",
     "good first issue",
