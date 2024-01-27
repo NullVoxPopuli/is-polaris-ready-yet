@@ -27137,6 +27137,12 @@
           "question"
         ],
         "isPending": true
+      },
+      {
+        "href": "https://github.com/tracked-tools/tracked-built-ins/pull/414",
+        "text": "[tracked-built-ins]: chore: Add performance regression test for TrackedArray",
+        "labels": [],
+        "isPending": true
       }
     ]
   },
@@ -32192,6 +32198,20 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/501",
+        "text": "[ember-styleguide]: [lts-v3] get legacy release embroider compatible",
+        "labels": [
+          "enhancement"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/503",
+        "text": "[ember-styleguide]: use release-plan for legacy release",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-learn/ember-website/issues/1051",
         "text": "[ember-website]: [BUG] Brand Guide URL 404s",
         "labels": [
@@ -32858,6 +32878,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-learn/cli-guides/pull/315",
+        "text": "[cli-guides]: Describe .ember-cli in home directory",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-learn/ember-api-docs-data/issues/14",
         "text": "[ember-api-docs-data]: Write a script that adds search indexes to Algolia",
         "labels": [],
@@ -32994,12 +33020,6 @@
       {
         "href": "https://github.com/ember-learn/ember-styleguide/pull/490",
         "text": "[ember-styleguide]: update to v4.8 with ember-cli-update",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-learn/ember-styleguide/pull/500",
-        "text": "[ember-styleguide]: use new lint-to-the-future dashboard action",
         "labels": [],
         "isPending": true
       },
@@ -33166,6 +33186,12 @@
         "text": "[guides-source]: docs: Add Template Tag format guides",
         "labels": [],
         "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1998",
+        "text": "[guides-source]: update all `ember server` to `npm start`",
+        "labels": [],
+        "isPending": true
       }
     ]
   },
@@ -33229,8 +33255,8 @@
     "category": "authoring experience",
     "issues": []
   },
-  "total": 4701,
-  "finished": 3828,
+  "total": 4705,
+  "finished": 3830,
   "labels": [
     "Breaking",
     "Bug",
