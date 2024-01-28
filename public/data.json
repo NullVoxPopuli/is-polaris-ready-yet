@@ -15854,6 +15854,14 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/35",
+        "text": "[ember-eslint-parser]: Failing parse / compatibility problem with lint rule padding-line-between-statements",
+        "labels": [
+          "bug"
+        ],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-cli/eslint-plugin-ember/issues/1009",
         "text": "[eslint-plugin-ember]: `no-get` rule should be able to autofix even for strings containing invalid JS variable names",
         "labels": [
@@ -31279,6 +31287,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/emberjs/tracking-polaris/issues/31",
+        "text": "[tracking-polaris]: Reactivity: resources",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/emberjs/tracking-polaris/issues/4",
         "text": "[tracking-polaris]: Embroider",
         "labels": [],
@@ -32962,6 +32976,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/903",
+        "text": "[ember-api-docs]: Start using Embroider",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-learn/ember-styleguide/issues/465",
         "text": "[ember-styleguide]: Update the underline implementation",
         "labels": [],
@@ -33255,7 +33275,7 @@
     "category": "authoring experience",
     "issues": []
   },
-  "total": 4705,
+  "total": 4708,
   "finished": 3830,
   "labels": [
     "Breaking",
