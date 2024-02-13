@@ -1079,8 +1079,7 @@
         "href": "https://github.com/emberjs/rfcs/pull/1000",
         "text": "[rfcs]: Make array built-in in strict-mode",
         "labels": [
-          "S-Exploring",
-          "S-Proposed"
+          "S-Exploring"
         ],
         "isPending": true
       },
@@ -22361,6 +22360,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/embroider-build/embroider/pull/1735",
+        "text": "[embroider]: docs: Update addon-author-guide.md",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/embroider-build/embroider/pull/1738",
         "text": "[embroider]: fix vite on windows",
         "labels": [
@@ -25148,6 +25153,18 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/embroider-build/embroider/issues/1796",
+        "text": "[embroider]: Feature request: allow setting webpack's __webpack_public_path__",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/issues/1800",
+        "text": "[embroider]: Could not find module with webpack alias AND gts",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/embroider-build/embroider/issues/392",
         "text": "[embroider]: Making addon with template transforms embroider compatible",
         "labels": [],
@@ -25748,14 +25765,8 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/embroider-build/embroider/pull/1735",
-        "text": "[embroider]: docs: Update addon-author-guide.md",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/embroider-build/embroider/pull/1736",
-        "text": "[embroider]: fix vite build ",
+        "text": "[embroider]: vite build copy assets",
         "labels": [],
         "isPending": true
       },
@@ -25770,6 +25781,12 @@
       {
         "href": "https://github.com/embroider-build/embroider/pull/1751",
         "text": "[embroider]: Cache `resolveComponent`-lookups",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/1766",
+        "text": "[embroider]: Convert @embroider/addon-dev to ESM",
         "labels": [],
         "isPending": true
       },
@@ -25797,6 +25814,30 @@
         "labels": [
           "breaking"
         ],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/1795",
+        "text": "[embroider]: fix vite build",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/1797",
+        "text": "[embroider]: addon-dev: Inline sample files as docs in the README and Porting Addons to V2 Docs.",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/1798",
+        "text": "[embroider]: Provide Glint utility plugin for `@embroider/addon-dev`",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/1799",
+        "text": "[embroider]: Define local types for @embroider/core, since we have no guarantees of the consuming test environment",
+        "labels": [],
         "isPending": true
       },
       {
@@ -31235,6 +31276,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/embroider-build/ember-auto-import/issues/610",
+        "text": "[ember-auto-import]: \"import * as ... from ...\" syntax breaks when upgrading from ember-auto-import 2.6.3 to 2.7.2",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/embroider-build/ember-auto-import/pull/345",
         "text": "[ember-auto-import]: WIP: ease usage with ember-cli-content-security-policy",
         "labels": [],
@@ -31408,8 +31455,7 @@
         "href": "https://github.com/emberjs/rfcs/pull/1001",
         "text": "[rfcs]: Deprecate named `inject` export from `@ember/service`",
         "labels": [
-          "S-Exploring",
-          "S-Proposed"
+          "S-Exploring"
         ],
         "isPending": true
       }
@@ -31702,6 +31748,12 @@
       {
         "href": "https://github.com/ember-cli/ember-cli/issues/10415",
         "text": "[ember-cli]: ember-cli@5.5.0 has security vulnerability",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10441",
+        "text": "[ember-cli]: Could it be possible to use `--directory` to output to an already existing directory?",
         "labels": [],
         "isPending": false
       },
@@ -33265,6 +33317,18 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10442",
+        "text": "[ember-cli]: Add a `--no-ci-provider` flag for `ember new`",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10443",
+        "text": "[ember-cli]: App blueprint has invalid ESLint config",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-cli/ember-cli/pull/10355",
         "text": "[ember-cli]: fix: Be more explicit about page-title being a helper rather than a component",
         "labels": [],
@@ -33385,6 +33449,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/905",
+        "text": "[ember-api-docs]: Implement 404",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-learn/ember-styleguide/issues/465",
         "text": "[ember-styleguide]: Update the underline implementation",
         "labels": [],
@@ -33463,6 +33533,18 @@
       {
         "href": "https://github.com/ember-learn/ember-website/pull/1076",
         "text": "[ember-website]: Update to Ember 4.12.2",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1083",
+        "text": "[ember-website]: Add non supported bugfix and security patch until dates",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1084",
+        "text": "[ember-website]: Correct number of weeks added to promotion date",
         "labels": [],
         "isPending": true
       },
@@ -33720,8 +33802,8 @@
     "category": "authoring experience",
     "issues": []
   },
-  "total": 4772,
-  "finished": 3879,
+  "total": 4786,
+  "finished": 3881,
   "labels": [
     "Breaking",
     "Bug",
@@ -33733,7 +33815,6 @@
     "New Rule",
     "Question",
     "S-Exploring",
-    "S-Proposed",
     "T-deprecation",
     "T-ember-cli",
     "T-ember-data",
