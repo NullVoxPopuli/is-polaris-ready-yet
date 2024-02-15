@@ -1134,6 +1134,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/embroider-build/content-tag/issues/70",
+        "text": "[content-tag]: Add transform callback to process that is overridable (with the default value being what our transform does today)",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/embroider-build/content-tag/pull/53",
         "text": "[content-tag]: Reproduce issue described in #45 - multi-byte characters are counted incorrectly.",
         "labels": [],
@@ -5407,6 +5413,30 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/49",
+        "text": "[ember-eslint-parser]: fix typed linting",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/50",
+        "text": "[ember-eslint-parser]: do not add extra keys to the VisitorKeys map",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/55",
+        "text": "[ember-eslint-parser]: fix location info",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/6",
         "text": "[ember-eslint-parser]: always notify if not correctly setup",
         "labels": [
@@ -5975,6 +6005,14 @@
         "text": "[eslint-plugin-ember]: Support \"Type aware\" linting for gts files",
         "labels": [
           "Enhancement"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/eslint-plugin-ember/issues/2062",
+        "text": "[eslint-plugin-ember]: `@typescript-eslint` breaks after update to `eslint-plugin-ember` v12",
+        "labels": [
+          "Bug"
         ],
         "isPending": false
       },
@@ -8261,6 +8299,22 @@
       {
         "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2068",
         "text": "[eslint-plugin-ember]: add `plugin:@typescript-eslint/recommended` to readme for GTS",
+        "labels": [
+          "Documentation"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2071",
+        "text": "[eslint-plugin-ember]: Fix nested classes case in `no-ember-super-in-es-classes`",
+        "labels": [
+          "Bug"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2088",
+        "text": "[eslint-plugin-ember]: add doc about gts imports in ts files",
         "labels": [
           "Documentation"
         ],
@@ -15970,6 +16024,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/issues/56",
+        "text": "[ember-eslint-parser]: Cleanup transforms.js once content-tag has a transform API built in",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-cli/eslint-plugin-ember/issues/1009",
         "text": "[eslint-plugin-ember]: `no-get` rule should be able to autofix even for strings containing invalid JS variable names",
         "labels": [
@@ -16478,14 +16538,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-cli/eslint-plugin-ember/issues/2062",
-        "text": "[eslint-plugin-ember]: `@typescript-eslint` breaks after update to `eslint-plugin-ember` v12",
-        "labels": [
-          "Bug"
-        ],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/ember-cli/eslint-plugin-ember/issues/2078",
         "text": "[eslint-plugin-ember]: ember/template-no-let-reference",
         "labels": [],
@@ -16616,14 +16668,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2071",
-        "text": "[eslint-plugin-ember]: Fix nested classes case in no-ember-super-in-es-classes",
-        "labels": [
-          "Bug"
-        ],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2072",
         "text": "[eslint-plugin-ember]: A failing test for no-deprecated-router-transition-methods (multiple classes)",
         "labels": [
@@ -16634,6 +16678,22 @@
       {
         "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2073",
         "text": "[eslint-plugin-ember]: A failing test for no-deprecated-router-transition-methods (legacy class, decorators)",
+        "labels": [
+          "Bug"
+        ],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2091",
+        "text": "[eslint-plugin-ember]: Upgrade ember-eslint-parser to 0.3.6",
+        "labels": [
+          "Bug"
+        ],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2092",
+        "text": "[eslint-plugin-ember]: Fix flat config for gts/gjs and `noop` parser name",
         "labels": [
           "Bug"
         ],
@@ -17859,6 +17919,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-template-lint/ember-template-lint/issues/3022",
+        "text": "[ember-template-lint]: Migrate off Jest",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-template-lint/ember-template-lint/pull/1446",
         "text": "[ember-template-lint]: no-attrs-in-components rule supports octane component template co-location",
         "labels": [],
@@ -18010,6 +18076,30 @@
           "enhancement",
           "New Rule"
         ],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-template-lint/ember-template-lint/pull/3023",
+        "text": "[ember-template-lint]: chore: drop node 14/19",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-template-lint/ember-template-lint/pull/3024",
+        "text": "[ember-template-lint]: Switch to eslint n",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-template-lint/ember-template-lint/pull/3025",
+        "text": "[ember-template-lint]: chore: prettier 3 + config 9 + plugin 5 update",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-template-lint/ember-template-lint/pull/3026",
+        "text": "[ember-template-lint]: Eslint unicorn 51",
+        "labels": [],
         "isPending": true
       },
       {
@@ -22530,6 +22620,20 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/embroider-build/embroider/pull/1795",
+        "text": "[embroider]: fix vite build",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/1802",
+        "text": "[embroider]: fix vite auto reload on windows",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/embroider-build/embroider/pull/387",
         "text": "[embroider]: special-case \"template.hbs\" as a forbidden template-only component",
         "labels": [],
@@ -25814,12 +25918,6 @@
         "labels": [
           "breaking"
         ],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/embroider-build/embroider/pull/1795",
-        "text": "[embroider]: fix vite build",
-        "labels": [],
         "isPending": true
       },
       {
@@ -30620,6 +30718,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-cli/ember-cli-update/issues/1255",
+        "text": "[ember-cli-update]: [Feature Request] allow passing flags to the underlying blueprint to allow migrating to different configurations",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-cli/ember-cli-update/issues/995",
         "text": "[ember-cli-update]: throwing error when running with diff.noprefix true",
         "labels": [],
@@ -32853,6 +32957,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-learn/ember-website/pull/1083",
+        "text": "[ember-website]: Add non supported bugfix and security patch until dates",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-learn/empress-blog-ember-template/pull/141",
         "text": "[empress-blog-ember-template]: include version-5 in tags",
         "labels": [],
@@ -33197,6 +33307,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-learn/guides-source/pull/1978",
+        "text": "[guides-source]: docs: Add Template Tag format guides",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-learn/guides-source/pull/1979",
         "text": "[guides-source]: Update index.md",
         "labels": [],
@@ -33537,14 +33653,14 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-learn/ember-website/pull/1083",
-        "text": "[ember-website]: Add non supported bugfix and security patch until dates",
+        "href": "https://github.com/ember-learn/ember-website/pull/1084",
+        "text": "[ember-website]: Correct number of weeks added to promotion date",
         "labels": [],
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-learn/ember-website/pull/1084",
-        "text": "[ember-website]: Correct number of weeks added to promotion date",
+        "href": "https://github.com/ember-learn/ember-website/pull/1085",
+        "text": "[ember-website]: releases/lts: drop last minor version column",
         "labels": [],
         "isPending": true
       },
@@ -33717,12 +33833,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-learn/guides-source/pull/1978",
-        "text": "[guides-source]: docs: Add Template Tag format guides",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/ember-learn/guides-source/pull/1998",
         "text": "[guides-source]: update all `ember server` to `npm start`",
         "labels": [],
@@ -33737,6 +33847,12 @@
       {
         "href": "https://github.com/ember-learn/guides-source/pull/2005",
         "text": "[guides-source]: docs: fix import as service",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/2007",
+        "text": "[guides-source]: Update optional-features.md to include no-implicit-route-model",
         "labels": [],
         "isPending": true
       }
@@ -33802,8 +33918,8 @@
     "category": "authoring experience",
     "issues": []
   },
-  "total": 4786,
-  "finished": 3881,
+  "total": 4803,
+  "finished": 3891,
   "labels": [
     "Breaking",
     "Bug",
