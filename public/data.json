@@ -5285,6 +5285,18 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/issues/57",
+        "text": "[ember-eslint-parser]: `@typescript-eslint/parser` options is missing `extraFileExtensions`",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/issues/58",
+        "text": "[ember-eslint-parser]: Always use TypeScript parser",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/1",
         "text": "[ember-eslint-parser]: Move parser and add boilerplate",
         "labels": [
@@ -5437,8 +5449,24 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/59",
+        "text": "[ember-eslint-parser]: add extraFileExtensions by default",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/6",
         "text": "[ember-eslint-parser]: always notify if not correctly setup",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/60",
+        "text": "[ember-eslint-parser]: use typescript parser by default",
         "labels": [
           "bug"
         ],
@@ -6005,6 +6033,14 @@
         "text": "[eslint-plugin-ember]: Support \"Type aware\" linting for gts files",
         "labels": [
           "Enhancement"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/eslint-plugin-ember/issues/2061",
+        "text": "[eslint-plugin-ember]: new \"flat\" configs contain invalid parser key",
+        "labels": [
+          "Bug"
         ],
         "isPending": false
       },
@@ -8318,6 +8354,28 @@
         "labels": [
           "Documentation"
         ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2091",
+        "text": "[eslint-plugin-ember]: Upgrade ember-eslint-parser to 0.3.6",
+        "labels": [
+          "Bug"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2092",
+        "text": "[eslint-plugin-ember]: Fix flat config for gts/gjs and `noop` parser name",
+        "labels": [
+          "Bug"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2094",
+        "text": "[eslint-plugin-ember]: Update jsdom to v24",
+        "labels": [],
         "isPending": false
       },
       {
@@ -11204,6 +11262,14 @@
         "text": "[ember-template-lint]: no-redundant-role: False positive for `role=list` on `<ul>`",
         "labels": [
           "bug"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-template-lint/ember-template-lint/issues/2728",
+        "text": "[ember-template-lint]: `no-obsolete-elements` should flag usages of param element ",
+        "labels": [
+          "breaking"
         ],
         "isPending": false
       },
@@ -15174,6 +15240,14 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-template-lint/ember-template-lint/pull/2729",
+        "text": "[ember-template-lint]: Add `param` to obsolete list in `no-obsolete-elements` rule",
+        "labels": [
+          "breaking"
+        ],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-template-lint/ember-template-lint/pull/2730",
         "text": "[ember-template-lint]: Add autofixer to `no-duplicate-attributes` rule",
         "labels": [
@@ -15461,6 +15535,14 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-template-lint/ember-template-lint/pull/2913",
+        "text": "[ember-template-lint]: Add additional elements to `DOCUMENT_STRUCTURE_ROLES` for `no-invalid-role` rule",
+        "labels": [
+          "breaking"
+        ],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-template-lint/ember-template-lint/pull/2914",
         "text": "[ember-template-lint]: Fix `aria-query` related crash in `no-unsupported-role-attributes` rule",
         "labels": [
@@ -15531,6 +15613,42 @@
           "enhancement",
           "New Rule"
         ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-template-lint/ember-template-lint/pull/3023",
+        "text": "[ember-template-lint]: Drop support for Node 14, 16, 19",
+        "labels": [
+          "breaking"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-template-lint/ember-template-lint/pull/3027",
+        "text": "[ember-template-lint]: Refresh lockfile",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-template-lint/ember-template-lint/pull/3029",
+        "text": "[ember-template-lint]: Enable more `recommended` rules: `no-action-on-submit-button`, `no-at-ember-render-modifiers`, `no-builtin-form-components`, `no-unnecessary-curly-parens`, `no-unnecessary-curly-strings`, `simple-modifiers`",
+        "labels": [
+          "breaking"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-template-lint/ember-template-lint/pull/3031",
+        "text": "[ember-template-lint]: Replace `4-x-recommended` config with `5-x-recommended`",
+        "labels": [
+          "breaking"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-template-lint/ember-template-lint/pull/3032",
+        "text": "[ember-template-lint]: Update some dev deps",
+        "labels": [],
         "isPending": false
       },
       {
@@ -16530,14 +16648,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-cli/eslint-plugin-ember/issues/2061",
-        "text": "[eslint-plugin-ember]: new \"flat\" configs contain invalid parser key",
-        "labels": [
-          "Bug"
-        ],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/ember-cli/eslint-plugin-ember/issues/2078",
         "text": "[eslint-plugin-ember]: ember/template-no-let-reference",
         "labels": [],
@@ -16678,22 +16788,6 @@
       {
         "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2073",
         "text": "[eslint-plugin-ember]: A failing test for no-deprecated-router-transition-methods (legacy class, decorators)",
-        "labels": [
-          "Bug"
-        ],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2091",
-        "text": "[eslint-plugin-ember]: Upgrade ember-eslint-parser to 0.3.6",
-        "labels": [
-          "Bug"
-        ],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2092",
-        "text": "[eslint-plugin-ember]: Fix flat config for gts/gjs and `noop` parser name",
         "labels": [
           "Bug"
         ],
@@ -17656,14 +17750,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-template-lint/ember-template-lint/issues/2728",
-        "text": "[ember-template-lint]: `no-obsolete-elements` should flag usages of param element ",
-        "labels": [
-          "breaking"
-        ],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/ember-template-lint/ember-template-lint/issues/2740",
         "text": "[ember-template-lint]: `no-shadowed-elements` returning false positive for `col` within `colgroup`",
         "labels": [
@@ -17903,7 +17989,9 @@
       {
         "href": "https://github.com/ember-template-lint/ember-template-lint/issues/3013",
         "text": "[ember-template-lint]: Revamped gjs/gts support",
-        "labels": [],
+        "labels": [
+          "breaking"
+        ],
         "isPending": true
       },
       {
@@ -18032,26 +18120,10 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-template-lint/ember-template-lint/pull/2729",
-        "text": "[ember-template-lint]: no-obsolete-elements: add `param` to obsolete list",
-        "labels": [
-          "breaking"
-        ],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/ember-template-lint/ember-template-lint/pull/2812",
         "text": "[ember-template-lint]: Export additional helpers for plugin support",
         "labels": [
           "enhancement"
-        ],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-template-lint/ember-template-lint/pull/2913",
-        "text": "[ember-template-lint]: Add additional elements to DOCUMENT_STRUCTURE_ROLES for no-invalid-role",
-        "labels": [
-          "breaking"
         ],
         "isPending": true
       },
@@ -18064,42 +18136,12 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-template-lint/ember-template-lint/pull/2956",
-        "text": "[ember-template-lint]: Prettier 3 (and friends), min node 16",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/ember-template-lint/ember-template-lint/pull/2978",
         "text": "[ember-template-lint]: Add new rule `no-jsx-attributes`",
         "labels": [
           "enhancement",
           "New Rule"
         ],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-template-lint/ember-template-lint/pull/3023",
-        "text": "[ember-template-lint]: chore: drop node 14/19",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-template-lint/ember-template-lint/pull/3024",
-        "text": "[ember-template-lint]: Switch to eslint n",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-template-lint/ember-template-lint/pull/3025",
-        "text": "[ember-template-lint]: chore: prettier 3 + config 9 + plugin 5 update",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-template-lint/ember-template-lint/pull/3026",
-        "text": "[ember-template-lint]: Eslint unicorn 51",
-        "labels": [],
         "isPending": true
       },
       {
@@ -25265,6 +25307,12 @@
       {
         "href": "https://github.com/embroider-build/embroider/issues/1800",
         "text": "[embroider]: Could not find module with webpack alias AND gts",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/issues/1804",
+        "text": "[embroider]: Allow macros config to not have a runtime implementation",
         "labels": [],
         "isPending": true
       },
@@ -32631,6 +32679,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/905",
+        "text": "[ember-api-docs]: Implement 404",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-learn/ember-styleguide/issues/480",
         "text": "[ember-styleguide]: Move tabel of contents styling to styleguide",
         "labels": [],
@@ -33565,8 +33619,8 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-learn/ember-api-docs/pull/905",
-        "text": "[ember-api-docs]: Implement 404",
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/906",
+        "text": "[ember-api-docs]: Implement 404 page",
         "labels": [],
         "isPending": true
       },
@@ -33630,6 +33684,14 @@
         "href": "https://github.com/ember-learn/ember-styleguide/pull/490",
         "text": "[ember-styleguide]: update to v4.8 with ember-cli-update",
         "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/507",
+        "text": "[ember-styleguide]: make sidebar content slightly wider and add background colour",
+        "labels": [
+          "breaking"
+        ],
         "isPending": true
       },
       {
@@ -33710,8 +33772,16 @@
       },
       {
         "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/174",
-        "text": "[guidemaker-ember-template]: style: sidebar tweaks",
+        "text": "[guidemaker-ember-template]: style: on-this-page tweaks",
         "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/178",
+        "text": "[guidemaker-ember-template]: Update Ember to v4.8 and drop support for Ember < 3.28",
+        "labels": [
+          "breaking"
+        ],
         "isPending": true
       },
       {
@@ -33845,6 +33915,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-learn/guides-source/pull/2002",
+        "text": "[guides-source]: fix: allow EmberData version to be set on release:minor script",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-learn/guides-source/pull/2005",
         "text": "[guides-source]: docs: fix import as service",
         "labels": [],
@@ -33918,8 +33994,8 @@
     "category": "authoring experience",
     "issues": []
   },
-  "total": 4803,
-  "finished": 3891,
+  "total": 4813,
+  "finished": 3908,
   "labels": [
     "Breaking",
     "Bug",
