@@ -1070,6 +1070,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-template-imports/ember-template-imports/pull/232",
+        "text": "[ember-template-imports]: docs: use gjs as language for syntax highlighting",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/emberjs/rfcs/issues/982",
         "text": "[rfcs]: Whitespace handling for `<template>` tag",
         "labels": [],
@@ -5184,6 +5190,14 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/typed-ember/glint/issues/702",
+        "text": "[glint]: \"Go to Declaration\" in Extension doesn't appear to support .d.ts.map files",
+        "labels": [
+          "bug"
+        ],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/typed-ember/glint/issues/90",
         "text": "[glint]: Codemods",
         "labels": [
@@ -5253,6 +5267,12 @@
       {
         "href": "https://github.com/typed-ember/glint/pull/696",
         "text": "[glint]: use new glimmer ElementNode sub nodes",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/pull/701",
+        "text": "[glint]: Loading tsconfig with extends array",
         "labels": [],
         "isPending": true
       }
@@ -5467,6 +5487,14 @@
       {
         "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/60",
         "text": "[ember-eslint-parser]: use typescript parser by default",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/NullVoxPopuli/ember-eslint-parser/pull/63",
+        "text": "[ember-eslint-parser]: TypeScript: Support imports without extensions",
         "labels": [
           "bug"
         ],
@@ -19078,6 +19106,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/embroider-build/embroider/issues/1809",
+        "text": "[embroider]: FastBoot + Embroider + browser-only library issue",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/embroider-build/embroider/issues/385",
         "text": "[embroider]: this.app.testIndex is not a function",
         "labels": [],
@@ -22494,7 +22528,9 @@
       {
         "href": "https://github.com/embroider-build/embroider/pull/1735",
         "text": "[embroider]: docs: Update addon-author-guide.md",
-        "labels": [],
+        "labels": [
+          "documentation"
+        ],
         "isPending": false
       },
       {
@@ -22672,6 +22708,12 @@
       {
         "href": "https://github.com/embroider-build/embroider/pull/1802",
         "text": "[embroider]: fix vite auto reload on windows",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/1810",
+        "text": "[embroider]: fix: component template candidates should only resolve hbs files",
         "labels": [],
         "isPending": false
       },
@@ -25983,6 +26025,18 @@
       {
         "href": "https://github.com/embroider-build/embroider/pull/1799",
         "text": "[embroider]: Define local types for @embroider/core, since we have no guarantees of the consuming test environment",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/1806",
+        "text": "[embroider]: resolver transform to emit imports for helper and modifiers that need…",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/1808",
+        "text": "[embroider]: fix vite ts",
         "labels": [],
         "isPending": true
       },
@@ -30592,6 +30646,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-cli/ember-cli-htmlbars/issues/787",
+        "text": "[ember-cli-htmlbars]: TemplateFactory type incompatible with setComponentTemplate type from @types/ember__component",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-cli/ember-cli-htmlbars/pull/558",
         "text": "[ember-cli-htmlbars]: Place colocated templates after the default export",
         "labels": [],
@@ -31794,6 +31854,12 @@
       {
         "href": "https://github.com/emberjs/tracking-polaris/issues/36",
         "text": "[tracking-polaris]: Editor Configuration",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/emberjs/tracking-polaris/issues/37",
+        "text": "[tracking-polaris]: Deprecate built-in babel-plugin-debug-macros",
         "labels": [],
         "isPending": true
       },
@@ -33161,6 +33227,14 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/174",
+        "text": "[guidemaker-ember-template]: style: on-this-page tweaks",
+        "labels": [
+          "enhancement"
+        ],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-learn/guides-source/issues/1926",
         "text": "[guides-source]: Update the guides-source PR to include the real template instead of the GitHub branch",
         "labels": [],
@@ -33427,6 +33501,18 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-learn/guides-source/pull/2010",
+        "text": "[guides-source]: Update more-about-components.md - Rental::Image component test",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/2013",
+        "text": "[guides-source]: Correct @cached example",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-cli/ember-cli/issues/10301",
         "text": "[ember-cli]: Generating a new project on Node 14 with ember-cli 4.12 with yarn and typescript fails",
         "labels": [],
@@ -33495,6 +33581,12 @@
       {
         "href": "https://github.com/ember-cli/ember-cli/issues/10443",
         "text": "[ember-cli]: App blueprint has invalid ESLint config",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10444",
+        "text": "[ember-cli]: Add bun support for Ember CLI projects",
         "labels": [],
         "isPending": true
       },
@@ -33709,6 +33801,14 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-learn/ember-website/issues/1086",
+        "text": "[ember-website]: [REQUEST] Remove highcharts from initial page load",
+        "labels": [
+          "enhancement"
+        ],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-learn/ember-website/pull/1076",
         "text": "[ember-website]: Update to Ember 4.12.2",
         "labels": [],
@@ -33723,6 +33823,12 @@
       {
         "href": "https://github.com/ember-learn/ember-website/pull/1085",
         "text": "[ember-website]: releases/lts: drop last minor version column",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1087",
+        "text": "[ember-website]: feat: lazy load Highcharts",
         "labels": [],
         "isPending": true
       },
@@ -33747,6 +33853,30 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/issues/179",
+        "text": "[guidemaker-ember-template]: Style \"on this page\" to use header depth info",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/issues/181",
+        "text": "[guidemaker-ember-template]: Highlight current \"on this page\" title based on scroll position",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/issues/182",
+        "text": "[guidemaker-ember-template]: Make TOC and \"on this page\" sidebars sticky",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/issues/183",
+        "text": "[guidemaker-ember-template]: Vertically align header link anchors and adapt to title size",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/163",
         "text": "[guidemaker-ember-template]: feat: Use Algolia Docsearch",
         "labels": [],
@@ -33767,20 +33897,32 @@
       {
         "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/173",
         "text": "[guidemaker-ember-template]: style: inline pen svg and make color gray",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/174",
-        "text": "[guidemaker-ember-template]: style: on-this-page tweaks",
-        "labels": [],
+        "labels": [
+          "enhancement"
+        ],
         "isPending": true
       },
       {
         "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/178",
-        "text": "[guidemaker-ember-template]: Update Ember to v4.8 and drop support for Ember < 3.28",
+        "text": "[guidemaker-ember-template]: Update Ember to v5.4 and drop support for Ember < 3.28",
         "labels": [
           "breaking"
+        ],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/180",
+        "text": "[guidemaker-ember-template]: style: update \"on this page\" to only show headers up until level 3 and indent",
+        "labels": [
+          "enhancement"
+        ],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/184",
+        "text": "[guidemaker-ember-template]: style: make on-this-page sticky",
+        "labels": [
+          "enhancement"
         ],
         "isPending": true
       },
@@ -33867,6 +34009,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-learn/guides-source/issues/2009",
+        "text": "[guides-source]: [Disco]: recommending on{event} instead of on-modifier",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-learn/guides-source/pull/1940",
         "text": "[guides-source]: testing: Improve examples by avoiding `assert.expect()`",
         "labels": [],
@@ -33929,6 +34077,12 @@
       {
         "href": "https://github.com/ember-learn/guides-source/pull/2007",
         "text": "[guides-source]: Update optional-features.md to include no-implicit-route-model",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/2012",
+        "text": "[guides-source]: chore: normalize h1 headers in content to h2",
         "labels": [],
         "isPending": true
       }
@@ -33994,8 +34148,8 @@
     "category": "authoring experience",
     "issues": []
   },
-  "total": 4813,
-  "finished": 3908,
+  "total": 4836,
+  "finished": 3914,
   "labels": [
     "Breaking",
     "Bug",
