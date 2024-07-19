@@ -1165,6 +1165,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-template-imports/ember-template-imports/pull/241",
+        "text": "[ember-template-imports]: add back toc names for inspector",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-tooling/tree-sitter-glimmer/issues/119",
         "text": "[tree-sitter-glimmer]: Links break highlighting",
         "labels": [],
@@ -2713,6 +2719,12 @@
       {
         "href": "https://github.com/typed-ember/glint/issues/706",
         "text": "[glint]: Parse error on `{{!` mustache comment in `.gts`",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/720",
+        "text": "[glint]: If route is named `components` model types are not inferred ",
         "labels": [],
         "isPending": false
       },
@@ -5006,6 +5018,14 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/typed-ember/glint/pull/721",
+        "text": "[glint]: feat: drop support for classic component layout",
+        "labels": [
+          "breaking"
+        ],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/typed-ember/glint/pull/725",
         "text": "[glint]: docs: use gjs as codefence lang",
         "labels": [
@@ -5087,6 +5107,44 @@
       {
         "href": "https://github.com/typed-ember/glint/pull/747",
         "text": "[glint]: volar-2.4.0-alpha.14",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/pull/748",
+        "text": "[glint]: check if template is in heritage clause ",
+        "labels": [
+          "enhancement"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/pull/749",
+        "text": "[glint]: Primitives for supporting ember-loose mode (.ts + .hbs)",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/pull/750",
+        "text": "[glint]: Rm TransformManager and lots of pre-volar code",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/pull/751",
+        "text": "[glint]: TS Plugin WIP - restore green tests",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/pull/752",
+        "text": "[glint]: TS Plugin progress, bump volar",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/pull/753",
+        "text": "[glint]: TS Plugin: basic diagnostics and functionality for .gts files",
         "labels": [],
         "isPending": false
       },
@@ -5470,12 +5528,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/typed-ember/glint/issues/720",
-        "text": "[glint]: If route is named `components` model types are not inferred ",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/typed-ember/glint/issues/722",
         "text": "[glint]: --project doesn't work when specifying a file",
         "labels": [],
@@ -5579,27 +5631,11 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/typed-ember/glint/pull/721",
-        "text": "[glint]: feat: drop support for classic component layout",
-        "labels": [
-          "breaking"
-        ],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/typed-ember/glint/pull/723",
         "text": "[glint]: Add template import type for uniqueId helper",
         "labels": [
           "bug",
           "waiting on author"
-        ],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/typed-ember/glint/pull/748",
-        "text": "[glint]: check if template is in heritage clause ",
-        "labels": [
-          "enhancement"
         ],
         "isPending": true
       }
@@ -17308,6 +17344,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-cli/eslint-plugin-ember/issues/2156",
+        "text": "[eslint-plugin-ember]: `use-ember-data-rfc-395-imports` should ignore `ember-data/store`",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-cli/eslint-plugin-ember/issues/686",
         "text": "[eslint-plugin-ember]: New Rule: `prefer-read-only-computed-macro`",
         "labels": [
@@ -17432,6 +17474,15 @@
         "text": "[eslint-plugin-ember]: A failing test for no-deprecated-router-transition-methods (legacy class, decorators)",
         "labels": [
           "Bug"
+        ],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2155",
+        "text": "[eslint-plugin-ember]: Add new ember-data rule: `require-async-inverse-relationship`",
+        "labels": [
+          "Enhancement",
+          "New Rule"
         ],
         "isPending": true
       },
@@ -19878,6 +19929,18 @@
       {
         "href": "https://github.com/embroider-build/embroider/issues/1960",
         "text": "[embroider]: Work on the new app boot implementation",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/issues/1961",
+        "text": "[embroider]: Provide a new way to load initialisers that doesn't use require.entries",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/issues/2031",
+        "text": "[embroider]: Deprecations in TemplateResolver",
         "labels": [],
         "isPending": false
       },
@@ -23436,6 +23499,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/embroider-build/embroider/pull/1780",
+        "text": "[embroider]: vite: fix initializers not running",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/embroider-build/embroider/pull/1784",
         "text": "[embroider]: Bump content-tag and add inline_source_map option for rollup and vite",
         "labels": [
@@ -23640,6 +23709,14 @@
         "text": "[embroider]: make sure @embroider/macros doesn't try to load a babel config",
         "labels": [
           "bug"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/1842",
+        "text": "[embroider]: [beta] template-tag code mod",
+        "labels": [
+          "enhancement"
         ],
         "isPending": false
       },
@@ -23960,6 +24037,14 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/embroider-build/embroider/pull/1966",
+        "text": "[embroider]: New config module, warning message",
+        "labels": [
+          "enhancement"
+        ],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/embroider-build/embroider/pull/1967",
         "text": "[embroider]: Address these issues in new apps (5.9):",
         "labels": [
@@ -24044,6 +24129,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/embroider-build/embroider/pull/1987",
+        "text": "[embroider]: move adjust virtual import into own resolve hook",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/embroider-build/embroider/pull/1990",
         "text": "[embroider]: try gts/gjs resolution without checking for other files first",
         "labels": [],
@@ -24106,6 +24197,74 @@
         "text": "[embroider]: update vite to have a minimum version of 5.2",
         "labels": [
           "enhancement"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/2018",
+        "text": "[embroider]: vite virtual files are leaking into our esbuild resolver",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/2029",
+        "text": "[embroider]: Reform extension searching and dep optimization",
+        "labels": [
+          "enhancement"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/2032",
+        "text": "[embroider]: add more vite dep tests",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/2033",
+        "text": "[embroider]: Remove deprecations warnings in resolver transform",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/2044",
+        "text": "[embroider]: fix template-only-components in virtual entrypoint",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/2045",
+        "text": "[embroider]: add missing resolve extension config to other vite.config files",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/2047",
+        "text": "[embroider]: Add semver to power select with create",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/2048",
+        "text": "[embroider]: Fix windows tests",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/2051",
+        "text": "[embroider]: fix template only components in esbuild on windows",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/2053",
+        "text": "[embroider]: fix for esbuild finding helpers and components from app-tree-merging in templates",
+        "labels": [
+          "bug"
         ],
         "isPending": false
       },
@@ -26789,12 +26948,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/embroider-build/embroider/issues/1961",
-        "text": "[embroider]: Provide a new way to load initialisers that doesn't use require.entries",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/embroider-build/embroider/issues/1962",
         "text": "[embroider]: implement the \"correct solution\" for babel config in vite",
         "labels": [],
@@ -26803,15 +26956,15 @@
       {
         "href": "https://github.com/embroider-build/embroider/issues/1963",
         "text": "[embroider]: Remove the _babel_filter_ file and skipBabel option from Embroider options",
-        "labels": [],
+        "labels": [
+          "blocked"
+        ],
         "isPending": true
       },
       {
         "href": "https://github.com/embroider-build/embroider/issues/1964",
         "text": "[embroider]: Start adding support for older Ember (and ember-data?) versions to Vite",
-        "labels": [
-          "blocked"
-        ],
+        "labels": [],
         "isPending": true
       },
       {
@@ -26898,6 +27051,50 @@
         "href": "https://github.com/embroider-build/embroider/issues/2027",
         "text": "[embroider]: Fastboot support/ output the `package.json`",
         "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/issues/2034",
+        "text": "[embroider]: Fastboot support/ virtualise `embroider_macros_fastboot_init.js`",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/issues/2035",
+        "text": "[embroider]: Fastboot support/ virtualise `extraAppFiles`",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/issues/2036",
+        "text": "[embroider]: Fastboot support/ virtualise `extraVendorFiles`",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/issues/2037",
+        "text": "[embroider]: Document how we got rid of `{{rootUrl}}`",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/issues/2040",
+        "text": "[embroider]: Design and implement a unified environment config solution",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/issues/2041",
+        "text": "[embroider]: find an alternative solution for resolverConfig depending on the files contents of appFiles",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/issues/2042",
+        "text": "[embroider]: move the index.html into the root of the vite app",
+        "labels": [
+          "blocked"
+        ],
         "isPending": true
       },
       {
@@ -27507,12 +27704,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/embroider-build/embroider/pull/1780",
-        "text": "[embroider]: vite: fix initializers not running",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/embroider-build/embroider/pull/1793",
         "text": "[embroider]: refactor: change isProduction check strategy",
         "labels": [],
@@ -27576,9 +27767,7 @@
       {
         "href": "https://github.com/embroider-build/embroider/pull/1855",
         "text": "[embroider]: improve addon-dev clean",
-        "labels": [
-          "waiting for contributor"
-        ],
+        "labels": [],
         "isPending": true
       },
       {
@@ -27618,18 +27807,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/embroider-build/embroider/pull/1966",
-        "text": "[embroider]: New config module, warning message",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/embroider-build/embroider/pull/1987",
-        "text": "[embroider]: move adjust virtual import into own resolve hook",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/embroider-build/embroider/pull/2002",
         "text": "[embroider]: test D drive for windows temp",
         "labels": [],
@@ -27642,14 +27819,22 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/embroider-build/embroider/pull/2018",
-        "text": "[embroider]: vite virtual files are leaking into our esbuild resolver",
+        "href": "https://github.com/embroider-build/embroider/pull/2028",
+        "text": "[embroider]: Rename #embroider_compat/* to @embroider/virtual/*",
+        "labels": [
+          "blocked"
+        ],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/2046",
+        "text": "[embroider]: vite add BASE_URL",
         "labels": [],
         "isPending": true
       },
       {
-        "href": "https://github.com/embroider-build/embroider/pull/2029",
-        "text": "[embroider]: Reform extension searching and dep optimization",
+        "href": "https://github.com/embroider-build/embroider/pull/2052",
+        "text": "[embroider]: add more vite dep tests",
         "labels": [],
         "isPending": true
       },
@@ -33289,6 +33474,12 @@
         "text": "[ember-auto-import]: Optimize watched directories",
         "labels": [],
         "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/ember-auto-import/pull/630",
+        "text": "[ember-auto-import]: Update TypeScript to latest",
+        "labels": [],
+        "isPending": true
       }
     ]
   },
@@ -33431,6 +33622,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-learn/deprecation-app/pull/1386",
+        "text": "[deprecation-app]: deps: upgrade ember-showdown-shiki",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/emberjs/ember.js/pull/20570",
         "text": "[ember.js]: [CLEANUP] Remove all traces of named outlets code",
         "labels": [],
@@ -33466,6 +33663,12 @@
       {
         "href": "https://github.com/ember-learn/deprecation-app/pull/1383",
         "text": "[deprecation-app]: Add parent relationship to deprecations to allow grouping in the UI, especially in the index",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/deprecation-app/pull/1385",
+        "text": "[deprecation-app]: refactor: use data diff in md",
         "labels": [],
         "isPending": true
       },
@@ -33824,6 +34027,12 @@
       {
         "href": "https://github.com/ember-cli/ember-cli/issues/10459",
         "text": "[ember-cli]: Security vulnerability in lodash.template package",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10465",
+        "text": "[ember-cli]: qunit-dom is too old. current app uses v2, but v3 is a v2 addon.",
         "labels": [],
         "isPending": false
       },
@@ -34388,8 +34597,98 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10470",
+        "text": "[ember-cli]: Bump blueprint dependencies",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10471",
+        "text": "[ember-cli]: fix: update ember-data beta",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10474",
+        "text": "[ember-cli]: Improve dx when WelcomePage is present",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-cli/ember-cli/pull/10475",
         "text": "[ember-cli]: Document WRITE_FIXTURES",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10476",
+        "text": "[ember-cli]: Bump content-tag to v2",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10477",
+        "text": "[ember-cli]: update stable deps",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10478",
+        "text": "[ember-cli]: update beta deps",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10479",
+        "text": "[ember-cli]: Bump @typescript-eslint dependencies to latest",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10480",
+        "text": "[ember-cli]: Bump @ember/string",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10481",
+        "text": "[ember-cli]: Bump ember-cli-app-version",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10482",
+        "text": "[ember-cli]: Bump qunit-dom",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10483",
+        "text": "[ember-cli]: Bump @embroider/* dependencies",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10484",
+        "text": "[ember-cli]: Bump ember-resolver",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10485",
+        "text": "[ember-cli]: Bump eslint-plugin-ember",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10486",
+        "text": "[ember-cli]: Bump ember-template-lint",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10487",
+        "text": "[ember-cli]: feat: add GH action caching for node_modules",
         "labels": [],
         "isPending": false
       },
@@ -34574,6 +34873,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-learn/ember-api-docs-data/pull/25",
+        "text": "[ember-api-docs-data]: Use Markdown for all descriptions",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-learn/ember-api-docs-data/pull/26",
         "text": "[ember-api-docs-data]: Release 5.6",
         "labels": [],
@@ -34606,6 +34911,18 @@
       {
         "href": "https://github.com/ember-learn/ember-api-docs-data/pull/31",
         "text": "[ember-api-docs-data]: fix: update replacerURL typo in source --> replaceURL",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs-data/pull/32",
+        "text": "[ember-api-docs-data]: Release EmberData 5.3.8",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs-data/pull/33",
+        "text": "[ember-api-docs-data]: Release 5.10",
         "labels": [],
         "isPending": false
       },
@@ -34730,6 +35047,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/902",
+        "text": "[ember-api-docs]: use ember-showdown-shiki ",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-learn/ember-api-docs/pull/903",
         "text": "[ember-api-docs]: Start using Embroider",
         "labels": [],
@@ -34780,6 +35103,30 @@
       {
         "href": "https://github.com/ember-learn/ember-api-docs/pull/914",
         "text": "[ember-api-docs]: fix require-expect lint",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/915",
+        "text": "[ember-api-docs]: fix: update readme to use pnpm",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/916",
+        "text": "[ember-api-docs]: refactor: allow @warp-drive in data docs",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/918",
+        "text": "[ember-api-docs]: go back to using main branch for data",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/919",
+        "text": "[ember-api-docs]: Merge main",
         "labels": [],
         "isPending": false
       },
@@ -34924,6 +35271,14 @@
       {
         "href": "https://github.com/ember-learn/ember-styleguide/pull/514",
         "text": "[ember-styleguide]: style: increase cta padding top",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/516",
+        "text": "[ember-styleguide]: use more standard postcss process",
         "labels": [
           "bug"
         ],
@@ -35258,6 +35613,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-learn/ember-website/pull/1107",
+        "text": "[ember-website]: Add secret uwu/kawaii logo",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-learn/ember-website/pull/1109",
         "text": "[ember-website]: Upgrade to ember-source/cli 5.8, ember-data 4.12, ",
         "labels": [],
@@ -35284,6 +35645,30 @@
       {
         "href": "https://github.com/ember-learn/ember-website/pull/1115",
         "text": "[ember-website]: add auditboard as an initiative sponsor",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1116",
+        "text": "[ember-website]: merge cli, typescript, and embroider teams",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1117",
+        "text": "[ember-website]: Remove Ember Weekend podcast",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1118",
+        "text": "[ember-website]: release 5.10",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1119",
+        "text": "[ember-website]: Adds Polaris mascots",
         "labels": [],
         "isPending": false
       },
@@ -35569,6 +35954,14 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/195",
+        "text": "[guidemaker-ember-template]: Update README.md",
+        "labels": [
+          "documentation"
+        ],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/197",
         "text": "[guidemaker-ember-template]: Update README.md",
         "labels": [],
@@ -35761,6 +36154,12 @@
       {
         "href": "https://github.com/ember-learn/guides-source/pull/1960",
         "text": "[guides-source]: Add TypeScript guides",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/1961",
+        "text": "[guides-source]: Add CodeLobster IDE to code editors",
         "labels": [],
         "isPending": false
       },
@@ -35977,6 +36376,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-learn/guides-source/pull/2026",
+        "text": "[guides-source]: Update testing-tools.md",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-learn/guides-source/pull/2028",
         "text": "[guides-source]: Remove import Ember from 'ember';",
         "labels": [],
@@ -36045,6 +36450,12 @@
       {
         "href": "https://github.com/ember-learn/guides-source/pull/2045",
         "text": "[guides-source]: style: increase cta padding top",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/guides-source/pull/2050",
+        "text": "[guides-source]: Release v5.10.0",
         "labels": [],
         "isPending": false
       },
@@ -36127,12 +36538,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-cli/ember-cli/issues/10465",
-        "text": "[ember-cli]: qunit-dom is too old. current app uses v2, but v3 is a v2 addon.",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/ember-cli/ember-cli/issues/10466",
         "text": "[ember-cli]: Lint dependencies are out of date.",
         "labels": [],
@@ -36181,26 +36586,14 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-cli/ember-cli/pull/10470",
-        "text": "[ember-cli]: Bump blueprint dependencies",
+        "href": "https://github.com/ember-cli/ember-cli/pull/10488",
+        "text": "[ember-cli]: Mocha.parallel = true ?",
         "labels": [],
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-cli/ember-cli/pull/10471",
-        "text": "[ember-cli]: fix: update ember-data beta",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli/pull/10474",
-        "text": "[ember-cli]: Improve dx when WelcomePage is present",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli/pull/10476",
-        "text": "[ember-cli]: Bump content-tag to v2",
+        "href": "https://github.com/ember-cli/ember-cli/pull/10491",
+        "text": "[ember-cli]: fix: Ignore pnpm-lock.yaml in .prettierignore",
         "labels": [],
         "isPending": true
       },
@@ -36208,6 +36601,14 @@
         "href": "https://github.com/ember-learn/cli-guides/issues/303",
         "text": "[cli-guides]: Add a tutorial for using TypeScript in an addon",
         "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-learn/cli-guides/issues/317",
+        "text": "[cli-guides]: Add favicon",
+        "labels": [
+          "good first issue"
+        ],
         "isPending": true
       },
       {
@@ -36283,8 +36684,8 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-learn/ember-api-docs/pull/902",
-        "text": "[ember-api-docs]: use ember-showdown-shiki ",
+        "href": "https://github.com/ember-learn/ember-api-docs/issues/917",
+        "text": "[ember-api-docs]: @ember/string",
         "labels": [],
         "isPending": true
       },
@@ -36303,12 +36704,6 @@
       {
         "href": "https://github.com/ember-learn/ember-api-docs/pull/913",
         "text": "[ember-api-docs]: add route splitting",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-learn/ember-api-docs/pull/915",
-        "text": "[ember-api-docs]: fix: update readme to use pnpm",
         "labels": [],
         "isPending": true
       },
@@ -36425,12 +36820,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-learn/ember-website/pull/1107",
-        "text": "[ember-website]: Add secret uwu/kawaii logo",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/ember-learn/ember-website/pull/1108",
         "text": "[ember-website]: combo of npm + ignore-scripts=true means the app can't start -- solution, which is a no-op for folks who don't change this setting, is to undisable scripts",
         "labels": [],
@@ -36439,12 +36828,6 @@
       {
         "href": "https://github.com/ember-learn/ember-website/pull/1110",
         "text": "[ember-website]: Ember 6 browser policy",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-learn/ember-website/pull/1116",
-        "text": "[ember-website]: merge cli, typescript, and embroider teams",
         "labels": [],
         "isPending": true
       },
@@ -36475,14 +36858,6 @@
         "text": "[guidemaker-ember-template]: Write out READMEs",
         "labels": [
           "good first issue"
-        ],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-learn/guidemaker-ember-template/pull/195",
-        "text": "[guidemaker-ember-template]: Update README.md",
-        "labels": [
-          "documentation"
         ],
         "isPending": true
       },
@@ -36597,8 +36972,8 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-learn/guides-source/pull/1961",
-        "text": "[guides-source]: Update index.md",
+        "href": "https://github.com/ember-learn/guides-source/issues/2049",
+        "text": "[guides-source]: Switch to `pnpm` as package manager",
         "labels": [],
         "isPending": true
       },
@@ -36627,8 +37002,8 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-learn/guides-source/pull/2026",
-        "text": "[guides-source]: Update testing-tools.md",
+        "href": "https://github.com/ember-learn/guides-source/pull/2048",
+        "text": "[guides-source]: Draft: [EmberData] Update guides to suggest include to be an array",
         "labels": [],
         "isPending": true
       }
@@ -36694,8 +37069,8 @@
     "category": "authoring experience",
     "issues": []
   },
-  "total": 5209,
-  "finished": 4222,
+  "total": 5268,
+  "finished": 4281,
   "labels": [
     "Breaking",
     "Bug",
