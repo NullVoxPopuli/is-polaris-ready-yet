@@ -1365,6 +1365,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/embroider-build/content-tag/pull/80",
+        "text": "[content-tag]: [WIP] Fix bad transform of this parameter in TS",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/wix/import-cost/pull/320",
         "text": "[import-cost]: feat: Add glimmer support",
         "labels": [],
@@ -6347,6 +6353,14 @@
         "text": "[eslint-plugin-ember]: <template> tag parsing issue in templates shorter than 3 characters ",
         "labels": [
           "Bug"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/eslint-plugin-ember/issues/1895",
+        "text": "[eslint-plugin-ember]: Provide a way to enable `gjs`/`gts`/`<template>` tag processing without extending `plugin:ember/recommended`",
+        "labels": [
+          "Enhancement"
         ],
         "isPending": false
       },
@@ -17512,14 +17526,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-cli/eslint-plugin-ember/issues/1895",
-        "text": "[eslint-plugin-ember]: Provide a way to enable `gjs`/`gts`/`<template>` tag processing without extending `plugin:ember/recommended`",
-        "labels": [
-          "Enhancement"
-        ],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/ember-cli/eslint-plugin-ember/issues/1896",
         "text": "[eslint-plugin-ember]: <template> tag + eslint-plugin-sort-class-members (and possibly other plugins)",
         "labels": [],
@@ -17791,6 +17797,12 @@
       {
         "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2170",
         "text": "[eslint-plugin-ember]: Test against node 22",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2186",
+        "text": "[eslint-plugin-ember]: Fixed #2078: Allow let to be used in the test files",
         "labels": [],
         "isPending": true
       },
@@ -20397,6 +20409,12 @@
       {
         "href": "https://github.com/embroider-build/embroider/issues/2147",
         "text": "[embroider]: `sideWatch` is not a function in  `@embroider/broccoli-side-watch@1.0.0`",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/issues/2154",
+        "text": "[embroider]: Wrong minimal version stated on docs",
         "labels": [],
         "isPending": false
       },
@@ -33828,6 +33846,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-cli/ember-try/issues/970",
+        "text": "[ember-try]: Overrides do no work in PNPM monorepo",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-cli/ember-try/pull/807",
         "text": "[ember-try]: use examples available in default ember addon blueprints",
         "labels": [],
@@ -34613,6 +34637,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/emberjs/tracking-polaris/issues/15",
+        "text": "[tracking-polaris]: Change Safari support to rolling",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/emberjs/tracking-polaris/issues/32",
         "text": "[tracking-polaris]: Move ember-cli-typescript into maintenance mode",
         "labels": [],
@@ -34645,12 +34675,6 @@
       {
         "href": "https://github.com/emberjs/tracking-polaris/issues/14",
         "text": "[tracking-polaris]: Deprecate import Ember from Ember",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/emberjs/tracking-polaris/issues/15",
-        "text": "[tracking-polaris]: Change Safari support to rolling",
         "labels": [],
         "isPending": true
       },
@@ -34987,6 +35011,30 @@
       {
         "href": "https://github.com/ember-cli/ember-cli/issues/10504",
         "text": "[ember-cli]: [SOLVED] Disable auto port select by a config option",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10520",
+        "text": "[ember-cli]: How do you run just one test?",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10522",
+        "text": "[ember-cli]: @ember/test-helpers is out of date in the blueprint",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10523",
+        "text": "[ember-cli]: ember-resolver is out of date in the blueprint",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10524",
+        "text": "[ember-cli]: concurrently is out of date in the blueprint",
         "labels": [],
         "isPending": false
       },
@@ -35713,11 +35761,67 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10512",
+        "text": "[ember-cli]: [backport 5.4] use fork of remove-types with config: false",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10513",
+        "text": "[ember-cli]: [backport 5.8] use fork of remove-types with config: false",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10514",
+        "text": "[ember-cli]: [backport release] use fork of remove-types with config: false",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-cli/ember-cli/pull/10515",
         "text": "[ember-cli]: Use colors for the concurrently prefixes in package.json",
         "labels": [
           "enhancement"
         ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10516",
+        "text": "[ember-cli]: Use ESLint 9 and Flat Config",
+        "labels": [
+          "enhancement"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10525",
+        "text": "[ember-cli]: Upgrade concurrently, closes #10524",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10526",
+        "text": "[ember-cli]: Update ember-resolver, closes #10523",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10527",
+        "text": "[ember-cli]: Update @ember/test-helpers, closes #10522",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10530",
+        "text": "[ember-cli]: Update ember-load-initializers to v3",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10531",
+        "text": "[ember-cli]: Update stylelint and depended package",
+        "labels": [],
         "isPending": false
       },
       {
@@ -36355,6 +36459,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/523",
+        "text": "[ember-styleguide]: Change Twitter Icon to new Icon",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-learn/ember-website/issues/1051",
         "text": "[ember-website]: [BUG] Brand Guide URL 404s",
         "labels": [
@@ -36757,6 +36867,12 @@
       {
         "href": "https://github.com/ember-learn/ember-website/pull/1121",
         "text": "[ember-website]: Release 5.11",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/ember-website/pull/1122",
+        "text": "[ember-website]: Update users",
         "labels": [],
         "isPending": false
       },
@@ -37730,6 +37846,36 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10517",
+        "text": "[ember-cli]: Running tests locally is not possible (successfully, if you have other work running elsewhere) ",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10518",
+        "text": "[ember-cli]: Test repporter should show the file name ",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10519",
+        "text": "[ember-cli]: Suppress stdout/stderr when running `pnpm test`",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10528",
+        "text": "[ember-cli]: ember init completes before afterInstall",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10529",
+        "text": "[ember-cli]: Make interactive mode the default for interactive shell sessions",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-cli/ember-cli/pull/10355",
         "text": "[ember-cli]: fix: Be more explicit about page-title being a helper rather than a component",
         "labels": [],
@@ -37762,24 +37908,6 @@
       {
         "href": "https://github.com/ember-cli/ember-cli/pull/10491",
         "text": "[ember-cli]: fix: Ignore pnpm-lock.yaml in .prettierignore",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli/pull/10512",
-        "text": "[ember-cli]: [backport 5.4] use fork of remove-types with config: false",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli/pull/10513",
-        "text": "[ember-cli]: [backport 5.8] use fork of remove-types with config: false",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-cli/pull/10514",
-        "text": "[ember-cli]: [backport release] use fork of remove-types with config: false",
         "labels": [],
         "isPending": true
       },
@@ -37918,6 +38046,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-learn/ember-api-docs/pull/931",
+        "text": "[ember-api-docs]: Test redirects",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-learn/ember-styleguide/issues/465",
         "text": "[ember-styleguide]: Update the underline implementation",
         "labels": [],
@@ -37996,6 +38130,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-learn/ember-styleguide/pull/524",
+        "text": "[ember-styleguide]: Fix underline design",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-learn/ember-website/issues/1036",
         "text": "[ember-website]: [Documentation] JavaScript Environment Requirements ",
         "labels": [
@@ -38068,12 +38208,6 @@
       {
         "href": "https://github.com/ember-learn/ember-website/pull/1110",
         "text": "[ember-website]: Ember 6 browser policy",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-learn/ember-website/pull/1122",
-        "text": "[ember-website]: Update users",
         "labels": [],
         "isPending": true
       },
@@ -38337,8 +38471,8 @@
     "category": "authoring experience",
     "issues": []
   },
-  "total": 5457,
-  "finished": 4438,
+  "total": 5479,
+  "finished": 4456,
   "labels": [
     "Breaking",
     "Bug",
