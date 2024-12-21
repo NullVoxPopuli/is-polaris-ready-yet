@@ -25655,6 +25655,28 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/embroider-build/embroider/pull/2217",
+        "text": "[embroider]: Fix declarations plugin to cover import()",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/2219",
+        "text": "[embroider]: Set MiniCssExtractPlugin ignoreOrder to true for default config",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/2220",
+        "text": "[embroider]: Set MiniCssExtractPlugin ignoreOrder to true for default config",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/embroider-build/embroider/pull/387",
         "text": "[embroider]: special-case \"template.hbs\" as a forbidden template-only component",
         "labels": [],
@@ -29267,6 +29289,14 @@
         "text": "[embroider]: fix optional chaining undefined for non macros",
         "labels": [
           "bug"
+        ],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/2221",
+        "text": "[embroider]: Move template-only component synthesis into core resolver",
+        "labels": [
+          "enhancement"
         ],
         "isPending": true
       },
@@ -34518,6 +34548,14 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-cli/ember-try/pull/1037",
+        "text": "[ember-try]: Remove passing an ember-cli `project` instance to the config function",
+        "labels": [
+          "breaking"
+        ],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/emberjs/ember.js/issues/20621",
         "text": "[ember.js]: [Bug] Types cannot be found when using type=module, moduleResolution=node16",
         "labels": [],
@@ -36435,6 +36473,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10491",
+        "text": "[ember-cli]: fix: Ignore pnpm-lock.yaml in .prettierignore",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-cli/ember-cli/pull/10496",
         "text": "[ember-cli]: [CLEANUP] Clean up support for incorrect values for `BROCCOLI_VIZ` env var",
         "labels": [
@@ -36683,6 +36727,15 @@
         "href": "https://github.com/ember-cli/ember-cli/pull/10582",
         "text": "[ember-cli]: [CLEANUP] Remove `@typescript-eslint/*` dependencies from `app` blueprint",
         "labels": [
+          "blueprints"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/pull/10583",
+        "text": "[ember-cli]: [ENHANCEMENT] Update `app` blueprint to support `ember-qunit` v9",
+        "labels": [
+          "enhancement",
           "blueprints"
         ],
         "isPending": false
@@ -38860,12 +38913,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-cli/ember-cli/pull/10491",
-        "text": "[ember-cli]: fix: Ignore pnpm-lock.yaml in .prettierignore",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/ember-cli/ember-cli/pull/10534",
         "text": "[ember-cli]: [CLEANUP] Clean up `outputPaths` deprecation",
         "labels": [
@@ -38884,11 +38931,10 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-cli/ember-cli/pull/10583",
-        "text": "[ember-cli]: [ENHANCEMENT] Update `app` blueprint to support `ember-qunit` v9",
+        "href": "https://github.com/ember-cli/ember-cli/pull/10587",
+        "text": "[ember-cli]: [BUGFIX] Fix including `ember-source` types for v1 addons",
         "labels": [
-          "enhancement",
-          "blueprints"
+          "bug"
         ],
         "isPending": true
       },
@@ -39480,8 +39526,8 @@
     "category": "authoring experience",
     "issues": []
   },
-  "total": 5625,
-  "finished": 4590,
+  "total": 5631,
+  "finished": 4595,
   "labels": [
     "Cleanup",
     "Final Comment Period",
