@@ -8,8 +8,8 @@ import { Section } from './-components/section';
 
 const GetStarted = <template>
   To get started with a Polaris App:
-  <br />Clone this
-  <ExternalLink href="https://github.com/NullVoxPopuli/polaris-starter">starter template</ExternalLink>.
+  <br />Use 
+  <ExternalLink href="https://github.com/embroider-build/app-blueprint">this blueprint</ExternalLink>.
 
   <br /><br />
 
