@@ -76,6 +76,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-cli/ember-template-imports/issues/129",
+        "text": "[ember-template-imports]: write docs for setting up VSCode ESLint plugin to work with gts/gjs files.",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-cli/ember-template-imports/issues/13",
         "text": "[ember-template-imports]: Guidance for using built-in components & helpers",
         "labels": [],
@@ -1349,12 +1355,6 @@
         "text": "[pretty-ts-errors]: feat: Add glimmer support",
         "labels": [],
         "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-template-imports/issues/129",
-        "text": "[ember-template-imports]: write docs for setting up VSCode ESLint plugin to work with gts/gjs files.",
-        "labels": [],
-        "isPending": true
       },
       {
         "href": "https://github.com/ember-cli/ember-template-imports/issues/212",
@@ -3005,6 +3005,14 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/typed-ember/glint/issues/702",
+        "text": "[glint]: \"Go to Declaration\" in Extension doesn't appear to support .d.ts.map files",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/typed-ember/glint/issues/705",
         "text": "[glint]: Glint can't handle `hbs` (from ember-cli-htmlbars) while in a gjs file.",
         "labels": [],
@@ -3153,6 +3161,24 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/typed-ember/glint/issues/835",
+        "text": "[glint]: [Glint v2] Syntax highlighting looks broken in gts file",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/837",
+        "text": "[glint]: [Glint v2] Autocompletion isn't working",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/841",
+        "text": "[glint]: Special characters and multiple template-tags cause \"missing location info\"",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/typed-ember/glint/issues/846",
         "text": "[glint]: V2: JS/TS language service crashes if only `ember-template-imports` is specified in tsconfig glint.environment",
         "labels": [],
@@ -3172,6 +3198,18 @@
         "labels": [
           "question"
         ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/864",
+        "text": "[glint]: `action` potential name collision?",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/867",
+        "text": "[glint]: Organize Imports removes all imports",
+        "labels": [],
         "isPending": false
       },
       {
@@ -5789,6 +5827,14 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/typed-ember/glint/pull/849",
+        "text": "[glint]: add html attribute validation & completions ",
+        "labels": [
+          "enhancement"
+        ],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/typed-ember/glint/pull/850",
         "text": "[glint]: Update info about not disabling the `@builtin typescript` extension forV2",
         "labels": [
@@ -5813,7 +5859,9 @@
       {
         "href": "https://github.com/typed-ember/glint/pull/854",
         "text": "[glint]: Loose mode: only parse .ts in `components/` folder",
-        "labels": [],
+        "labels": [
+          "enhancement"
+        ],
         "isPending": false
       },
       {
@@ -5851,6 +5899,44 @@
       {
         "href": "https://github.com/typed-ember/glint/pull/861",
         "text": "[glint]: Inject hidden imports to fix `.gts`/`.gjs` extensions",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/pull/865",
+        "text": "[glint]: Prefer variables in scope over global variables",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/pull/866",
+        "text": "[glint]: enable completions in vscode",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/pull/872",
+        "text": "[glint]: Remove `export default` from the Template-only components example",
+        "labels": [
+          "documentation"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/pull/873",
+        "text": "[glint]: Disregard semantic classification tokens from `<template>` portions of .gts files",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/pull/874",
+        "text": "[glint]: Fix organize imports",
         "labels": [],
         "isPending": false
       },
@@ -6086,14 +6172,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/typed-ember/glint/issues/702",
-        "text": "[glint]: \"Go to Declaration\" in Extension doesn't appear to support .d.ts.map files",
-        "labels": [
-          "bug"
-        ],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/typed-ember/glint/issues/703",
         "text": "[glint]: Enhance ContentValue Type to Support Template-Only Components",
         "labels": [],
@@ -6288,26 +6366,32 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/typed-ember/glint/issues/835",
-        "text": "[glint]: [Glint v2] Syntax highlighting looks broken in gts file",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/typed-ember/glint/issues/837",
-        "text": "[glint]: [Glint v2] Autocompletion isn't working",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/typed-ember/glint/issues/840",
         "text": "[glint]: `$` character in template causes \"No interpolated values in template strings\"",
         "labels": [],
         "isPending": true
       },
       {
-        "href": "https://github.com/typed-ember/glint/issues/841",
-        "text": "[glint]: Special characters and multiple template-tags cause \"missing location info\"",
+        "href": "https://github.com/typed-ember/glint/issues/863",
+        "text": "[glint]: Unable to install `unstable`",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/869",
+        "text": "[glint]: Go To Declaration in .gts not showing up as an option",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/870",
+        "text": "[glint]: Add support for code outlines with symbols from current file in .gts",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/871",
+        "text": "[glint]: '.gjs' unable to click to definition in the app context",
         "labels": [],
         "isPending": true
       },
@@ -12585,6 +12669,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-template-lint/ember-template-lint/issues/3142",
+        "text": "[ember-template-lint]: Error `experimental syntax requires enabling one of the following parser plugin(s)` after updating to v7.x",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-template-lint/ember-template-lint/pull/1115",
         "text": "[ember-template-lint]: Add configuration file support for overrides",
         "labels": [
@@ -16970,6 +17060,14 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-template-lint/ember-template-lint/pull/3148",
+        "text": "[ember-template-lint]: Support decorator usage in js/ts source files",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-tooling/ember-eslint-parser/issues/103",
         "text": "[ember-eslint-parser]: Breaks in .gts files",
         "labels": [],
@@ -17548,6 +17646,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-tooling/prettier-plugin-ember-template-tag/issues/340",
+        "text": "[prettier-plugin-ember-template-tag]: [Feature] Add empty line between JS content and <template>",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-tooling/prettier-plugin-ember-template-tag/issues/40",
         "text": "[prettier-plugin-ember-template-tag]: [Bug] VSCode Integration Not Working",
         "labels": [],
@@ -17844,6 +17948,14 @@
       {
         "href": "https://github.com/ember-tooling/prettier-plugin-ember-template-tag/pull/33",
         "text": "[prettier-plugin-ember-template-tag]: HOTFIX block level error message",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-tooling/prettier-plugin-ember-template-tag/pull/341",
+        "text": "[prettier-plugin-ember-template-tag]: Fix implied export default with satisfies",
         "labels": [
           "bug"
         ],
@@ -18579,6 +18691,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-cli/eslint-plugin-ember/issues/2281",
+        "text": "[eslint-plugin-ember]: `no-tracked-properties-from-args` crashes",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-cli/eslint-plugin-ember/issues/686",
         "text": "[eslint-plugin-ember]: New Rule: `prefer-read-only-computed-macro`",
         "labels": [
@@ -18721,6 +18839,12 @@
       {
         "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2273",
         "text": "[eslint-plugin-ember]: Fix no-deprecated-router-transition-methods and no-implicit-injections when route is using mixins.",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2279",
+        "text": "[eslint-plugin-ember]: Determine Property Types in Native Classes",
         "labels": [],
         "isPending": true
       },
@@ -20047,12 +20171,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-template-lint/ember-template-lint/issues/3142",
-        "text": "[ember-template-lint]: Error `experimental syntax requires enabling one of the following parser plugin(s)` after updating to v7.x",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/ember-template-lint/ember-template-lint/pull/1446",
         "text": "[ember-template-lint]: no-attrs-in-components rule supports octane component template co-location",
         "labels": [],
@@ -20183,6 +20301,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-template-lint/ember-template-lint/pull/3151",
+        "text": "[ember-template-lint]: Fix block-indentation not working correctly for GJS files",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-tooling/ember-eslint-parser/issues/56",
         "text": "[ember-eslint-parser]: Cleanup transforms.js once content-tag has a transform API built in",
         "labels": [],
@@ -20209,12 +20333,6 @@
       {
         "href": "https://github.com/ember-tooling/prettier-plugin-ember-template-tag/issues/338",
         "text": "[prettier-plugin-ember-template-tag]: [Feature] Template tag expression formatting configuration option(s)",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/ember-tooling/prettier-plugin-ember-template-tag/issues/340",
-        "text": "[prettier-plugin-ember-template-tag]: [Feature] Add empty line between JS content and <template>",
         "labels": [],
         "isPending": true
       },
@@ -21486,6 +21604,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/embroider-build/embroider/issues/2340",
+        "text": "[embroider]: Stable release doesn't work with nested components structure with `gts` / `ts` files",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/embroider-build/embroider/issues/2341",
         "text": "[embroider]: [addon-dev@7.1.1] Syntax errors in watch mode crash glint, breaking hot-reloading in the test-app",
         "labels": [],
@@ -21500,6 +21624,12 @@
       {
         "href": "https://github.com/embroider-build/embroider/issues/2346",
         "text": "[embroider]: Support for `owner.lookup('mixin:some-name')`",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/issues/2364",
+        "text": "[embroider]: [perf] make module-resolver's reverseSearchAppTree faster?",
         "labels": [],
         "isPending": false
       },
@@ -26626,6 +26756,14 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/embroider-build/embroider/pull/2237",
+        "text": "[embroider]: Pass along options to resolve",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/embroider-build/embroider/pull/2242",
         "text": "[embroider]: stop nullifying loader.js",
         "labels": [
@@ -30155,12 +30293,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/embroider-build/embroider/issues/2340",
-        "text": "[embroider]: Stable release doesn't work with nested components structure with `gts` / `ts` files",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/embroider-build/embroider/issues/2345",
         "text": "[embroider]: template-tag-codemod issues with nested component structure",
         "labels": [],
@@ -30175,12 +30307,6 @@
       {
         "href": "https://github.com/embroider-build/embroider/issues/2360",
         "text": "[embroider]: `template/components` are resolved as classic component template and not as routes",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/embroider-build/embroider/issues/2364",
-        "text": "[embroider]: [perf] make module-resolver's reverseSearchAppTree faster?",
         "labels": [],
         "isPending": true
       },
@@ -30838,12 +30964,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/embroider-build/embroider/pull/2237",
-        "text": "[embroider]: Pass along options to resolve",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/embroider-build/embroider/pull/2241",
         "text": "[embroider]: Document sideWatch usage with addon dummy app",
         "labels": [],
@@ -30878,6 +30998,12 @@
       {
         "href": "https://github.com/embroider-build/embroider/pull/2409",
         "text": "[embroider]: Document --templateInsertion option to codemod",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/2419",
+        "text": "[embroider]: Add `--custom-resolver` option to template-tag-codemod",
         "labels": [],
         "isPending": true
       },
@@ -36984,6 +37110,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/emberjs/tracking-polaris/issues/14",
+        "text": "[tracking-polaris]: Deprecate import Ember from Ember",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/emberjs/tracking-polaris/issues/15",
         "text": "[tracking-polaris]: Change Safari support to rolling",
         "labels": [],
@@ -37016,12 +37148,6 @@
       {
         "href": "https://github.com/emberjs/tracking-polaris/issues/13",
         "text": "[tracking-polaris]: Strict ES Modules",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/emberjs/tracking-polaris/issues/14",
-        "text": "[tracking-polaris]: Deprecate import Ember from Ember",
         "labels": [],
         "isPending": true
       },
@@ -37457,6 +37583,12 @@
       {
         "href": "https://github.com/ember-cli/ember-cli/issues/10645",
         "text": "[ember-cli]: eslint config for v1 addons is missing some config",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10648",
+        "text": "[ember-cli]: Babel npm org cleanup",
         "labels": [],
         "isPending": false
       },
@@ -41064,17 +41196,17 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-cli/ember-cli/issues/10648",
-        "text": "[ember-cli]: Babel npm org cleanup",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/ember-cli/ember-cli/issues/10660",
         "text": "[ember-cli]: eslint flat config lost `n:recommended` and `qunit:recommended` rulesets",
         "labels": [
           "bug"
         ],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-cli/ember-cli/issues/10680",
+        "text": "[ember-cli]: Update blueprint with opt-in for Ember Data deprecation",
+        "labels": [],
         "isPending": true
       },
       {
@@ -41791,8 +41923,8 @@
     "category": "authoring experience",
     "issues": []
   },
-  "total": 5956,
-  "finished": 4890,
+  "total": 5975,
+  "finished": 4912,
   "labels": [
     "Cleanup",
     "Final Comment Period",
