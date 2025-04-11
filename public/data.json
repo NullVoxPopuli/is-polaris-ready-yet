@@ -3185,6 +3185,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/typed-ember/glint/issues/840",
+        "text": "[glint]: `$` character in template causes \"No interpolated values in template strings\"",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/typed-ember/glint/issues/841",
         "text": "[glint]: Special characters and multiple template-tags cause \"missing location info\"",
         "labels": [],
@@ -3213,6 +3219,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/typed-ember/glint/issues/863",
+        "text": "[glint]: Unable to install `unstable`",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/typed-ember/glint/issues/864",
         "text": "[glint]: `action` potential name collision?",
         "labels": [],
@@ -3235,6 +3247,12 @@
       {
         "href": "https://github.com/typed-ember/glint/issues/870",
         "text": "[glint]: Add support for code outlines with symbols from current file in .gts",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/879",
+        "text": "[glint]: Backticks in a template breaks everything",
         "labels": [],
         "isPending": false
       },
@@ -5977,6 +5995,20 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/typed-ember/glint/pull/878",
+        "text": "[glint]: Breaking test for SVG",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/pull/880",
+        "text": "[glint]: fix missing generic attrs for svg",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/typed-ember/glint/pull/9",
         "text": "[glint]: Introduce environments",
         "labels": [
@@ -6390,18 +6422,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/typed-ember/glint/issues/840",
-        "text": "[glint]: `$` character in template causes \"No interpolated values in template strings\"",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/typed-ember/glint/issues/863",
-        "text": "[glint]: Unable to install `unstable`",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/typed-ember/glint/issues/869",
         "text": "[glint]: Go To Declaration in .gts not showing up as an option",
         "labels": [],
@@ -6416,6 +6436,12 @@
       {
         "href": "https://github.com/typed-ember/glint/issues/875",
         "text": "[glint]: Auto-imports for `.gts` files including extension in context where it should be omitted",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/886",
+        "text": "[glint]: Modifier with only optional args resolves into `never` when bound with modifier keyword",
         "labels": [],
         "isPending": true
       },
@@ -6498,12 +6524,6 @@
       {
         "href": "https://github.com/typed-ember/glint/pull/828",
         "text": "[glint]: volar-service-typescript dep - replace NPM tag with version number",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/typed-ember/glint/pull/878",
-        "text": "[glint]: Breaking test for SVG",
         "labels": [],
         "isPending": true
       }
@@ -12705,6 +12725,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-template-lint/ember-template-lint/issues/3162",
+        "text": "[ember-template-lint]: File extension detection should support compound extensions ending in .hbs",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-template-lint/ember-template-lint/pull/1115",
         "text": "[ember-template-lint]: Add configuration file support for overrides",
         "labels": [
@@ -17114,6 +17140,14 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-template-lint/ember-template-lint/pull/3165",
+        "text": "[ember-template-lint]: Support compound extensions ending in .hbs",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-tooling/ember-eslint-parser/issues/103",
         "text": "[ember-eslint-parser]: Breaks in .gts files",
         "labels": [],
@@ -20237,6 +20271,18 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-template-lint/ember-template-lint/issues/3164",
+        "text": "[ember-template-lint]: [block-indentation] Embedded template after return statement has wrong columnOffset",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-template-lint/ember-template-lint/issues/3166",
+        "text": "[ember-template-lint]: Globbing should support compound extensions ending in .hbs",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-template-lint/ember-template-lint/pull/1446",
         "text": "[ember-template-lint]: no-attrs-in-components rule supports octane component template co-location",
         "labels": [],
@@ -20367,6 +20413,18 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-template-lint/ember-template-lint/pull/3163",
+        "text": "[ember-template-lint]: Fix columnOffset of embedded 'backtick' template from 'return'",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-template-lint/ember-template-lint/pull/3167",
+        "text": "[ember-template-lint]: fix: support compound extensions when globbing",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-tooling/ember-eslint-parser/issues/56",
         "text": "[ember-eslint-parser]: Cleanup transforms.js once content-tag has a transform API built in",
         "labels": [],
@@ -20393,6 +20451,12 @@
       {
         "href": "https://github.com/ember-tooling/prettier-plugin-ember-template-tag/issues/338",
         "text": "[prettier-plugin-ember-template-tag]: [Feature] Template tag expression formatting configuration option(s)",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/ember-tooling/prettier-plugin-ember-template-tag/issues/352",
+        "text": "[prettier-plugin-ember-template-tag]: Make templateExportDefault default to true",
         "labels": [],
         "isPending": true
       },
@@ -21456,6 +21520,12 @@
       {
         "href": "https://github.com/embroider-build/embroider/issues/1963",
         "text": "[embroider]: Remove the _babel_filter_ file and skipBabel option from Embroider options",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/issues/1965",
+        "text": "[embroider]: Re-implement watch-mode for vite and make sure that we add the tests back in",
         "labels": [],
         "isPending": false
       },
@@ -27468,6 +27538,14 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/embroider-build/embroider/pull/2443",
+        "text": "[embroider]: Widen Range for @ember/test-waiters",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/embroider-build/embroider/pull/387",
         "text": "[embroider]: special-case \"template.hbs\" as a forbidden template-only component",
         "labels": [],
@@ -30139,12 +30217,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/embroider-build/embroider/issues/1965",
-        "text": "[embroider]: Re-implement watch-mode for vite and make sure that we add the tests back in",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/embroider-build/embroider/issues/1988",
         "text": "[embroider]: `esbuild-resolver` throw errors when starting an app with template-only components",
         "labels": [
@@ -30473,6 +30545,24 @@
       {
         "href": "https://github.com/embroider-build/embroider/issues/2441",
         "text": "[embroider]: @embroider/addon-dev @ v8's keepAssets does not copy importSync'd CSS",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/issues/2442",
+        "text": "[embroider]: Dependency entangle/issue with latest majors and versions",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/issues/2445",
+        "text": "[embroider]: Incompatible with @percy/ember",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/issues/2447",
+        "text": "[embroider]: [vite] Strip unused {{content-for}}?",
         "labels": [],
         "isPending": true
       },
@@ -31140,6 +31230,18 @@
       {
         "href": "https://github.com/embroider-build/embroider/pull/2409",
         "text": "[embroider]: Document --templateInsertion option to codemod",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/2446",
+        "text": "[embroider]: Add quick links at the top for getting started in new projects",
+        "labels": [],
+        "isPending": true
+      },
+      {
+        "href": "https://github.com/embroider-build/embroider/pull/2448",
+        "text": "[embroider]: Document adding app reexports to package.json#exports",
         "labels": [],
         "isPending": true
       },
@@ -37197,8 +37299,20 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-learn/deprecation-app/pull/1399",
+        "text": "[deprecation-app]: Update importing-inject-from-ember-service to have guidance for library authors that need to support ember prior to 4.1",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-learn/deprecation-app/pull/1400",
         "text": "[deprecation-app]: Add Store extends EmberObject ember data deprecation",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/ember-learn/deprecation-app/pull/1401",
+        "text": "[deprecation-app]: enforce the right type for since and until in frontmatter",
         "labels": [],
         "isPending": false
       },
@@ -37242,8 +37356,8 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-learn/deprecation-app/pull/1399",
-        "text": "[deprecation-app]: Update importing-inject-from-ember-service to have guidance for library authors that need to support ember prior to 4.1",
+        "href": "https://github.com/ember-learn/deprecation-app/pull/1402",
+        "text": "[deprecation-app]: Add RFCs to ember-data 5.x deprecations (for which I could find the RFCs)",
         "labels": [],
         "isPending": true
       },
@@ -40212,6 +40326,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-learn/ember-website/pull/1140",
+        "text": "[ember-website]: add the ability to link to a team on teams page",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-learn/empress-blog-ember-template/pull/141",
         "text": "[empress-blog-ember-template]: include version-5 in tags",
         "labels": [],
@@ -41614,6 +41734,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-learn/ember-help-wanted/pull/274",
+        "text": "[ember-help-wanted]: Migrate to ember-mirage",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-learn/ember-styleguide/issues/465",
         "text": "[ember-styleguide]: Update the underline implementation",
         "labels": [],
@@ -42109,8 +42235,8 @@
     "category": "authoring experience",
     "issues": []
   },
-  "total": 6002,
-  "finished": 4934,
+  "total": 6022,
+  "finished": 4946,
   "labels": [
     "Cleanup",
     "Final Comment Period",
