@@ -1749,6 +1749,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/typed-ember/glint/issues/1068",
+        "text": "[glint]: {{component}} with named args on generic class components produces TS2589",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/typed-ember/glint/issues/107",
         "text": "[glint]: [Unverified] Set function as HTML attribute",
         "labels": [
@@ -1873,6 +1879,12 @@
       {
         "href": "https://github.com/typed-ember/glint/issues/1193",
         "text": "[glint]: `eq`/`neq`: TS2367 \"no overlap\" errors silently dropped since 1.8.6 (regression via #1179)",
+        "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/issues/1199",
+        "text": "[glint]: `ember-tsc --build --watch` is ~15× slower per iteration than plain `--watch`: every file change re-parses and re-resolves the entire project",
         "labels": [],
         "isPending": false
       },
@@ -3684,6 +3696,14 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/typed-ember/glint/issues/808",
+        "text": "[glint]: [main] No type information for elements, custom-elements",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/typed-ember/glint/issues/81",
         "text": "[glint]: Bug with Mixin usage",
         "labels": [
@@ -4697,9 +4717,25 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/typed-ember/glint/pull/1196",
+        "text": "[glint]: Fix #1068: keep curried generic components from poisoning consumer inference",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/typed-ember/glint/pull/12",
         "text": "[glint]: Fix faulty location mapping for paths with repeated substrings",
         "labels": [],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/pull/1200",
+        "text": "[glint]: Make `--build --watch` iterations reuse programs (30s → ~2s per file change)",
+        "labels": [
+          "bug"
+        ],
         "isPending": false
       },
       {
@@ -4753,6 +4789,30 @@
       {
         "href": "https://github.com/typed-ember/glint/pull/1210",
         "text": "[glint]: Regression fix: Add missing SVG 2 / Filter Effects attributes to generated element types by bumping `svg-element-attributes` to `2.2.0`",
+        "labels": [
+          "bug"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/pull/1212",
+        "text": "[glint]: Add type-system support for custom elements / web components",
+        "labels": [
+          "enhancement"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/pull/1217",
+        "text": "[glint]: Upgrade Volar",
+        "labels": [
+          "enhancement"
+        ],
+        "isPending": false
+      },
+      {
+        "href": "https://github.com/typed-ember/glint/pull/1218",
+        "text": "[glint]: Map .gts declaration diagnostics to source coordinates in `--incremental` shape signatures",
         "labels": [
           "bug"
         ],
@@ -7779,12 +7839,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/typed-ember/glint/issues/1068",
-        "text": "[glint]: {{component}} with named args on generic class components produces TS2589",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/typed-ember/glint/issues/1107",
         "text": "[glint]: Testing Community Projects agains Regression",
         "labels": [],
@@ -7807,12 +7861,6 @@
       {
         "href": "https://github.com/typed-ember/glint/issues/1197",
         "text": "[glint]: `{{\"\\\\.\"}}` breaks VSCode",
-        "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/typed-ember/glint/issues/1199",
-        "text": "[glint]: `ember-tsc --build --watch` is ~15× slower per iteration than plain `--watch`: every file change re-parses and re-resolves the entire project",
         "labels": [],
         "isPending": true
       },
@@ -7925,14 +7973,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/typed-ember/glint/issues/808",
-        "text": "[glint]: [main] No type information for elements, custom-elements",
-        "labels": [
-          "bug"
-        ],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/typed-ember/glint/issues/812",
         "text": "[glint]: [main: 130d85f] Cannot use conditional modifier",
         "labels": [],
@@ -8002,30 +8042,6 @@
         "href": "https://github.com/typed-ember/glint/pull/1030",
         "text": "[glint]: Narrowing Element based on arg usage",
         "labels": [],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/typed-ember/glint/pull/1196",
-        "text": "[glint]: Fix #1068: keep curried generic components from poisoning consumer inference",
-        "labels": [
-          "bug"
-        ],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/typed-ember/glint/pull/1200",
-        "text": "[glint]: Make `--build --watch` iterations reuse programs (30s → ~2s per file change)",
-        "labels": [
-          "bug"
-        ],
-        "isPending": true
-      },
-      {
-        "href": "https://github.com/typed-ember/glint/pull/1212",
-        "text": "[glint]: Add type-system support for custom elements / web components",
-        "labels": [
-          "enhancement"
-        ],
         "isPending": true
       },
       {
@@ -24736,6 +24752,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-cli/eslint-plugin-ember/pull/2837",
+        "text": "[eslint-plugin-ember]: fix(no-array-prototype-extensions): handle Promise.withResolvers",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-template-lint/ember-template-lint/issues/1119",
         "text": "[ember-template-lint]: update test suite for new rule creation",
         "labels": [],
@@ -38081,6 +38103,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/embroider-build/embroider/pull/2790",
+        "text": "[embroider]: Warn when index.html references the deprecated @embroider/virtual/app.css",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/embroider-build/embroider/pull/648",
         "text": "[embroider]: macro detection of fastboot in classic prod builds",
         "labels": [],
@@ -44322,6 +44350,12 @@
   "shrinkingTheBuild": {
     "issues": [
       {
+        "href": "https://github.com/ember-cli/ember-fetch/issues/738",
+        "text": "[ember-fetch]: Maintenance, V2, modern `fetch`, etc",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/emberjs/ember-qunit/pull/1064",
         "text": "[ember-qunit]: Convert to native package",
         "labels": [
@@ -44356,12 +44390,6 @@
           "enhancement"
         ],
         "isPending": false
-      },
-      {
-        "href": "https://github.com/ember-cli/ember-fetch/issues/738",
-        "text": "[ember-fetch]: Maintenance, V2, modern `fetch`, etc",
-        "labels": [],
-        "isPending": true
       }
     ]
   },
@@ -50660,6 +50688,12 @@
         "isPending": false
       },
       {
+        "href": "https://github.com/ember-learn/guides-source/pull/1999",
+        "text": "[guides-source]: Update disabling-prototype-extensions.md with possible fix for #20465",
+        "labels": [],
+        "isPending": false
+      },
+      {
         "href": "https://github.com/ember-learn/guides-source/pull/2000",
         "text": "[guides-source]: Fix tutorial",
         "labels": [],
@@ -52109,6 +52143,12 @@
         "isPending": true
       },
       {
+        "href": "https://github.com/ember-learn/ember-website/issues/1213",
+        "text": "[ember-website]: Path to teaching-tomster.png in css",
+        "labels": [],
+        "isPending": true
+      },
+      {
         "href": "https://github.com/ember-learn/ember-website/pull/1076",
         "text": "[ember-website]: Update to Ember 4.12.2",
         "labels": [],
@@ -52417,12 +52457,6 @@
         "isPending": true
       },
       {
-        "href": "https://github.com/ember-learn/guides-source/pull/1999",
-        "text": "[guides-source]: Update disabling-prototype-extensions.md with possible fix for #20465",
-        "labels": [],
-        "isPending": true
-      },
-      {
         "href": "https://github.com/ember-learn/guides-source/pull/2021",
         "text": "[guides-source]: docs: Update mirage version",
         "labels": [],
@@ -52620,8 +52654,8 @@
     "category": "authoring experience",
     "issues": []
   },
-  "total": 7464,
-  "finished": 6418,
+  "total": 7469,
+  "finished": 6428,
   "labels": [
     "Cleanup",
     "FCP to close",
